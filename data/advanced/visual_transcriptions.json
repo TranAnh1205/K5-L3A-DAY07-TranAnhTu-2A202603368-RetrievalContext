@@ -1,0 +1,57 @@
+[
+  {
+    "page": 68,
+    "label": "Exhibit 6.2",
+    "kind": "bar_chart",
+    "source_checked_description": "Foreign Direct Investment Inflows from Other Countries (based on UNCTAD 2016). The USA bar is tallest. Hong Kong is second and China third. The plotted categories continue Ireland, Netherlands, Switzerland, Singapore, Brazil, Canada, India, France, UK, Germany, Belgium and Mexico. No 2020 values are shown.",
+    "source_id": "openstax-management-study100",
+    "original_book_page": 156,
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Visually read the original packet PDF page image and cross-checked extracted text where available."
+  },
+  {
+    "page": 69,
+    "label": "Exhibit 6.4",
+    "kind": "bar_chart",
+    "source_checked_description": "Internet Growth and Penetration Rates. The dark-blue growth bar for Africa is the tallest, above 8,000 on the chart scale. Middle East is next, around 4,374; Latin America/Caribbean is around 2,137. Accompanying text explicitly says Africa grew more than 8,000 percent from 2000 to 2017. The chart is not a current-year measurement.",
+    "source_id": "openstax-management-study100",
+    "original_book_page": 157,
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Visually read the original packet PDF page image and cross-checked extracted text where available."
+  },
+  {
+    "page": 84,
+    "label": "Exhibit 6.5",
+    "kind": "bar_chart",
+    "source_checked_description": "GINI Index chart, where 100 means high inequality and 0 low. Lesotho is the highest leftmost bar, followed by South Africa and Namibia. Finland is the lowest rightmost bar. Read the country labels rather than inferring from nearby text.",
+    "source_id": "openstax-management-study100",
+    "original_book_page": 172,
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Visually read the original packet PDF page image and cross-checked extracted text where available."
+  },
+  {
+    "page": 85,
+    "label": "Exhibit 6.6",
+    "kind": "pie_chart",
+    "source_checked_description": "Religions of the World pie chart. Labels visible on the chart include Christianity 31.2%, Islam 24.1%, Hinduism 15.1%, Buddhism 6.9%, Folk religions 5.7%, Other religions 0.8%, and Jews 0.2%. These are the figure labels, not a measured 2024 distribution.",
+    "source_id": "openstax-management-study100",
+    "original_book_page": 173,
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Visually read the original packet PDF page image and cross-checked extracted text where available."
+  },
+  {
+    "page": 97,
+    "label": "Exhibit 6.8",
+    "kind": "horizontal_bar_chart",
+    "source_checked_description": "Reasons to Enter Strategic Alliances. The five bars read, top to bottom: Migration of business risk 3.6; Direct management and control of business activities 3.6; Access to the Chinese/Foreign party’s resources and competency 3.8; Cost reduction 3.9; Mandatory partnership in China 4.0. The fourth bar stops at 3.9, while the bottom/longest bar reaches 4.0. No 2025 score is shown.",
+    "source_id": "openstax-management-study100",
+    "original_book_page": 185,
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Visually read the original packet PDF page image and cross-checked extracted text where available."
+  }
+]

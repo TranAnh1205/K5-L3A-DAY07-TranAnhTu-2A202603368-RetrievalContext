@@ -1,0 +1,80 @@
+[
+  {
+    "query_id": "t06",
+    "citation_support": [
+      true
+    ],
+    "reason": "2.6 is explicit in cited PDF page-28 chunk.",
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Read tool results, packed context, answers and citations; checked relevant physical source PDF pages and corpus absence audit.",
+    "answer_grade": 2,
+    "context_grade": 2
+  },
+  {
+    "query_id": "t07",
+    "citation_support": [
+      false
+    ],
+    "reason": "Final context includes page-60 passage naming wards and district towns, but answer omits district towns and cites truncated page-62 ward table.",
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Read tool results, packed context, answers and citations; checked relevant physical source PDF pages and corpus absence audit.",
+    "answer_grade": 1,
+    "context_grade": 2
+  },
+  {
+    "query_id": "t08",
+    "citation_support": [
+      false
+    ],
+    "reason": "Answer gives 24; cited page-70 chunk verifies HCMC has 24 districts but does not establish that small-area estimates reach district level. Full claim is on PDF page 69, outside final context.",
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Read tool results, packed context, answers and citations; checked relevant physical source PDF pages and corpus absence audit.",
+    "answer_grade": 1,
+    "context_grade": 1
+  },
+  {
+    "query_id": "t09",
+    "citation_support": [
+      true
+    ],
+    "reason": "10,045 schools is explicit in cited PDF page-76 chunk.",
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Read tool results, packed context, answers and citations; checked relevant physical source PDF pages and corpus absence audit.",
+    "answer_grade": 2,
+    "context_grade": 2
+  },
+  {
+    "query_id": "t10",
+    "citation_support": [
+      true
+    ],
+    "reason": "1,400 HCMC households is explicit in cited PDF page-68 chunk, an equivalent source to frozen gold page 85.",
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Read tool results, packed context, answers and citations; checked relevant physical source PDF pages and corpus absence audit.",
+    "answer_grade": 2,
+    "context_grade": 2
+  },
+  {
+    "query_id": "t11",
+    "citation_support": [],
+    "reason": "Correct abstention; indexed flood passages do not give 2022 HCMC flood deaths.",
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Read tool results, packed context, answers and citations; checked relevant physical source PDF pages and corpus absence audit.",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "t12",
+    "citation_support": [],
+    "reason": "Correct abstention; indexed migrant/rent passages do not give 2019 HCMC median monthly rent.",
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Read tool results, packed context, answers and citations; checked relevant physical source PDF pages and corpus absence audit.",
+    "abstention_correct": true
+  }
+]

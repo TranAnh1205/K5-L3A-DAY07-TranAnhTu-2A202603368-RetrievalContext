@@ -1,0 +1,1038 @@
+[
+  {
+    "id": "ad01",
+    "split": "dev",
+    "category": "table",
+    "question": "In Table 6.1, what individualism category is listed for Germany?",
+    "answerable": true,
+    "expected_answer": "High individualism.",
+    "source_id": "openstax-management-study100",
+    "evidence": [
+      {
+        "page": 71,
+        "original_book_page": 159,
+        "locator": "Table 6.1; Germany row; Individualism column",
+        "region_bbox_pdf": [
+          40,
+          46.9,
+          570,
+          674.9
+        ],
+        "detail": "Germany = High individualism."
+      }
+    ]
+  },
+  {
+    "id": "ad02",
+    "split": "dev",
+    "category": "table",
+    "question": "In Table 6.9, give one statement listed under the metacognitive dimension.",
+    "answerable": true,
+    "expected_answer": "I am conscious of the cultural knowledge I use when interacting with people with different cultural backgrounds.",
+    "source_id": "openstax-management-study100",
+    "evidence": [
+      {
+        "page": 88,
+        "original_book_page": 176,
+        "locator": "Table 6.9; Metacognitive row",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          613.9
+        ],
+        "detail": "Metacognitive row gives conscious use/application of cultural knowledge."
+      }
+    ]
+  },
+  {
+    "id": "ad03",
+    "split": "dev",
+    "category": "table",
+    "question": "In Table 6.11, name two key success factors found in the 21 British firms sample.",
+    "answerable": true,
+    "expected_answer": "Product uniqueness and new product development ability.",
+    "source_id": "openstax-management-study100",
+    "evidence": [
+      {
+        "page": 100,
+        "original_book_page": 188,
+        "locator": "Table 6.11; 21 British firms row",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          499.4
+        ],
+        "detail": "The row lists product uniqueness and new product development ability."
+      }
+    ]
+  },
+  {
+    "id": "ad04",
+    "split": "dev",
+    "category": "image",
+    "question": "In Exhibit 4.4, which company-industry-fit cell represents a simple but unstable environment?",
+    "answerable": true,
+    "expected_answer": "Cell 3, with high to moderate uncertainty.",
+    "source_id": "openstax-management-study100",
+    "evidence": [
+      {
+        "page": 8,
+        "original_book_page": 96,
+        "locator": "Exhibit 4.4; lower-left cell",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          631.1
+        ],
+        "detail": "Simple + Unstable = 3, High to Moderate Uncertainty."
+      }
+    ]
+  },
+  {
+    "id": "ad05",
+    "split": "dev",
+    "category": "image",
+    "question": "What is at the center of the McKinsey 7-S diagram in Exhibit 4.17?",
+    "answerable": true,
+    "expected_answer": "Shared Values.",
+    "source_id": "openstax-management-study100",
+    "evidence": [
+      {
+        "page": 21,
+        "original_book_page": 109,
+        "locator": "Exhibit 4.17; center circle",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          399.8
+        ],
+        "detail": "Center of six surrounding elements is Shared Values."
+      }
+    ]
+  },
+  {
+    "id": "ad06",
+    "split": "dev",
+    "category": "image",
+    "question": "In Exhibit 5.4, which of vision, mission, or values is labeled as the strategic purpose for operating?",
+    "answerable": true,
+    "expected_answer": "Mission.",
+    "source_id": "openstax-management-study100",
+    "evidence": [
+      {
+        "page": 43,
+        "original_book_page": 131,
+        "locator": "Exhibit 5.4; center of diamond",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          553.9
+        ],
+        "detail": "Mission is annotated “What is our strategic purpose for operating?”"
+      }
+    ]
+  },
+  {
+    "id": "ad07",
+    "split": "dev",
+    "category": "chart",
+    "question": "In Exhibit 6.2, which named location has the second-tallest foreign direct investment inflow bar after the USA?",
+    "answerable": true,
+    "expected_answer": "Hong Kong.",
+    "source_id": "openstax-management-study100",
+    "evidence": [
+      {
+        "page": 68,
+        "original_book_page": 156,
+        "locator": "Exhibit 6.2; second bar",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          366.2
+        ],
+        "detail": "Hong Kong bar is second tallest after USA."
+      }
+    ]
+  },
+  {
+    "id": "ad08",
+    "split": "dev",
+    "category": "chart",
+    "question": "In Exhibit 6.6, what share of world population is labeled Buddhism?",
+    "answerable": true,
+    "expected_answer": "6.9%.",
+    "source_id": "openstax-management-study100",
+    "evidence": [
+      {
+        "page": 85,
+        "original_book_page": 173,
+        "locator": "Exhibit 6.6; Buddhism slice",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          630.3
+        ],
+        "detail": "Buddhism is labeled 6.9%."
+      }
+    ]
+  },
+  {
+    "id": "ad09",
+    "split": "dev",
+    "category": "chart",
+    "question": "In Exhibit 6.8, what value is plotted for Cost reduction?",
+    "answerable": true,
+    "expected_answer": "Approximately 3.9.",
+    "source_id": "openstax-management-study100",
+    "evidence": [
+      {
+        "page": 97,
+        "original_book_page": 185,
+        "locator": "Exhibit 6.8; Cost reduction bar",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          297.9
+        ],
+        "detail": "Bar ends at 3.9 on horizontal axis."
+      }
+    ]
+  },
+  {
+    "id": "ad10",
+    "split": "dev",
+    "category": "multi_hop",
+    "question": "Table 6.1 classifies Mexico on power distance. According to Table 6.2, what kind of organizational structure is associated with that level?",
+    "answerable": true,
+    "expected_answer": "Mexico has high power distance; high power-distance cultures have very centralized, tall hierarchical organizational structures.",
+    "source_id": "openstax-management-study100",
+    "evidence": [
+      {
+        "page": 71,
+        "original_book_page": 159,
+        "locator": "Table 6.1; Mexico row; Power Distance column",
+        "region_bbox_pdf": [
+          40,
+          46.9,
+          570,
+          674.9
+        ],
+        "detail": "Mexico = High."
+      },
+      {
+        "page": 72,
+        "original_book_page": 160,
+        "locator": "Table 6.2; Organizational structures row; High Power Distance column",
+        "region_bbox_pdf": [
+          40,
+          86.7,
+          570,
+          714.7
+        ],
+        "detail": "Very centralized and tall hierarchies."
+      }
+    ]
+  },
+  {
+    "id": "ad11",
+    "split": "dev",
+    "category": "multi_hop",
+    "question": "Exhibit 4.4 describes the simple and stable cell. According to Exhibit 4.5, which organizational form fits that low-uncertainty environment?",
+    "answerable": true,
+    "expected_answer": "The mechanistic form.",
+    "source_id": "openstax-management-study100",
+    "evidence": [
+      {
+        "page": 8,
+        "original_book_page": 96,
+        "locator": "Exhibit 4.4; cell 1",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          631.1
+        ],
+        "detail": "Simple + Stable = low uncertainty."
+      },
+      {
+        "page": 10,
+        "original_book_page": 98,
+        "locator": "Exhibit 4.5; Mechanistic column",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          627.1
+        ],
+        "detail": "Mechanistic organization is labeled stable, low uncertainty environment."
+      }
+    ]
+  },
+  {
+    "id": "ad12",
+    "split": "dev",
+    "category": "multi_hop",
+    "question": "Table 6.1 calls the USA low on uncertainty avoidance. What does Table 6.4 say about innovation in low-uncertainty-avoidance settings?",
+    "answerable": true,
+    "expected_answer": "Innovation is welcomed; innovators feel less constrained by rules.",
+    "source_id": "openstax-management-study100",
+    "evidence": [
+      {
+        "page": 71,
+        "original_book_page": 159,
+        "locator": "Table 6.1; U.S.A. row; Uncertainty Avoidance column",
+        "region_bbox_pdf": [
+          40,
+          46.9,
+          570,
+          674.9
+        ],
+        "detail": "U.S.A. = Low."
+      },
+      {
+        "page": 76,
+        "original_book_page": 164,
+        "locator": "Table 6.4; Entrepreneurship and innovation row; Low column",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          500.7
+        ],
+        "detail": "Innovation welcomed; innovators less constrained by rules."
+      }
+    ]
+  },
+  {
+    "id": "ad13",
+    "split": "dev",
+    "category": "text",
+    "question": "Which four areas does the Hasbro CSR case say its efforts focus on?",
+    "answerable": true,
+    "expected_answer": "Product safety, environmental sustainability, human rights and ethical sourcing, and community.",
+    "source_id": "openstax-management-study100",
+    "evidence": [
+      {
+        "page": 34,
+        "original_book_page": 122,
+        "locator": "Hasbro CSR paragraph",
+        "region_bbox_pdf": null,
+        "detail": "its CSR efforts on four key areas: product safety, environmental sustainability, human rights and ethical sourcing, and community."
+      }
+    ]
+  },
+  {
+    "id": "ad14",
+    "split": "dev",
+    "category": "text",
+    "question": "What timing does the book recommend for expatriate predeparture and postarrival training?",
+    "answerable": true,
+    "expected_answer": "Predeparture about 3–5 weeks before the assignment; postarrival about 8–12 weeks after arrival.",
+    "source_id": "openstax-management-study100",
+    "evidence": [
+      {
+        "page": 90,
+        "original_book_page": 178,
+        "locator": "Cross-cultural training timing paragraph",
+        "region_bbox_pdf": null,
+        "detail": "predeparture training programs is around three to five weeks prior ... postarrival training is best delivered 8 to 12 weeks after arrival."
+      }
+    ]
+  },
+  {
+    "id": "ad15",
+    "split": "dev",
+    "category": "text",
+    "question": "In the Uppsala model discussion, what does psychic distance mean?",
+    "answerable": true,
+    "expected_answer": "Differences between countries in language, culture, social institutions, and business practices.",
+    "source_id": "openstax-management-study100",
+    "evidence": [
+      {
+        "page": 99,
+        "original_book_page": 187,
+        "locator": "Uppsala model paragraph",
+        "region_bbox_pdf": null,
+        "detail": "Psychic distance refers to the many differences that exist between countries because of language, cultural characteristics, social institutions, and business practices."
+      }
+    ]
+  },
+  {
+    "id": "ad-u1",
+    "split": "dev",
+    "category": "unanswerable",
+    "question": "According to Table 6.1, what is South Korea’s uncertainty-avoidance category?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "source_id": "openstax-management-study100",
+    "absence_review": "Table 6.1 on page 71 lists 15 countries; South Korea is not one of the rows. The Korea mentions elsewhere do not assign this category."
+  },
+  {
+    "id": "ad-u2",
+    "split": "dev",
+    "category": "unanswerable",
+    "question": "What exact numeric employee satisfaction score does Exhibit 4.21 assign Clan culture?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "source_id": "openstax-management-study100",
+    "absence_review": "Exhibit 4.21 on page 24 is a qualitative quadrant diagram; no numeric employee satisfaction score is shown there or elsewhere in the packet."
+  },
+  {
+    "id": "ad-u3",
+    "split": "dev",
+    "category": "unanswerable",
+    "question": "What was the USA FDI inflow in 2020 according to Exhibit 6.2?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "source_id": "openstax-management-study100",
+    "absence_review": "Exhibit 6.2 on page 68 cites 2016 UNCTAD data, not 2020; no 2020 USA value is given in the packet."
+  },
+  {
+    "id": "at01",
+    "split": "test",
+    "category": "table",
+    "question": "In Table 6.1, how is China classified for power distance?",
+    "answerable": true,
+    "expected_answer": "High.",
+    "source_id": "openstax-management-study100",
+    "evidence": [
+      {
+        "page": 71,
+        "original_book_page": 159,
+        "locator": "Table 6.1; China row; Power Distance column",
+        "region_bbox_pdf": [
+          40,
+          46.9,
+          570,
+          674.9
+        ],
+        "detail": "China = High."
+      }
+    ]
+  },
+  {
+    "id": "at02",
+    "split": "test",
+    "category": "table",
+    "question": "In Table 6.2, is managerial authority concentrated at the top or dispersed under low power distance?",
+    "answerable": true,
+    "expected_answer": "Dispersed authority.",
+    "source_id": "openstax-management-study100",
+    "evidence": [
+      {
+        "page": 72,
+        "original_book_page": 160,
+        "locator": "Table 6.2; Managerial authority row; Low Power Distance column",
+        "region_bbox_pdf": [
+          40,
+          86.7,
+          570,
+          714.7
+        ],
+        "detail": "Dispersed authority."
+      }
+    ]
+  },
+  {
+    "id": "at03",
+    "split": "test",
+    "category": "table",
+    "question": "According to Table 6.3, what basis is used for hiring and promotions under high individualism?",
+    "answerable": true,
+    "expected_answer": "Rules.",
+    "source_id": "openstax-management-study100",
+    "evidence": [
+      {
+        "page": 74,
+        "original_book_page": 162,
+        "locator": "Table 6.3; Human resource management row; High Individualism/Low Collectivism column",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          635.7
+        ],
+        "detail": "Hiring and promotions based on rules."
+      }
+    ]
+  },
+  {
+    "id": "at04",
+    "split": "test",
+    "category": "table",
+    "question": "What does Table 6.4 say happens to innovation under high uncertainty avoidance?",
+    "answerable": true,
+    "expected_answer": "Innovation is resisted.",
+    "source_id": "openstax-management-study100",
+    "evidence": [
+      {
+        "page": 76,
+        "original_book_page": 164,
+        "locator": "Table 6.4; Entrepreneurship and innovation row; High Uncertainty Avoidance column",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          500.7
+        ],
+        "detail": "Innovation resisted."
+      }
+    ]
+  },
+  {
+    "id": "at05",
+    "split": "test",
+    "category": "table",
+    "question": "Which three countries are listed in the Nordic Europe cluster of Table 6.6?",
+    "answerable": true,
+    "expected_answer": "Denmark, Finland, and Sweden.",
+    "source_id": "openstax-management-study100",
+    "evidence": [
+      {
+        "page": 79,
+        "original_book_page": 167,
+        "locator": "Table 6.6; Nordic Europe column",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          410.1
+        ],
+        "detail": "Denmark, Finland, Sweden."
+      }
+    ]
+  },
+  {
+    "id": "at06",
+    "split": "test",
+    "category": "table",
+    "question": "How does Table 6.10 counter the myth that exporting is too complicated?",
+    "answerable": true,
+    "expected_answer": "It requires minimal paperwork; finding buyers online is easy, and intermediaries can help with exports.",
+    "source_id": "openstax-management-study100",
+    "evidence": [
+      {
+        "page": 95,
+        "original_book_page": 183,
+        "locator": "Table 6.10; Exporting is so complicated row; Reality column",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          400.4
+        ],
+        "detail": "Exporting requires minimal paperwork; internet buyer search and intermediaries help."
+      }
+    ]
+  },
+  {
+    "id": "at07",
+    "split": "test",
+    "category": "image",
+    "question": "In Exhibit 4.2, which category of forces includes currency exchange rates and employment or wage rates?",
+    "answerable": true,
+    "expected_answer": "Economic forces.",
+    "source_id": "openstax-management-study100",
+    "evidence": [
+      {
+        "page": 4,
+        "original_book_page": 92,
+        "locator": "Exhibit 4.2; lower-left box",
+        "region_bbox_pdf": [
+          40,
+          59.7,
+          570,
+          687.7
+        ],
+        "detail": "Economic Forces box lists currency exchange rates and employment and wage rates."
+      }
+    ]
+  },
+  {
+    "id": "at08",
+    "split": "test",
+    "category": "image",
+    "question": "According to the matrix-structure diagram in Exhibit 4.11, staff are linked vertically to functional managers and horizontally to what roles?",
+    "answerable": true,
+    "expected_answer": "Project managers.",
+    "source_id": "openstax-management-study100",
+    "evidence": [
+      {
+        "page": 15,
+        "original_book_page": 103,
+        "locator": "Exhibit 4.11; left project-manager labels and staff matrix",
+        "region_bbox_pdf": [
+          40,
+          46.8,
+          570,
+          674.8
+        ],
+        "detail": "Four Project Manager rows connect horizontally across functional staff columns."
+      }
+    ]
+  },
+  {
+    "id": "at09",
+    "split": "test",
+    "category": "image",
+    "question": "In Exhibit 4.15’s open-system model, which middle stage transforms inputs into outputs?",
+    "answerable": true,
+    "expected_answer": "Throughputs.",
+    "source_id": "openstax-management-study100",
+    "evidence": [
+      {
+        "page": 19,
+        "original_book_page": 107,
+        "locator": "Exhibit 4.15; middle box",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          645.9
+        ],
+        "detail": "Middle box is Throughputs; organizational subsystems/processes transform inputs."
+      }
+    ]
+  },
+  {
+    "id": "at10",
+    "split": "test",
+    "category": "image",
+    "question": "In Exhibit 4.21, which culture is in the external-focus and stability/control quadrant?",
+    "answerable": true,
+    "expected_answer": "Market culture.",
+    "source_id": "openstax-management-study100",
+    "evidence": [
+      {
+        "page": 24,
+        "original_book_page": 112,
+        "locator": "Exhibit 4.21; lower-right quadrant",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          452.5
+        ],
+        "detail": "Market quadrant lies at external focus and stability/control."
+      }
+    ]
+  },
+  {
+    "id": "at11",
+    "split": "test",
+    "category": "image",
+    "question": "In the stakeholder map in Exhibit 5.8, name the group shown directly below the Firm box.",
+    "answerable": true,
+    "expected_answer": "Employees.",
+    "source_id": "openstax-management-study100",
+    "evidence": [
+      {
+        "page": 53,
+        "original_book_page": 141,
+        "locator": "Exhibit 5.8; bottom-center node",
+        "region_bbox_pdf": [
+          40,
+          114.5,
+          570,
+          742.5
+        ],
+        "detail": "Employees node is directly below the Firm."
+      }
+    ]
+  },
+  {
+    "id": "at12",
+    "split": "test",
+    "category": "chart",
+    "question": "In Exhibit 6.2, which location has the tallest FDI inflow bar?",
+    "answerable": true,
+    "expected_answer": "USA.",
+    "source_id": "openstax-management-study100",
+    "evidence": [
+      {
+        "page": 68,
+        "original_book_page": 156,
+        "locator": "Exhibit 6.2; leftmost bar",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          366.2
+        ],
+        "detail": "USA is the tallest bar."
+      }
+    ]
+  },
+  {
+    "id": "at13",
+    "split": "test",
+    "category": "chart",
+    "question": "In Exhibit 6.4, which region has the tallest dark-blue Internet-growth bar?",
+    "answerable": true,
+    "expected_answer": "Africa.",
+    "source_id": "openstax-management-study100",
+    "evidence": [
+      {
+        "page": 69,
+        "original_book_page": 157,
+        "locator": "Exhibit 6.4; dark-blue bars",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          618.0
+        ],
+        "detail": "Africa dark-blue bar is tallest, around 8,500 on the axis."
+      }
+    ]
+  },
+  {
+    "id": "at14",
+    "split": "test",
+    "category": "chart",
+    "question": "Which country is highest on the GINI index chart in Exhibit 6.5?",
+    "answerable": true,
+    "expected_answer": "Lesotho.",
+    "source_id": "openstax-management-study100",
+    "evidence": [
+      {
+        "page": 84,
+        "original_book_page": 172,
+        "locator": "Exhibit 6.5; leftmost bar",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          568.4
+        ],
+        "detail": "Lesotho is the highest/leftmost GINI bar."
+      }
+    ]
+  },
+  {
+    "id": "at15",
+    "split": "test",
+    "category": "chart",
+    "question": "What percentage of world population is labeled Islam in Exhibit 6.6?",
+    "answerable": true,
+    "expected_answer": "24.1%.",
+    "source_id": "openstax-management-study100",
+    "evidence": [
+      {
+        "page": 85,
+        "original_book_page": 173,
+        "locator": "Exhibit 6.6; Islam slice",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          630.3
+        ],
+        "detail": "Islam slice is labeled 24.1%."
+      }
+    ]
+  },
+  {
+    "id": "at16",
+    "split": "test",
+    "category": "chart",
+    "question": "Which reason has the highest plotted value in Exhibit 6.8 on strategic alliances?",
+    "answerable": true,
+    "expected_answer": "Mandatory partnership in China (4.0).",
+    "source_id": "openstax-management-study100",
+    "evidence": [
+      {
+        "page": 97,
+        "original_book_page": 185,
+        "locator": "Exhibit 6.8; longest horizontal bar",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          297.9
+        ],
+        "detail": "Mandatory partnership in China reaches 4.0, the largest value."
+      }
+    ]
+  },
+  {
+    "id": "at17",
+    "split": "test",
+    "category": "multi_hop",
+    "question": "Exhibit 4.4 calls cell 4 complex and unstable. Which structure in Exhibit 4.5 is suited to that high-uncertainty environment?",
+    "answerable": true,
+    "expected_answer": "Organic structure.",
+    "source_id": "openstax-management-study100",
+    "evidence": [
+      {
+        "page": 8,
+        "original_book_page": 96,
+        "locator": "Exhibit 4.4; cell 4",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          631.1
+        ],
+        "detail": "Complex + Unstable = high uncertainty."
+      },
+      {
+        "page": 10,
+        "original_book_page": 98,
+        "locator": "Exhibit 4.5; Organic column",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          627.1
+        ],
+        "detail": "Organic = unstable, high uncertainty environment."
+      }
+    ]
+  },
+  {
+    "id": "at18",
+    "split": "test",
+    "category": "multi_hop",
+    "question": "Table 6.1 classifies Denmark for power distance. What structure does Table 6.2 associate with that level?",
+    "answerable": true,
+    "expected_answer": "Denmark is low power distance; low power-distance settings have flat, decentralized structures.",
+    "source_id": "openstax-management-study100",
+    "evidence": [
+      {
+        "page": 71,
+        "original_book_page": 159,
+        "locator": "Table 6.1; Denmark row; Power Distance column",
+        "region_bbox_pdf": [
+          40,
+          46.9,
+          570,
+          674.9
+        ],
+        "detail": "Denmark = Low."
+      },
+      {
+        "page": 72,
+        "original_book_page": 160,
+        "locator": "Table 6.2; Organizational structures row; Low Power Distance column",
+        "region_bbox_pdf": [
+          40,
+          86.7,
+          570,
+          714.7
+        ],
+        "detail": "Flat and decentralized structures."
+      }
+    ]
+  },
+  {
+    "id": "at19",
+    "split": "test",
+    "category": "multi_hop",
+    "question": "According to Exhibit 6.2, which location tops FDI inflows, and according to Exhibit 6.4, which region has the largest dark-blue Internet-growth bar?",
+    "answerable": true,
+    "expected_answer": "USA for FDI inflows; Africa for the Internet-growth bar.",
+    "source_id": "openstax-management-study100",
+    "evidence": [
+      {
+        "page": 68,
+        "original_book_page": 156,
+        "locator": "Exhibit 6.2; tallest bar",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          366.2
+        ],
+        "detail": "USA highest."
+      },
+      {
+        "page": 69,
+        "original_book_page": 157,
+        "locator": "Exhibit 6.4; tallest dark-blue bar",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          618.0
+        ],
+        "detail": "Africa highest."
+      }
+    ]
+  },
+  {
+    "id": "at20",
+    "split": "test",
+    "category": "multi_hop",
+    "question": "Table 6.10 says what about the myth that a product will not do well abroad, and Table 6.11 lists which two success factors for Polish born globals?",
+    "answerable": true,
+    "expected_answer": "Success in the USA suggests the product will probably do well abroad and market-testing services exist; Polish born globals cite product quality and product pricing.",
+    "source_id": "openstax-management-study100",
+    "evidence": [
+      {
+        "page": 95,
+        "original_book_page": 183,
+        "locator": "Table 6.10; My product won’t do well row; Reality column",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          400.4
+        ],
+        "detail": "Successful U.S. product probably does well elsewhere; services test the market."
+      },
+      {
+        "page": 100,
+        "original_book_page": 188,
+        "locator": "Table 6.11; Polish born globals row",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          499.4
+        ],
+        "detail": "Product quality and product pricing."
+      }
+    ]
+  },
+  {
+    "id": "at21",
+    "split": "test",
+    "category": "text",
+    "question": "In the organizational ethics discussion, what treatment should ethical leaders avoid because it creates in-groups and out-groups?",
+    "answerable": true,
+    "expected_answer": "Special treatment or favoritism, except where a specific situation requires it for a just outcome.",
+    "source_id": "openstax-management-study100",
+    "evidence": [
+      {
+        "page": 45,
+        "original_book_page": 133,
+        "locator": "Treat All Stakeholders Fairly paragraph",
+        "region_bbox_pdf": null,
+        "detail": "Ethical leaders must refrain from offering special treatment ... only exception ... just outcome."
+      }
+    ]
+  },
+  {
+    "id": "at22",
+    "split": "test",
+    "category": "text",
+    "question": "Why does the local strategy section use McDonald’s in India as an example?",
+    "answerable": true,
+    "expected_answer": "It adapts products to local tastes and vegetarian preferences, including the cultural importance of cows.",
+    "source_id": "openstax-management-study100",
+    "evidence": [
+      {
+        "page": 92,
+        "original_book_page": 180,
+        "locator": "Local Strategy; McDonald’s India paragraph",
+        "region_bbox_pdf": null,
+        "detail": "McDonald’s offerings in India reflect taste and vegetarian preference and cows being sacred."
+      }
+    ]
+  },
+  {
+    "id": "at23",
+    "split": "test",
+    "category": "text",
+    "question": "What share of worldwide growth in 2013 did the book say emerging markets were predicted to account for?",
+    "answerable": true,
+    "expected_answer": "68%.",
+    "source_id": "openstax-management-study100",
+    "evidence": [
+      {
+        "page": 94,
+        "original_book_page": 182,
+        "locator": "Growth Opportunities paragraph",
+        "region_bbox_pdf": null,
+        "detail": "economic growth in emerging markets accounted for 68% of worldwide growth in 2013."
+      }
+    ]
+  },
+  {
+    "id": "at24",
+    "split": "test",
+    "category": "text",
+    "question": "How does the book define licensing for international expansion?",
+    "answerable": true,
+    "expected_answer": "A contractual arrangement where a company grants another company rights to a trademark, know-how or proprietary technology in exchange for a royalty or fee.",
+    "source_id": "openstax-management-study100",
+    "evidence": [
+      {
+        "page": 95,
+        "original_book_page": 183,
+        "locator": "Licensing paragraph",
+        "region_bbox_pdf": null,
+        "detail": "Licensing is a contractual agreement whereby, in exchange for a royalty or fee, a company gives the right to another company to use a trademark, know-how, or other proprietary technology."
+      }
+    ]
+  },
+  {
+    "id": "at-u1",
+    "split": "test",
+    "category": "unanswerable",
+    "question": "According to Table 6.1, what uncertainty-avoidance category is listed for Viet Nam?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "source_id": "openstax-management-study100",
+    "absence_review": "The 15-country Table 6.1 on page 71 has no Viet Nam row; no separate Viet Nam category is given in the 100-page packet."
+  },
+  {
+    "id": "at-u2",
+    "split": "test",
+    "category": "unanswerable",
+    "question": "How many weather disasters did the organization in Exhibit 4.2 experience in 2023?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "source_id": "openstax-management-study100",
+    "absence_review": "Exhibit 4.2 on page 4 lists types of natural disasters; it does not give organization-specific counts or 2023 observations."
+  },
+  {
+    "id": "at-u3",
+    "split": "test",
+    "category": "unanswerable",
+    "question": "How many members belong to the Unions stakeholder node in Exhibit 5.8?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "source_id": "openstax-management-study100",
+    "absence_review": "Exhibit 5.8 on page 53 is a relationship map without node membership counts."
+  },
+  {
+    "id": "at-u4",
+    "split": "test",
+    "category": "unanswerable",
+    "question": "What was the share of Islam in the world population in 2024 according to Exhibit 6.6?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "source_id": "openstax-management-study100",
+    "absence_review": "Exhibit 6.6 on page 85 reproduces a historical Pew-based distribution, with no measured 2024 share; the 24.1% label is not a 2024 observation."
+  },
+  {
+    "id": "at-u5",
+    "split": "test",
+    "category": "unanswerable",
+    "question": "How many Polish companies were sampled for the Polish born globals row of Table 6.11?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "source_id": "openstax-management-study100",
+    "absence_review": "Table 6.11 on page 100 names Polish born globals and success factors but provides no sample count for that row."
+  },
+  {
+    "id": "at-u6",
+    "split": "test",
+    "category": "unanswerable",
+    "question": "What was the 2025 score for mandatory partnership in China in Exhibit 6.8?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "source_id": "openstax-management-study100",
+    "absence_review": "Exhibit 6.8 on page 97 shows a study-based value around 4.0 but no 2025 measurement; no 2025 score appears elsewhere in the packet."
+  }
+]

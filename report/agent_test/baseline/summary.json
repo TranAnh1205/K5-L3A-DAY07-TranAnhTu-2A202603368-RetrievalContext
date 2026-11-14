@@ -1,0 +1,20 @@
+{
+  "split": "test",
+  "role": "baseline",
+  "method": "dense",
+  "model": "gpt-5.4-mini",
+  "top_k": 3,
+  "max_searches": 2,
+  "citation_retries": 0,
+  "budget_chars": 4000,
+  "cases": 7,
+  "status_counts": {
+    "answered": 4,
+    "abstain": 3,
+    "error": 0
+  },
+  "total_searches": 7,
+  "total_model_calls": 14,
+  "total_elapsed_seconds": 17.74686109999311,
+  "api_cost_usd": 0.008079
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "query_id": "t10",
+    "frozen_gold_page": 85,
+    "alternative_page": 68,
+    "alternative_chunk_id": "b26884a3f9e18d0479dd35caae3790c8",
+    "alternative_evidence": "in the annual Viet Nam Household Living Standards Surveys just 1,400 HCMC households make up the 45,000 sample.",
+    "decision": "Accept as equivalent evidence for reviewed context, answer and citation labels in both test configurations; do not alter frozen gold or strict original-query retrieval metrics.",
+    "source_review": "Source PDF physical pages 68 and 85 both explicitly give approximately 1,400 HCMC households."
+  }
+]

@@ -22,7 +22,7 @@ $env:PYTHONUTF8 = '1'
 .\.venv\Scripts\python.exe -m src.retrieval_benchmark --day6-repo 'E:\Hoanthanhbailapngay06\K5-L3A-DAY06-TranAnhTu-202603368-DataIngestion' --split dev --output starter\results\day7-retrieval-dev
 ```
 
-The script runs TF-IDF, dense retrieval from Qdrant, and reciprocal-rank-fusion hybrid on the same 484 chunks and 17 dev questions. It applies the question's `section` filter before ranking, passes only question text and filter to retrievers, and excludes the two no-evidence cases from Hit@1, Evidence Hit@3, and Context Evidence Rate denominators. It writes per-query rankings and context plus a summary. The checked-in dev run is in `report/retrieval_dev/` and described in `report/retrieval_dev.md`. No Day 07 test evaluation has been run.
+The script runs TF-IDF, dense retrieval from Qdrant, and reciprocal-rank-fusion hybrid on the same 484 chunks and 17 dev questions. It applies the question's `section` filter before ranking, passes only question text and filter to retrievers, and excludes the two no-evidence cases from Hit@1, Evidence Hit@3, and Context Evidence Rate denominators. It writes per-query rankings and context plus a summary. The checked-in dev run is in `report/retrieval_dev/` and described in `report/retrieval_dev.md`. The later held-out test evaluation is in `report/retrieval_test/` and `report/agent_test/`, documented in `report/agent_test.md`.
 
 ## Real model agent
 
@@ -52,3 +52,15 @@ To reproduce the three **dev-only** agent runs, first load `OPENAI_API_KEY` from
 These runs use top-3, two search turns and a 4,000-character context budget unless overridden. `src.run_agent_dev` accepts only the fixed dev split and writes traces incrementally. The checked-in results and assistant-reviewed labels are in `report/agent_dev/`; the comparison and error analysis are in `report/agent_dev.md`. The selected configuration is frozen in `report/agent_dev/selected_config.json` before test evaluation.
 
 The Day 06 PDF and `starter/qdrant_storage` are local generated artifacts. To reproduce them on another machine, follow the setup commands in the [Day 06 submission](https://github.com/TranAnh1205/K5-L3A-DAY06-TranAnhTu-202603368-DataIngestion/tree/day06-submission). Do not run two processes against the same Qdrant local store at once.
+
+## Locked held-out test
+
+After `report/agent_dev/selected_config.json` was frozen on dev, the test runner evaluated **only** the dense baseline and the selected Hybrid RRF on all seven Day 7 test cases. Its hash checks guard against using a changed question set or Day 6 chunk export. `--role selected` reads the frozen method, limits and model; no test-driven tuning is part of this workflow. Load `OPENAI_API_KEY` as above, then from the repo root:
+
+```powershell
+.\.venv\Scripts\python.exe -m src.retrieval_benchmark --day6-repo 'E:\Hoanthanhbailapngay06\K5-L3A-DAY06-TranAnhTu-202603368-DataIngestion' --split test --methods dense hybrid_rrf --budget-chars 2400 --output starter\results\retrieval_test_locked
+.\.venv\Scripts\python.exe -m src.run_agent_test --day6-repo 'E:\Hoanthanhbailapngay06\K5-L3A-DAY06-TranAnhTu-202603368-DataIngestion' --role baseline --output starter\results\agent_test_baseline
+.\.venv\Scripts\python.exe -m src.run_agent_test --day6-repo 'E:\Hoanthanhbailapngay06\K5-L3A-DAY06-TranAnhTu-202603368-DataIngestion' --role selected --output starter\results\agent_test_selected
+```
+
+`report/agent_test.md` reports the committed test runs and PDF-reviewed labels; `report/individual/202603368_TranAnhTu.md` is the filled personal report. Rerunning the model can produce different answers and API charges.

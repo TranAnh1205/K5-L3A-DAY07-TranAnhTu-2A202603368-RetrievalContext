@@ -1,0 +1,15 @@
+{
+  "split": "dev",
+  "mode": "text",
+  "model": "gpt-5.4-mini",
+  "cases": 18,
+  "traces": 18,
+  "status_counts": {
+    "answered": 16,
+    "abstain": 1,
+    "error": 1
+  },
+  "total_elapsed_seconds": 39.02621100000397,
+  "estimated_api_cost_usd": 0.03735075,
+  "missing_usage_cases": 0
+}

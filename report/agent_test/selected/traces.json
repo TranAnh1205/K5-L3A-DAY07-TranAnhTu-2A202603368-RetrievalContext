@@ -1,0 +1,1407 @@
+[
+  {
+    "query_id": "t06",
+    "split": "test",
+    "question": "To what value had Viet Nam’s prosperity gap fallen by 2020?",
+    "filter": null,
+    "role": "selected",
+    "method": "hybrid_rrf",
+    "model": "gpt-5.4-mini",
+    "top_k": 3,
+    "max_searches": 2,
+    "budget_chars": 4000,
+    "citation_retries": 0,
+    "model_calls": [
+      {
+        "model": "gpt-5.4-mini",
+        "status": "ok",
+        "action": {
+          "action": "search",
+          "query": "Viet Nam prosperity gap fell by 2020 World Bank report"
+        },
+        "usage": {
+          "prompt_tokens": 215,
+          "completion_tokens": 30,
+          "total_tokens": 245,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "elapsed_ms": 1172.6679999992484,
+        "context_chars_sent": 0
+      },
+      {
+        "model": "gpt-5.4-mini",
+        "status": "ok",
+        "action": {
+          "action": "answer",
+          "answer": "Viet Nam’s prosperity gap had fallen to 2.6 by 2020. [e7521ec871d87ae8ad98e660c14c64b2]",
+          "citations": [
+            "e7521ec871d87ae8ad98e660c14c64b2"
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 818,
+          "completion_tokens": 80,
+          "total_tokens": 898,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "elapsed_ms": 1137.8000999975484,
+        "context_chars_sent": 1924
+      }
+    ],
+    "tool_calls": [
+      {
+        "event": "search",
+        "query": "Viet Nam prosperity gap fell by 2020 World Bank report",
+        "filter": null,
+        "method": "hybrid_rrf",
+        "status": "ok",
+        "results": [
+          {
+            "id": "e7521ec871d87ae8ad98e660c14c64b2",
+            "text": "o dynamics among the poorest. Progress in narrowing the gap was consistent throughout the decade, and the gap reduced to 2.6 in 2020. However, momentum towards poverty reduction and narrowing the prosperity gap both stalled during COVID-19 (Figure 13 ). Inequality declined slightly as households at the higher ends of the distribution experienced relatively more adverse impacts than those at the bottom, particularly those in urban areas In Viet Nam, household consumption was adversely impacted at",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 28,
+            "metadata": {
+              "section": "part_1_poverty_equity_update",
+              "printed_page": 18
+            },
+            "score": 0.03149801587301587,
+            "ranks": {
+              "dense": 3,
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "a1912572cb1a648de2738f14c6ad0415",
+            "text": "apita terms. The 2017 PPP conversion factor for Viet Nam is VND7,807.61. This means that ~VND7,807 can purchase $1 of a representative basket taking into account purchasing power. Source: Construction of the Viet Nam 2022 Consumption Aggregate note. Prosperity gap The prosperity gap is a new indicator to monitor shared prosperity (Kraay et al., 2023). This new indicator was developed with the objective to measure shared prosperity, but to reward growth among the poorest. It measures the average",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 31,
+            "metadata": {
+              "section": "part_1_poverty_equity_update",
+              "printed_page": 21
+            },
+            "score": 0.02928692699490662,
+            "ranks": {
+              "dense": 16,
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "c17e56afa7952c6126e29fe8f1d333c9",
+            "text": "the average income gap to the poverty line. Source: W orld Bank staff calculations using VHLSS. Figure 13. The prosperity gap, 2010-22 Figure 12 Figure 13 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 Average income gap (2017 PPP) IPL LMIC UMIC Rural Urban Viet Nam 0 1 2 3 4 5 6Prosperity Gap 2010 2012 2014 2016 2018 2020 2022 2010 2012 2014 2016 2018 2020 2022 Note: Household consumption per capita in 2017 PPP. Source: W orld Bank staff calculations using VHLSS.",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 27,
+            "metadata": {
+              "section": "part_1_poverty_equity_update",
+              "printed_page": 17
+            },
+            "score": 0.028373015873015873,
+            "ranks": {
+              "dense": 20,
+              "tfidf": 3
+            }
+          }
+        ],
+        "elapsed_ms": 17.392699999618344
+      }
+    ],
+    "elapsed_ms": 2328.843600000255,
+    "api_cost_usd": 0.00126975,
+    "status": "answered",
+    "answer": "Viet Nam’s prosperity gap had fallen to 2.6 by 2020. [e7521ec871d87ae8ad98e660c14c64b2]",
+    "citations": [
+      "e7521ec871d87ae8ad98e660c14c64b2"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Viet Nam prosperity gap fell by 2020 World Bank report",
+        "filter": null,
+        "results": [
+          {
+            "id": "e7521ec871d87ae8ad98e660c14c64b2",
+            "text": "o dynamics among the poorest. Progress in narrowing the gap was consistent throughout the decade, and the gap reduced to 2.6 in 2020. However, momentum towards poverty reduction and narrowing the prosperity gap both stalled during COVID-19 (Figure 13 ). Inequality declined slightly as households at the higher ends of the distribution experienced relatively more adverse impacts than those at the bottom, particularly those in urban areas In Viet Nam, household consumption was adversely impacted at",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 28,
+            "metadata": {
+              "section": "part_1_poverty_equity_update",
+              "printed_page": 18
+            },
+            "score": 0.03149801587301587,
+            "ranks": {
+              "dense": 3,
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "a1912572cb1a648de2738f14c6ad0415",
+            "text": "apita terms. The 2017 PPP conversion factor for Viet Nam is VND7,807.61. This means that ~VND7,807 can purchase $1 of a representative basket taking into account purchasing power. Source: Construction of the Viet Nam 2022 Consumption Aggregate note. Prosperity gap The prosperity gap is a new indicator to monitor shared prosperity (Kraay et al., 2023). This new indicator was developed with the objective to measure shared prosperity, but to reward growth among the poorest. It measures the average",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 31,
+            "metadata": {
+              "section": "part_1_poverty_equity_update",
+              "printed_page": 21
+            },
+            "score": 0.02928692699490662,
+            "ranks": {
+              "dense": 16,
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "c17e56afa7952c6126e29fe8f1d333c9",
+            "text": "the average income gap to the poverty line. Source: W orld Bank staff calculations using VHLSS. Figure 13. The prosperity gap, 2010-22 Figure 12 Figure 13 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 Average income gap (2017 PPP) IPL LMIC UMIC Rural Urban Viet Nam 0 1 2 3 4 5 6Prosperity Gap 2010 2012 2014 2016 2018 2020 2022 2010 2012 2014 2016 2018 2020 2022 Note: Household consumption per capita in 2017 PPP. Source: W orld Bank staff calculations using VHLSS.",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 27,
+            "metadata": {
+              "section": "part_1_poverty_equity_update",
+              "printed_page": 17
+            },
+            "score": 0.028373015873015873,
+            "ranks": {
+              "dense": 20,
+              "tfidf": 3
+            }
+          }
+        ],
+        "context": "[e7521ec871d87ae8ad98e660c14c64b2 | https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf | page 28]\no dynamics among the poorest. Progress in narrowing the gap was consistent throughout the decade, and the gap reduced to 2.6 in 2020. However, momentum towards poverty reduction and narrowing the prosperity gap both stalled during COVID-19 (Figure 13 ). Inequality declined slightly as households at the higher ends of the distribution experienced relatively more adverse impacts than those at the bottom, particularly those in urban areas In Viet Nam, household consumption was adversely impacted at\n\n[a1912572cb1a648de2738f14c6ad0415 | https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf | page 31]\napita terms. The 2017 PPP conversion factor for Viet Nam is VND7,807.61. This means that ~VND7,807 can purchase $1 of a representative basket taking into account purchasing power. Source: Construction of the Viet Nam 2022 Consumption Aggregate note. Prosperity gap The prosperity gap is a new indicator to monitor shared prosperity (Kraay et al., 2023). This new indicator was developed with the objective to measure shared prosperity, but to reward growth among the poorest. It measures the average\n\n[c17e56afa7952c6126e29fe8f1d333c9 | https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf | page 27]\nthe average income gap to the poverty line. Source: W orld Bank staff calculations using VHLSS. Figure 13. The prosperity gap, 2010-22 Figure 12 Figure 13 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 Average income gap (2017 PPP) IPL LMIC UMIC Rural Urban Viet Nam 0 1 2 3 4 5 6Prosperity Gap 2010 2012 2014 2016 2018 2020 2022 2010 2012 2014 2016 2018 2020 2022 Note: Household consumption per capita in 2017 PPP. Source: W orld Bank staff calculations using VHLSS.",
+        "context_ids": [
+          "e7521ec871d87ae8ad98e660c14c64b2",
+          "a1912572cb1a648de2738f14c6ad0415",
+          "c17e56afa7952c6126e29fe8f1d333c9"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "t07",
+    "split": "test",
+    "question": "In Part 2, which third-level administrative areas are classified as urban in Viet Nam?",
+    "filter": {
+      "section": "part_2_urban_inclusion"
+    },
+    "role": "selected",
+    "method": "hybrid_rrf",
+    "model": "gpt-5.4-mini",
+    "top_k": 3,
+    "max_searches": 2,
+    "budget_chars": 4000,
+    "citation_retries": 0,
+    "model_calls": [
+      {
+        "model": "gpt-5.4-mini",
+        "status": "ok",
+        "action": {
+          "action": "search",
+          "query": "Part 2 Viet Nam third-level administrative areas classified as urban"
+        },
+        "usage": {
+          "prompt_tokens": 218,
+          "completion_tokens": 29,
+          "total_tokens": 247,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "elapsed_ms": 855.51249999844,
+        "context_chars_sent": 0
+      },
+      {
+        "model": "gpt-5.4-mini",
+        "status": "ok",
+        "action": {
+          "action": "answer",
+          "answer": "Trong Part 2, các đơn vị hành chính cấp 3 được phân loại là đô thị ở Việt Nam gồm: phường (ward) dưới cấp huyện; và dưới cấp thành phố thuộc tỉnh, các khu vực được phân loại đô thị theo các ngưỡng dân số/diện tích/lao động phi nông nghiệp nêu trong Box 2.A. [7ecd20d81da82dc7341c44b85a4c8460]",
+          "citations": [
+            "7ecd20d81da82dc7341c44b85a4c8460"
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 743,
+          "completion_tokens": 137,
+          "total_tokens": 880,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "elapsed_ms": 1377.331999996386,
+        "context_chars_sent": 1826
+      }
+    ],
+    "tool_calls": [
+      {
+        "event": "search",
+        "query": "Part 2 Viet Nam third-level administrative areas classified as urban",
+        "filter": {
+          "section": "part_2_urban_inclusion"
+        },
+        "method": "hybrid_rrf",
+        "status": "ok",
+        "results": [
+          {
+            "id": "d3fbf67412bbc1d99e62d50083043866",
+            "text": "d Housing Census. In Viet Nam, administrative units are broadly divided into three tiers: provincial (level 1), district (level 2), and commune (level 3). At level 1, there are 63 provinces in Viet Nam, five of which are Central Cities (Municipality), and the remaining 58 are provinces. For municipalities, administrative divisions can include city, urban district (Quan), provincial town or district (Huyen). However, a municipality does not necessarily include all four types at the second adminis",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 60,
+            "metadata": {
+              "section": "part_2_urban_inclusion",
+              "printed_page": 50
+            },
+            "score": 0.03252247488101534,
+            "ranks": {
+              "dense": 1,
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "49d67c0deae81592ee0d370252ba6fcd",
+            "text": "arily include all four types at the second administrative level, it can include just some. Whether an area is urban or rural is determined at the third level. There is a distinction between urban districts that contain only urban wards, and districts that contain district towns (urban) and communes (rural). Box 2.A. Urban and rural classification in Viet Nam",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 60,
+            "metadata": {
+              "section": "part_2_urban_inclusion",
+              "printed_page": 50
+            },
+            "score": 0.031544957774465976,
+            "ranks": {
+              "dense": 6,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "7ecd20d81da82dc7341c44b85a4c8460",
+            "text": "PART 2. POVERTY AND INCLUSION IN URBAN AREAS AND CITIES 52 Viet Nam bi-annual poverty & equity update - June 2024 Box 2.A. Urban and rural classification in Viet Nam (contd) Level 3 administrative area 200922 201923 Mountainous areas Delta area Mountainous areas Others W ard (urban) Under the district Population can be below 3,000 people, or above Areas can be below 500ha or above Population above 15,000 people Non-agricultural labor ratio above 85% Areas above 5.5km2 Under the provincial city U",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 62,
+            "metadata": {
+              "section": "part_2_urban_inclusion",
+              "printed_page": 52
+            },
+            "score": 0.030798389007344232,
+            "ranks": {
+              "dense": 3,
+              "tfidf": 7
+            }
+          }
+        ],
+        "elapsed_ms": 28.100100003939588
+      }
+    ],
+    "elapsed_ms": 2261.3539999947534,
+    "api_cost_usd": 0.00146775,
+    "status": "answered",
+    "answer": "Trong Part 2, các đơn vị hành chính cấp 3 được phân loại là đô thị ở Việt Nam gồm: phường (ward) dưới cấp huyện; và dưới cấp thành phố thuộc tỉnh, các khu vực được phân loại đô thị theo các ngưỡng dân số/diện tích/lao động phi nông nghiệp nêu trong Box 2.A. [7ecd20d81da82dc7341c44b85a4c8460]",
+    "citations": [
+      "7ecd20d81da82dc7341c44b85a4c8460"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Part 2 Viet Nam third-level administrative areas classified as urban",
+        "filter": {
+          "section": "part_2_urban_inclusion"
+        },
+        "results": [
+          {
+            "id": "d3fbf67412bbc1d99e62d50083043866",
+            "text": "d Housing Census. In Viet Nam, administrative units are broadly divided into three tiers: provincial (level 1), district (level 2), and commune (level 3). At level 1, there are 63 provinces in Viet Nam, five of which are Central Cities (Municipality), and the remaining 58 are provinces. For municipalities, administrative divisions can include city, urban district (Quan), provincial town or district (Huyen). However, a municipality does not necessarily include all four types at the second adminis",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 60,
+            "metadata": {
+              "section": "part_2_urban_inclusion",
+              "printed_page": 50
+            },
+            "score": 0.03252247488101534,
+            "ranks": {
+              "dense": 1,
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "49d67c0deae81592ee0d370252ba6fcd",
+            "text": "arily include all four types at the second administrative level, it can include just some. Whether an area is urban or rural is determined at the third level. There is a distinction between urban districts that contain only urban wards, and districts that contain district towns (urban) and communes (rural). Box 2.A. Urban and rural classification in Viet Nam",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 60,
+            "metadata": {
+              "section": "part_2_urban_inclusion",
+              "printed_page": 50
+            },
+            "score": 0.031544957774465976,
+            "ranks": {
+              "dense": 6,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "7ecd20d81da82dc7341c44b85a4c8460",
+            "text": "PART 2. POVERTY AND INCLUSION IN URBAN AREAS AND CITIES 52 Viet Nam bi-annual poverty & equity update - June 2024 Box 2.A. Urban and rural classification in Viet Nam (contd) Level 3 administrative area 200922 201923 Mountainous areas Delta area Mountainous areas Others W ard (urban) Under the district Population can be below 3,000 people, or above Areas can be below 500ha or above Population above 15,000 people Non-agricultural labor ratio above 85% Areas above 5.5km2 Under the provincial city U",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 62,
+            "metadata": {
+              "section": "part_2_urban_inclusion",
+              "printed_page": 52
+            },
+            "score": 0.030798389007344232,
+            "ranks": {
+              "dense": 3,
+              "tfidf": 7
+            }
+          }
+        ],
+        "context": "[d3fbf67412bbc1d99e62d50083043866 | https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf | page 60]\nd Housing Census. In Viet Nam, administrative units are broadly divided into three tiers: provincial (level 1), district (level 2), and commune (level 3). At level 1, there are 63 provinces in Viet Nam, five of which are Central Cities (Municipality), and the remaining 58 are provinces. For municipalities, administrative divisions can include city, urban district (Quan), provincial town or district (Huyen). However, a municipality does not necessarily include all four types at the second adminis\n\n[49d67c0deae81592ee0d370252ba6fcd | https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf | page 60]\narily include all four types at the second administrative level, it can include just some. Whether an area is urban or rural is determined at the third level. There is a distinction between urban districts that contain only urban wards, and districts that contain district towns (urban) and communes (rural). Box 2.A. Urban and rural classification in Viet Nam\n\n[7ecd20d81da82dc7341c44b85a4c8460 | https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf | page 62]\nPART 2. POVERTY AND INCLUSION IN URBAN AREAS AND CITIES 52 Viet Nam bi-annual poverty & equity update - June 2024 Box 2.A. Urban and rural classification in Viet Nam (contd) Level 3 administrative area 200922 201923 Mountainous areas Delta area Mountainous areas Others W ard (urban) Under the district Population can be below 3,000 people, or above Areas can be below 500ha or above Population above 15,000 people Non-agricultural labor ratio above 85% Areas above 5.5km2 Under the provincial city U",
+        "context_ids": [
+          "d3fbf67412bbc1d99e62d50083043866",
+          "49d67c0deae81592ee0d370252ba6fcd",
+          "7ecd20d81da82dc7341c44b85a4c8460"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "t08",
+    "split": "test",
+    "question": "In the Ho Chi Minh City case study, how many districts can small-area estimates reach?",
+    "filter": null,
+    "role": "selected",
+    "method": "hybrid_rrf",
+    "model": "gpt-5.4-mini",
+    "top_k": 3,
+    "max_searches": 2,
+    "budget_chars": 4000,
+    "citation_retries": 0,
+    "model_calls": [
+      {
+        "model": "gpt-5.4-mini",
+        "status": "ok",
+        "action": {
+          "action": "search",
+          "query": "Ho Chi Minh City case study small-area estimates reach how many districts"
+        },
+        "usage": {
+          "prompt_tokens": 218,
+          "completion_tokens": 30,
+          "total_tokens": 248,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "elapsed_ms": 916.2445999972988,
+        "context_chars_sent": 0
+      },
+      {
+        "model": "gpt-5.4-mini",
+        "status": "ok",
+        "action": {
+          "action": "answer",
+          "answer": "Small-area estimates in the Ho Chi Minh City case study can reach all 24 districts [7ee450d4f04ff47420f60ab6000a306c].",
+          "citations": [
+            "7ee450d4f04ff47420f60ab6000a306c"
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 741,
+          "completion_tokens": 77,
+          "total_tokens": 818,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "elapsed_ms": 1100.0465999968583,
+        "context_chars_sent": 1966
+      }
+    ],
+    "tool_calls": [
+      {
+        "event": "search",
+        "query": "Ho Chi Minh City case study small-area estimates reach how many districts",
+        "filter": null,
+        "method": "hybrid_rrf",
+        "status": "ok",
+        "results": [
+          {
+            "id": "7ee450d4f04ff47420f60ab6000a306c",
+            "text": ": Averages and sums are at grid level. Grids with less than population of 100 are not shown. Source: WB staff calculations. Ho Chi Minh City is home to nearly nine million people (2019 census) with a land area covering only 0.6 percent of the entire country. Its 24 districts have varied population densities ranging from the hundreds to the tens of thousands. The highest population density is in the urban core at almost 40,000 persons per km2 (Figure 63). Eight out of 24 districts have population",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 70,
+            "metadata": {
+              "section": "part_2_urban_inclusion",
+              "printed_page": 60
+            },
+            "score": 0.031544957774465976,
+            "ranks": {
+              "dense": 1,
+              "tfidf": 6
+            }
+          },
+          {
+            "id": "b90a9f459eaadeda008d2b1f97cb4e31",
+            "text": "DB classifications. 3. Case Study: Mapping spatial inclusion in Ho Chi Minh City City-level analysis is important to understand the gradient of urbanization and poverty27 Municipalities containing urban cores, suburbs, and outer peripheries have a gradient of poverty and living conditions, requiring more granular analytics to inform policy making. Some of Viet Nam’s biggest cities have larger populations than neighboring smaller countries. In dense urban areas, having a clear understanding of th",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 68,
+            "metadata": {
+              "section": "part_2_urban_inclusion",
+              "printed_page": 58
+            },
+            "score": 0.031009615384615385,
+            "ranks": {
+              "dense": 5,
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "dfbd6ea198c3f22e30ec65ba1bc9fa13",
+            "text": "3. Case stUdy: mapping spatial inClUsion in ho Chi minh City Towards more inclusive cities 67 Across HCMC, distances to amenities are shorter in peripheral areas of the city Distribution of services varies. Unsurprisingly, the central area of HCMC exhibits better access to all four amenities measured in this case study: hospitals, schools, parks, and bus stops (Figure 68). This can be attributed to the concentrated presence of these facilities within the city center, where population density and",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 77,
+            "metadata": {
+              "section": "part_2_urban_inclusion",
+              "printed_page": 67
+            },
+            "score": 0.03028233151183971,
+            "ranks": {
+              "dense": 12,
+              "tfidf": 1
+            }
+          }
+        ],
+        "elapsed_ms": 16.057599998021033
+      }
+    ],
+    "elapsed_ms": 2032.736000001023,
+    "api_cost_usd": 0.00120075,
+    "status": "answered",
+    "answer": "Small-area estimates in the Ho Chi Minh City case study can reach all 24 districts [7ee450d4f04ff47420f60ab6000a306c].",
+    "citations": [
+      "7ee450d4f04ff47420f60ab6000a306c"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Ho Chi Minh City case study small-area estimates reach how many districts",
+        "filter": null,
+        "results": [
+          {
+            "id": "7ee450d4f04ff47420f60ab6000a306c",
+            "text": ": Averages and sums are at grid level. Grids with less than population of 100 are not shown. Source: WB staff calculations. Ho Chi Minh City is home to nearly nine million people (2019 census) with a land area covering only 0.6 percent of the entire country. Its 24 districts have varied population densities ranging from the hundreds to the tens of thousands. The highest population density is in the urban core at almost 40,000 persons per km2 (Figure 63). Eight out of 24 districts have population",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 70,
+            "metadata": {
+              "section": "part_2_urban_inclusion",
+              "printed_page": 60
+            },
+            "score": 0.031544957774465976,
+            "ranks": {
+              "dense": 1,
+              "tfidf": 6
+            }
+          },
+          {
+            "id": "b90a9f459eaadeda008d2b1f97cb4e31",
+            "text": "DB classifications. 3. Case Study: Mapping spatial inclusion in Ho Chi Minh City City-level analysis is important to understand the gradient of urbanization and poverty27 Municipalities containing urban cores, suburbs, and outer peripheries have a gradient of poverty and living conditions, requiring more granular analytics to inform policy making. Some of Viet Nam’s biggest cities have larger populations than neighboring smaller countries. In dense urban areas, having a clear understanding of th",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 68,
+            "metadata": {
+              "section": "part_2_urban_inclusion",
+              "printed_page": 58
+            },
+            "score": 0.031009615384615385,
+            "ranks": {
+              "dense": 5,
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "dfbd6ea198c3f22e30ec65ba1bc9fa13",
+            "text": "3. Case stUdy: mapping spatial inClUsion in ho Chi minh City Towards more inclusive cities 67 Across HCMC, distances to amenities are shorter in peripheral areas of the city Distribution of services varies. Unsurprisingly, the central area of HCMC exhibits better access to all four amenities measured in this case study: hospitals, schools, parks, and bus stops (Figure 68). This can be attributed to the concentrated presence of these facilities within the city center, where population density and",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 77,
+            "metadata": {
+              "section": "part_2_urban_inclusion",
+              "printed_page": 67
+            },
+            "score": 0.03028233151183971,
+            "ranks": {
+              "dense": 12,
+              "tfidf": 1
+            }
+          }
+        ],
+        "context": "[7ee450d4f04ff47420f60ab6000a306c | https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf | page 70]\n: Averages and sums are at grid level. Grids with less than population of 100 are not shown. Source: WB staff calculations. Ho Chi Minh City is home to nearly nine million people (2019 census) with a land area covering only 0.6 percent of the entire country. Its 24 districts have varied population densities ranging from the hundreds to the tens of thousands. The highest population density is in the urban core at almost 40,000 persons per km2 (Figure 63). Eight out of 24 districts have population\n\n[b90a9f459eaadeda008d2b1f97cb4e31 | https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf | page 68]\nDB classifications. 3. Case Study: Mapping spatial inclusion in Ho Chi Minh City City-level analysis is important to understand the gradient of urbanization and poverty27 Municipalities containing urban cores, suburbs, and outer peripheries have a gradient of poverty and living conditions, requiring more granular analytics to inform policy making. Some of Viet Nam’s biggest cities have larger populations than neighboring smaller countries. In dense urban areas, having a clear understanding of th\n\n[dfbd6ea198c3f22e30ec65ba1bc9fa13 | https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf | page 77]\n3. Case stUdy: mapping spatial inClUsion in ho Chi minh City Towards more inclusive cities 67 Across HCMC, distances to amenities are shorter in peripheral areas of the city Distribution of services varies. Unsurprisingly, the central area of HCMC exhibits better access to all four amenities measured in this case study: hospitals, schools, parks, and bus stops (Figure 68). This can be attributed to the concentrated presence of these facilities within the city center, where population density and",
+        "context_ids": [
+          "7ee450d4f04ff47420f60ab6000a306c",
+          "b90a9f459eaadeda008d2b1f97cb4e31",
+          "dfbd6ea198c3f22e30ec65ba1bc9fa13"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "t09",
+    "split": "test",
+    "question": "How many schools did the OpenStreetMap extraction identify for the HCMC amenity analysis?",
+    "filter": null,
+    "role": "selected",
+    "method": "hybrid_rrf",
+    "model": "gpt-5.4-mini",
+    "top_k": 3,
+    "max_searches": 2,
+    "budget_chars": 4000,
+    "citation_retries": 0,
+    "model_calls": [
+      {
+        "model": "gpt-5.4-mini",
+        "status": "ok",
+        "action": {
+          "action": "search",
+          "query": "OpenStreetMap extraction identified schools HCMC amenity analysis number of schools"
+        },
+        "usage": {
+          "prompt_tokens": 218,
+          "completion_tokens": 31,
+          "total_tokens": 249,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "elapsed_ms": 871.6137000010349,
+        "context_chars_sent": 0
+      },
+      {
+        "model": "gpt-5.4-mini",
+        "status": "ok",
+        "action": {
+          "action": "answer",
+          "answer": "The OpenStreetMap extraction identified 10,045 schools for the HCMC amenity analysis. [72ea95c2536b614d370025feeb728669]",
+          "citations": [
+            "72ea95c2536b614d370025feeb728669"
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 748,
+          "completion_tokens": 67,
+          "total_tokens": 815,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "elapsed_ms": 1032.4921000064933,
+        "context_chars_sent": 1966
+      }
+    ],
+    "tool_calls": [
+      {
+        "event": "search",
+        "query": "OpenStreetMap extraction identified schools HCMC amenity analysis number of schools",
+        "filter": null,
+        "method": "hybrid_rrf",
+        "status": "ok",
+        "results": [
+          {
+            "id": "72ea95c2536b614d370025feeb728669",
+            "text": "n-100-year flood Grid level Source: Authors Distance to amenities The locations of hospitals, schools, parks, and bus stations are extracted from Open Street Maps (OSM). T o achieve this, a bounding box for HCMC is defined, and requests are passed onto the OSM API for the different categories of points of interest. This resulted in 1,747 polygons corresponding to hospitals, 10,045 schools, 12,376 parks, and 410 bus stops. With this information, the Euclidean distance between each point of intere",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 76,
+            "metadata": {
+              "section": "part_2_urban_inclusion",
+              "printed_page": 66
+            },
+            "score": 0.032266458495966696,
+            "ranks": {
+              "dense": 1,
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "8b91171c0ca958cc3a7875dd34a3e76a",
+            "text": "ographical location. These calculations do not take into account the quality of these services, which may also vary, particularly for schools and hospitals. Across the different amenities measured, average distance to bus stations is highest from households. Figure 68 shows the number of people who live within specific distance ranges to certain amenities: hospitals, schools, bus stations, and parks. The majority of people in HCMC live within 2.5km to a hospital, however more than 1.5 million pe",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 77,
+            "metadata": {
+              "section": "part_2_urban_inclusion",
+              "printed_page": 67
+            },
+            "score": 0.031544957774465976,
+            "ranks": {
+              "dense": 6,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dfbd6ea198c3f22e30ec65ba1bc9fa13",
+            "text": "3. Case stUdy: mapping spatial inClUsion in ho Chi minh City Towards more inclusive cities 67 Across HCMC, distances to amenities are shorter in peripheral areas of the city Distribution of services varies. Unsurprisingly, the central area of HCMC exhibits better access to all four amenities measured in this case study: hospitals, schools, parks, and bus stops (Figure 68). This can be attributed to the concentrated presence of these facilities within the city center, where population density and",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 77,
+            "metadata": {
+              "section": "part_2_urban_inclusion",
+              "printed_page": 67
+            },
+            "score": 0.030834914611005692,
+            "ranks": {
+              "dense": 2,
+              "tfidf": 8
+            }
+          }
+        ],
+        "elapsed_ms": 15.114000001631211
+      }
+    ],
+    "elapsed_ms": 1919.6255999995628,
+    "api_cost_usd": 0.0011654999999999999,
+    "status": "answered",
+    "answer": "The OpenStreetMap extraction identified 10,045 schools for the HCMC amenity analysis. [72ea95c2536b614d370025feeb728669]",
+    "citations": [
+      "72ea95c2536b614d370025feeb728669"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "OpenStreetMap extraction identified schools HCMC amenity analysis number of schools",
+        "filter": null,
+        "results": [
+          {
+            "id": "72ea95c2536b614d370025feeb728669",
+            "text": "n-100-year flood Grid level Source: Authors Distance to amenities The locations of hospitals, schools, parks, and bus stations are extracted from Open Street Maps (OSM). T o achieve this, a bounding box for HCMC is defined, and requests are passed onto the OSM API for the different categories of points of interest. This resulted in 1,747 polygons corresponding to hospitals, 10,045 schools, 12,376 parks, and 410 bus stops. With this information, the Euclidean distance between each point of intere",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 76,
+            "metadata": {
+              "section": "part_2_urban_inclusion",
+              "printed_page": 66
+            },
+            "score": 0.032266458495966696,
+            "ranks": {
+              "dense": 1,
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "8b91171c0ca958cc3a7875dd34a3e76a",
+            "text": "ographical location. These calculations do not take into account the quality of these services, which may also vary, particularly for schools and hospitals. Across the different amenities measured, average distance to bus stations is highest from households. Figure 68 shows the number of people who live within specific distance ranges to certain amenities: hospitals, schools, bus stations, and parks. The majority of people in HCMC live within 2.5km to a hospital, however more than 1.5 million pe",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 77,
+            "metadata": {
+              "section": "part_2_urban_inclusion",
+              "printed_page": 67
+            },
+            "score": 0.031544957774465976,
+            "ranks": {
+              "dense": 6,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dfbd6ea198c3f22e30ec65ba1bc9fa13",
+            "text": "3. Case stUdy: mapping spatial inClUsion in ho Chi minh City Towards more inclusive cities 67 Across HCMC, distances to amenities are shorter in peripheral areas of the city Distribution of services varies. Unsurprisingly, the central area of HCMC exhibits better access to all four amenities measured in this case study: hospitals, schools, parks, and bus stops (Figure 68). This can be attributed to the concentrated presence of these facilities within the city center, where population density and",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 77,
+            "metadata": {
+              "section": "part_2_urban_inclusion",
+              "printed_page": 67
+            },
+            "score": 0.030834914611005692,
+            "ranks": {
+              "dense": 2,
+              "tfidf": 8
+            }
+          }
+        ],
+        "context": "[72ea95c2536b614d370025feeb728669 | https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf | page 76]\nn-100-year flood Grid level Source: Authors Distance to amenities The locations of hospitals, schools, parks, and bus stations are extracted from Open Street Maps (OSM). T o achieve this, a bounding box for HCMC is defined, and requests are passed onto the OSM API for the different categories of points of interest. This resulted in 1,747 polygons corresponding to hospitals, 10,045 schools, 12,376 parks, and 410 bus stops. With this information, the Euclidean distance between each point of intere\n\n[8b91171c0ca958cc3a7875dd34a3e76a | https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf | page 77]\nographical location. These calculations do not take into account the quality of these services, which may also vary, particularly for schools and hospitals. Across the different amenities measured, average distance to bus stations is highest from households. Figure 68 shows the number of people who live within specific distance ranges to certain amenities: hospitals, schools, bus stations, and parks. The majority of people in HCMC live within 2.5km to a hospital, however more than 1.5 million pe\n\n[dfbd6ea198c3f22e30ec65ba1bc9fa13 | https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf | page 77]\n3. Case stUdy: mapping spatial inClUsion in ho Chi minh City Towards more inclusive cities 67 Across HCMC, distances to amenities are shorter in peripheral areas of the city Distribution of services varies. Unsurprisingly, the central area of HCMC exhibits better access to all four amenities measured in this case study: hospitals, schools, parks, and bus stops (Figure 68). This can be attributed to the concentrated presence of these facilities within the city center, where population density and",
+        "context_ids": [
+          "72ea95c2536b614d370025feeb728669",
+          "8b91171c0ca958cc3a7875dd34a3e76a",
+          "dfbd6ea198c3f22e30ec65ba1bc9fa13"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "t10",
+    "split": "test",
+    "question": "About how many HCMC households are surveyed in the annual Viet Nam Household Living Standards Surveys?",
+    "filter": null,
+    "role": "selected",
+    "method": "hybrid_rrf",
+    "model": "gpt-5.4-mini",
+    "top_k": 3,
+    "max_searches": 2,
+    "budget_chars": 4000,
+    "citation_retries": 0,
+    "model_calls": [
+      {
+        "model": "gpt-5.4-mini",
+        "status": "ok",
+        "action": {
+          "action": "search",
+          "query": "HCMC households surveyed annual Viet Nam Household Living Standards Surveys number"
+        },
+        "usage": {
+          "prompt_tokens": 218,
+          "completion_tokens": 29,
+          "total_tokens": 247,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "elapsed_ms": 887.9727999956231,
+        "context_chars_sent": 0
+      },
+      {
+        "model": "gpt-5.4-mini",
+        "status": "ok",
+        "action": {
+          "action": "answer",
+          "answer": "About 1,400 HCMC households are surveyed each year in the Viet Nam Household Living Standards Surveys. [b26884a3f9e18d0479dd35caae3790c8]",
+          "citations": [
+            "b26884a3f9e18d0479dd35caae3790c8"
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 738,
+          "completion_tokens": 85,
+          "total_tokens": 823,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "elapsed_ms": 1070.9646999966935,
+        "context_chars_sent": 1963
+      }
+    ],
+    "tool_calls": [
+      {
+        "event": "search",
+        "query": "HCMC households surveyed annual Viet Nam Household Living Standards Surveys number",
+        "filter": null,
+        "method": "hybrid_rrf",
+        "status": "ok",
+        "results": [
+          {
+            "id": "b26884a3f9e18d0479dd35caae3790c8",
+            "text": "additional similar-sized samples for districts which form the urban periphery. Comparatively, HCMC had an official population of about nine million in 2019, yet in the annual Viet Nam Household Living Standards Surveys just 1,400 HCMC households make up the 45,000 sample. This section examines HCMC as a case study highlighting examples of insights possible from granular spatial city-level analysis. It is a good example of a diverse metropolis with a gradient of rural to urban areas. By official",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 68,
+            "metadata": {
+              "section": "part_2_urban_inclusion",
+              "printed_page": 58
+            },
+            "score": 0.03252247488101534,
+            "ranks": {
+              "dense": 1,
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "0938e55f6727c39fcf64bbe33877ee01",
+            "text": "information about the HCMC population). In the annual Labor Force Survey and the Viet Nam Household Living Standards Survey, HCMC statistics are available at the municipality level. Small area estimations can be used to compute estimates down to the district level, of which there are 24 districts in HCMC. However, given such a large municipality, survey-level indicators mask variations and the grid perspective reveal important insights into the distribution of population characteristics. Grid c",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 69,
+            "metadata": {
+              "section": "part_2_urban_inclusion",
+              "printed_page": 59
+            },
+            "score": 0.0315136476426799,
+            "ranks": {
+              "dense": 2,
+              "tfidf": 5
+            }
+          },
+          {
+            "id": "ad9f04259755b172b38c0a883892ce80",
+            "text": "ouseholds are surveyed from HCMC, out of the 45,000 sample. In the Philippines, a country with a population about 20 million larger than Viet Nam’s, the Family Income and Expenditure Survey (FIES) interviews 180,000 households. There are tradeoffs between size and frequency. While the Viet Nam VHLSS survey is conducted annually, the Philippines FIES is conducted every three years. There is limited information on migrants in the census and official surveys. In the 2009, 2014, and 2019 Population",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 85,
+            "metadata": {
+              "section": "part_2_urban_inclusion",
+              "printed_page": 75
+            },
+            "score": 0.03125,
+            "ranks": {
+              "dense": 4,
+              "tfidf": 4
+            }
+          }
+        ],
+        "elapsed_ms": 15.299300001061056
+      }
+    ],
+    "elapsed_ms": 1974.6774999948684,
+    "api_cost_usd": 0.00123,
+    "status": "answered",
+    "answer": "About 1,400 HCMC households are surveyed each year in the Viet Nam Household Living Standards Surveys. [b26884a3f9e18d0479dd35caae3790c8]",
+    "citations": [
+      "b26884a3f9e18d0479dd35caae3790c8"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "HCMC households surveyed annual Viet Nam Household Living Standards Surveys number",
+        "filter": null,
+        "results": [
+          {
+            "id": "b26884a3f9e18d0479dd35caae3790c8",
+            "text": "additional similar-sized samples for districts which form the urban periphery. Comparatively, HCMC had an official population of about nine million in 2019, yet in the annual Viet Nam Household Living Standards Surveys just 1,400 HCMC households make up the 45,000 sample. This section examines HCMC as a case study highlighting examples of insights possible from granular spatial city-level analysis. It is a good example of a diverse metropolis with a gradient of rural to urban areas. By official",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 68,
+            "metadata": {
+              "section": "part_2_urban_inclusion",
+              "printed_page": 58
+            },
+            "score": 0.03252247488101534,
+            "ranks": {
+              "dense": 1,
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "0938e55f6727c39fcf64bbe33877ee01",
+            "text": "information about the HCMC population). In the annual Labor Force Survey and the Viet Nam Household Living Standards Survey, HCMC statistics are available at the municipality level. Small area estimations can be used to compute estimates down to the district level, of which there are 24 districts in HCMC. However, given such a large municipality, survey-level indicators mask variations and the grid perspective reveal important insights into the distribution of population characteristics. Grid c",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 69,
+            "metadata": {
+              "section": "part_2_urban_inclusion",
+              "printed_page": 59
+            },
+            "score": 0.0315136476426799,
+            "ranks": {
+              "dense": 2,
+              "tfidf": 5
+            }
+          },
+          {
+            "id": "ad9f04259755b172b38c0a883892ce80",
+            "text": "ouseholds are surveyed from HCMC, out of the 45,000 sample. In the Philippines, a country with a population about 20 million larger than Viet Nam’s, the Family Income and Expenditure Survey (FIES) interviews 180,000 households. There are tradeoffs between size and frequency. While the Viet Nam VHLSS survey is conducted annually, the Philippines FIES is conducted every three years. There is limited information on migrants in the census and official surveys. In the 2009, 2014, and 2019 Population",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 85,
+            "metadata": {
+              "section": "part_2_urban_inclusion",
+              "printed_page": 75
+            },
+            "score": 0.03125,
+            "ranks": {
+              "dense": 4,
+              "tfidf": 4
+            }
+          }
+        ],
+        "context": "[b26884a3f9e18d0479dd35caae3790c8 | https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf | page 68]\nadditional similar-sized samples for districts which form the urban periphery. Comparatively, HCMC had an official population of about nine million in 2019, yet in the annual Viet Nam Household Living Standards Surveys just 1,400 HCMC households make up the 45,000 sample. This section examines HCMC as a case study highlighting examples of insights possible from granular spatial city-level analysis. It is a good example of a diverse metropolis with a gradient of rural to urban areas. By official\n\n[0938e55f6727c39fcf64bbe33877ee01 | https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf | page 69]\ninformation about the HCMC population). In the annual Labor Force Survey and the Viet Nam Household Living Standards Survey, HCMC statistics are available at the municipality level. Small area estimations can be used to compute estimates down to the district level, of which there are 24 districts in HCMC. However, given such a large municipality, survey-level indicators mask variations and the grid perspective reveal important insights into the distribution of population characteristics. Grid c\n\n[ad9f04259755b172b38c0a883892ce80 | https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf | page 85]\nouseholds are surveyed from HCMC, out of the 45,000 sample. In the Philippines, a country with a population about 20 million larger than Viet Nam’s, the Family Income and Expenditure Survey (FIES) interviews 180,000 households. There are tradeoffs between size and frequency. While the Viet Nam VHLSS survey is conducted annually, the Philippines FIES is conducted every three years. There is limited information on migrants in the census and official surveys. In the 2009, 2014, and 2019 Population",
+        "context_ids": [
+          "b26884a3f9e18d0479dd35caae3790c8",
+          "0938e55f6727c39fcf64bbe33877ee01",
+          "ad9f04259755b172b38c0a883892ce80"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "t11",
+    "split": "test",
+    "question": "How many people died in Ho Chi Minh City floods in 2022 according to the report?",
+    "filter": null,
+    "role": "selected",
+    "method": "hybrid_rrf",
+    "model": "gpt-5.4-mini",
+    "top_k": 3,
+    "max_searches": 2,
+    "budget_chars": 4000,
+    "citation_retries": 0,
+    "model_calls": [
+      {
+        "model": "gpt-5.4-mini",
+        "status": "ok",
+        "action": {
+          "action": "search",
+          "query": "Ho Chi Minh City floods 2022 deaths report World Bank"
+        },
+        "usage": {
+          "prompt_tokens": 219,
+          "completion_tokens": 23,
+          "total_tokens": 242,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "elapsed_ms": 926.8169999995735,
+        "context_chars_sent": 0
+      },
+      {
+        "model": "gpt-5.4-mini",
+        "status": "ok",
+        "action": {
+          "action": "answer",
+          "answer": "Không đủ bằng chứng để trả lời.",
+          "citations": []
+        },
+        "usage": {
+          "prompt_tokens": 714,
+          "completion_tokens": 28,
+          "total_tokens": 742,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "elapsed_ms": 891.151899995748,
+        "context_chars_sent": 1708
+      }
+    ],
+    "tool_calls": [
+      {
+        "event": "search",
+        "query": "Ho Chi Minh City floods 2022 deaths report World Bank",
+        "filter": null,
+        "method": "hybrid_rrf",
+        "status": "ok",
+        "results": [
+          {
+            "id": "67a05dead09cb916d61b38bec862c9aa",
+            "text": "ate flood management infrastructure. A recent study published in 2022 found that 46 percent of Viet Nam’s population resided in flood zones, the third highest in the world after the Netherlands and Bangladesh (Rentschler, Salhab, and Jafino, 2022). Viet Nam’s largest city, Ho Chi Minh City, is one of the top 10 cities in the world with the largest population most likely to be affected by climate change. The concept of the “urbanization of poverty” has regained significance post-pandemic. Ravalli",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 65,
+            "metadata": {
+              "section": "part_2_urban_inclusion",
+              "printed_page": 55
+            },
+            "score": 0.03278688524590164,
+            "ranks": {
+              "dense": 1,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "4c6a0906718db920dd89758489a805e8",
+            "text": "all declines in population (Figure 60). This is consistent with the shift of the new built-up area in HCMC moving outwards as well. Box 2.C. Ho Chi Minh City is the largest city in Viet Nam, with a gradient of urbanization and characteristics",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 70,
+            "metadata": {
+              "section": "part_2_urban_inclusion",
+              "printed_page": 60
+            },
+            "score": 0.03128054740957967,
+            "ranks": {
+              "dense": 6,
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "7ee450d4f04ff47420f60ab6000a306c",
+            "text": ": Averages and sums are at grid level. Grids with less than population of 100 are not shown. Source: WB staff calculations. Ho Chi Minh City is home to nearly nine million people (2019 census) with a land area covering only 0.6 percent of the entire country. Its 24 districts have varied population densities ranging from the hundreds to the tens of thousands. The highest population density is in the urban core at almost 40,000 persons per km2 (Figure 63). Eight out of 24 districts have population",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 70,
+            "metadata": {
+              "section": "part_2_urban_inclusion",
+              "printed_page": 60
+            },
+            "score": 0.02844551282051282,
+            "ranks": {
+              "dense": 4,
+              "tfidf": 18
+            }
+          }
+        ],
+        "elapsed_ms": 14.902100003382657
+      }
+    ],
+    "elapsed_ms": 1833.4465000007185,
+    "api_cost_usd": 0.00092925,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Ho Chi Minh City floods 2022 deaths report World Bank",
+        "filter": null,
+        "results": [
+          {
+            "id": "67a05dead09cb916d61b38bec862c9aa",
+            "text": "ate flood management infrastructure. A recent study published in 2022 found that 46 percent of Viet Nam’s population resided in flood zones, the third highest in the world after the Netherlands and Bangladesh (Rentschler, Salhab, and Jafino, 2022). Viet Nam’s largest city, Ho Chi Minh City, is one of the top 10 cities in the world with the largest population most likely to be affected by climate change. The concept of the “urbanization of poverty” has regained significance post-pandemic. Ravalli",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 65,
+            "metadata": {
+              "section": "part_2_urban_inclusion",
+              "printed_page": 55
+            },
+            "score": 0.03278688524590164,
+            "ranks": {
+              "dense": 1,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "4c6a0906718db920dd89758489a805e8",
+            "text": "all declines in population (Figure 60). This is consistent with the shift of the new built-up area in HCMC moving outwards as well. Box 2.C. Ho Chi Minh City is the largest city in Viet Nam, with a gradient of urbanization and characteristics",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 70,
+            "metadata": {
+              "section": "part_2_urban_inclusion",
+              "printed_page": 60
+            },
+            "score": 0.03128054740957967,
+            "ranks": {
+              "dense": 6,
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "7ee450d4f04ff47420f60ab6000a306c",
+            "text": ": Averages and sums are at grid level. Grids with less than population of 100 are not shown. Source: WB staff calculations. Ho Chi Minh City is home to nearly nine million people (2019 census) with a land area covering only 0.6 percent of the entire country. Its 24 districts have varied population densities ranging from the hundreds to the tens of thousands. The highest population density is in the urban core at almost 40,000 persons per km2 (Figure 63). Eight out of 24 districts have population",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 70,
+            "metadata": {
+              "section": "part_2_urban_inclusion",
+              "printed_page": 60
+            },
+            "score": 0.02844551282051282,
+            "ranks": {
+              "dense": 4,
+              "tfidf": 18
+            }
+          }
+        ],
+        "context": "[67a05dead09cb916d61b38bec862c9aa | https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf | page 65]\nate flood management infrastructure. A recent study published in 2022 found that 46 percent of Viet Nam’s population resided in flood zones, the third highest in the world after the Netherlands and Bangladesh (Rentschler, Salhab, and Jafino, 2022). Viet Nam’s largest city, Ho Chi Minh City, is one of the top 10 cities in the world with the largest population most likely to be affected by climate change. The concept of the “urbanization of poverty” has regained significance post-pandemic. Ravalli\n\n[4c6a0906718db920dd89758489a805e8 | https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf | page 70]\nall declines in population (Figure 60). This is consistent with the shift of the new built-up area in HCMC moving outwards as well. Box 2.C. Ho Chi Minh City is the largest city in Viet Nam, with a gradient of urbanization and characteristics\n\n[7ee450d4f04ff47420f60ab6000a306c | https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf | page 70]\n: Averages and sums are at grid level. Grids with less than population of 100 are not shown. Source: WB staff calculations. Ho Chi Minh City is home to nearly nine million people (2019 census) with a land area covering only 0.6 percent of the entire country. Its 24 districts have varied population densities ranging from the hundreds to the tens of thousands. The highest population density is in the urban core at almost 40,000 persons per km2 (Figure 63). Eight out of 24 districts have population",
+        "context_ids": [
+          "67a05dead09cb916d61b38bec862c9aa",
+          "4c6a0906718db920dd89758489a805e8",
+          "7ee450d4f04ff47420f60ab6000a306c"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ]
+  },
+  {
+    "query_id": "t12",
+    "split": "test",
+    "question": "What was the median monthly rent paid by migrants in Ho Chi Minh City in 2019, according to the report?",
+    "filter": null,
+    "role": "selected",
+    "method": "hybrid_rrf",
+    "model": "gpt-5.4-mini",
+    "top_k": 3,
+    "max_searches": 2,
+    "budget_chars": 4000,
+    "citation_retries": 0,
+    "model_calls": [
+      {
+        "model": "gpt-5.4-mini",
+        "status": "ok",
+        "action": {
+          "action": "search",
+          "query": "Ho Chi Minh City migrants 2019 median monthly rent report"
+        },
+        "usage": {
+          "prompt_tokens": 224,
+          "completion_tokens": 29,
+          "total_tokens": 253,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "elapsed_ms": 912.063700001454,
+        "context_chars_sent": 0
+      },
+      {
+        "model": "gpt-5.4-mini",
+        "status": "ok",
+        "action": {
+          "action": "answer",
+          "answer": "Không đủ bằng chứng để trả lời.",
+          "citations": []
+        },
+        "usage": {
+          "prompt_tokens": 711,
+          "completion_tokens": 28,
+          "total_tokens": 739,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "elapsed_ms": 1013.7169000008726,
+        "context_chars_sent": 1708
+      }
+    ],
+    "tool_calls": [
+      {
+        "event": "search",
+        "query": "Ho Chi Minh City migrants 2019 median monthly rent report",
+        "filter": null,
+        "method": "hybrid_rrf",
+        "status": "ok",
+        "results": [
+          {
+            "id": "aed7ca6ae8f039ad5e278f87206958b6",
+            "text": "with business closures from longer and stricter lockdowns in this region, home to the country’s commercial hub Ho Chi Minh City. Due to population aging and demographic changes, including out-migration, the share of employment is also a factor in the rise in poverty in some regions. Figure 18. Trends in household income by component, 2010-22 Note: Annual net household incomes are averaged among households that report having this source of income, in other words, does not include zeros. Deciles b",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 33,
+            "metadata": {
+              "section": "part_1_poverty_equity_update",
+              "printed_page": 23
+            },
+            "score": 0.03149801587301587,
+            "ranks": {
+              "dense": 3,
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "7ee450d4f04ff47420f60ab6000a306c",
+            "text": ": Averages and sums are at grid level. Grids with less than population of 100 are not shown. Source: WB staff calculations. Ho Chi Minh City is home to nearly nine million people (2019 census) with a land area covering only 0.6 percent of the entire country. Its 24 districts have varied population densities ranging from the hundreds to the tens of thousands. The highest population density is in the urban core at almost 40,000 persons per km2 (Figure 63). Eight out of 24 districts have population",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 70,
+            "metadata": {
+              "section": "part_2_urban_inclusion",
+              "printed_page": 60
+            },
+            "score": 0.030621785881252923,
+            "ranks": {
+              "dense": 2,
+              "tfidf": 9
+            }
+          },
+          {
+            "id": "4c6a0906718db920dd89758489a805e8",
+            "text": "all declines in population (Figure 60). This is consistent with the shift of the new built-up area in HCMC moving outwards as well. Box 2.C. Ho Chi Minh City is the largest city in Viet Nam, with a gradient of urbanization and characteristics",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 70,
+            "metadata": {
+              "section": "part_2_urban_inclusion",
+              "printed_page": 60
+            },
+            "score": 0.03028233151183971,
+            "ranks": {
+              "dense": 12,
+              "tfidf": 1
+            }
+          }
+        ],
+        "elapsed_ms": 146.48029999807477
+      }
+    ],
+    "elapsed_ms": 2075.5950000020675,
+    "api_cost_usd": 0.00095775,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Ho Chi Minh City migrants 2019 median monthly rent report",
+        "filter": null,
+        "results": [
+          {
+            "id": "aed7ca6ae8f039ad5e278f87206958b6",
+            "text": "with business closures from longer and stricter lockdowns in this region, home to the country’s commercial hub Ho Chi Minh City. Due to population aging and demographic changes, including out-migration, the share of employment is also a factor in the rise in poverty in some regions. Figure 18. Trends in household income by component, 2010-22 Note: Annual net household incomes are averaged among households that report having this source of income, in other words, does not include zeros. Deciles b",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 33,
+            "metadata": {
+              "section": "part_1_poverty_equity_update",
+              "printed_page": 23
+            },
+            "score": 0.03149801587301587,
+            "ranks": {
+              "dense": 3,
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "7ee450d4f04ff47420f60ab6000a306c",
+            "text": ": Averages and sums are at grid level. Grids with less than population of 100 are not shown. Source: WB staff calculations. Ho Chi Minh City is home to nearly nine million people (2019 census) with a land area covering only 0.6 percent of the entire country. Its 24 districts have varied population densities ranging from the hundreds to the tens of thousands. The highest population density is in the urban core at almost 40,000 persons per km2 (Figure 63). Eight out of 24 districts have population",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 70,
+            "metadata": {
+              "section": "part_2_urban_inclusion",
+              "printed_page": 60
+            },
+            "score": 0.030621785881252923,
+            "ranks": {
+              "dense": 2,
+              "tfidf": 9
+            }
+          },
+          {
+            "id": "4c6a0906718db920dd89758489a805e8",
+            "text": "all declines in population (Figure 60). This is consistent with the shift of the new built-up area in HCMC moving outwards as well. Box 2.C. Ho Chi Minh City is the largest city in Viet Nam, with a gradient of urbanization and characteristics",
+            "source_id": "worldbank-vnm-poverty-equity-2024-06",
+            "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+            "page": 70,
+            "metadata": {
+              "section": "part_2_urban_inclusion",
+              "printed_page": 60
+            },
+            "score": 0.03028233151183971,
+            "ranks": {
+              "dense": 12,
+              "tfidf": 1
+            }
+          }
+        ],
+        "context": "[aed7ca6ae8f039ad5e278f87206958b6 | https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf | page 33]\nwith business closures from longer and stricter lockdowns in this region, home to the country’s commercial hub Ho Chi Minh City. Due to population aging and demographic changes, including out-migration, the share of employment is also a factor in the rise in poverty in some regions. Figure 18. Trends in household income by component, 2010-22 Note: Annual net household incomes are averaged among households that report having this source of income, in other words, does not include zeros. Deciles b\n\n[7ee450d4f04ff47420f60ab6000a306c | https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf | page 70]\n: Averages and sums are at grid level. Grids with less than population of 100 are not shown. Source: WB staff calculations. Ho Chi Minh City is home to nearly nine million people (2019 census) with a land area covering only 0.6 percent of the entire country. Its 24 districts have varied population densities ranging from the hundreds to the tens of thousands. The highest population density is in the urban core at almost 40,000 persons per km2 (Figure 63). Eight out of 24 districts have population\n\n[4c6a0906718db920dd89758489a805e8 | https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf | page 70]\nall declines in population (Figure 60). This is consistent with the shift of the new built-up area in HCMC moving outwards as well. Box 2.C. Ho Chi Minh City is the largest city in Viet Nam, with a gradient of urbanization and characteristics",
+        "context_ids": [
+          "aed7ca6ae8f039ad5e278f87206958b6",
+          "7ee450d4f04ff47420f60ab6000a306c",
+          "4c6a0906718db920dd89758489a805e8"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ]
+  }
+]

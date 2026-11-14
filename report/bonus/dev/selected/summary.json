@@ -1,0 +1,21 @@
+{
+  "split": "dev",
+  "mode": "vision_anchor_repair",
+  "model": "gpt-5.4-mini",
+  "cases": 18,
+  "traces": 18,
+  "status_counts": {
+    "answered": 15,
+    "abstain": 3,
+    "error": 0
+  },
+  "total_elapsed_seconds": 55.25850850000097,
+  "estimated_api_cost_usd": 0.03583545,
+  "missing_usage_cases": 0,
+  "manual_strict_pass": {
+    "n": 18,
+    "N": 18,
+    "rate": 1.0
+  },
+  "manual_review_status": "Codex assistant-reviewed"
+}

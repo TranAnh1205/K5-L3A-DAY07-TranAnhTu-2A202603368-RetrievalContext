@@ -1,0 +1,20 @@
+{
+  "split": "test",
+  "role": "selected",
+  "method": "hybrid_rrf",
+  "model": "gpt-5.4-mini",
+  "top_k": 3,
+  "max_searches": 2,
+  "citation_retries": 0,
+  "budget_chars": 4000,
+  "cases": 7,
+  "status_counts": {
+    "answered": 5,
+    "abstain": 2,
+    "error": 0
+  },
+  "total_searches": 7,
+  "total_model_calls": 14,
+  "total_elapsed_seconds": 14.426278199993249,
+  "api_cost_usd": 0.00822075
+}
