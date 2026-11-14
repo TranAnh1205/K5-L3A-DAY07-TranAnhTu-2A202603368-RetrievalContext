@@ -1,0 +1,9 @@
+[
+  {
+    "query_id": "d12",
+    "source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "page": 65,
+    "evidence": "From 2010 to 2022, the share of the population in Viet Nam located in administrative urban areas increased from 30 percent to almost 40 percent (Figure 53).",
+    "review": "Physical PDF page 65 (printed page 55) states the same 2010-to-2022 change as the frozen gold span on physical page 56. Accepted for manual context and citation review. The frozen benchmark JSON and its automatic strict gold metric are unchanged."
+  }
+]

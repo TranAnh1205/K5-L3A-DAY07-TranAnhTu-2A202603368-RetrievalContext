@@ -1,0 +1,21 @@
+{
+  "selected_on": "2026-11-14",
+  "selection_split": "dev",
+  "method": "hybrid_rrf",
+  "model": "gpt-5.4-mini",
+  "day6_collection": "day06_fixed_a",
+  "query_embedding_model": "BAAI/bge-small-en-v1.5",
+  "lexical_method": "tfidf",
+  "rrf_constant": 60,
+  "candidates_per_retriever": 20,
+  "top_k": 3,
+  "max_searches": 2,
+  "citation_retries": 0,
+  "context_budget_chars": 4000,
+  "benchmark_sha256": "3bb60bee86dc22e974cf074b9bb9d1abbc83f1f2ce28dbc38d089b5546be28ab",
+  "exported_chunks_sha256": "4a2d84fcda9c3e8c36ff804620f03f0a40c7f9a6b16b0b21700a3145f09b51f1",
+  "selection_rule": "Highest dev original-query Evidence Hit@3; tie by reviewed final Context Evidence Rate; then lower latency.",
+  "dev_evidence_hit3": "12/15",
+  "dev_context_evidence": "13/15",
+  "test_evaluation_started": false
+}

@@ -1,6 +1,6 @@
 # Dev agent review pack
 
-These are **assistant-proposed** labels for the 17 dev cases in each of three real-model runs. The student should verify the answers and cited PDF excerpts before using them as final manual labels. No Day 7 test case has been run.
+These are the **assistant-reviewed** labels for the 17 dev cases in each of three real-model runs. Answers and cited excerpts were compared with the source PDF on 2026-11-14. This is not represented as an independent student review. No Day 7 test case has been run.
 
 Answer grade: 0 = wrong, unsupported, or false abstention; 1 = partly correct; 2 = correct and fully grounded. Context grade: 0 = no relevant evidence, 1 = partial evidence, 2 = enough evidence and source. Citation labels correspond to the cited IDs in order. The source PDF page numbers are physical PDF pages.
 
@@ -26,7 +26,7 @@ Answer grade: 0 = wrong, unsupported, or false abstention; 1 = partly correct; 2
 | d16 | Abstain | Không đủ bằng chứng để trả lời. | none | abstain True | The report does not provide the requested statistic; the agent searched and abstained without making a factual claim. |
 | d17 | Abstain | Không đủ bằng chứng để trả lời. | none | abstain True | The report does not provide the requested statistic; the agent searched and abstained without making a factual claim. |
 
-Full trace: [dense/traces.json](agent_dev/dense/traces.json); proposed labels: [dense/reviews_proposed.json](agent_dev/dense/reviews_proposed.json).
+Full trace: [dense/traces.json](agent_dev/dense/traces.json); completed labels: [dense/reviews.json](agent_dev/dense/reviews.json).
 
 ## hybrid
 
@@ -50,7 +50,7 @@ Full trace: [dense/traces.json](agent_dev/dense/traces.json); proposed labels: [
 | d16 | Abstain | Không đủ bằng chứng để trả lời. | none | abstain True | The report does not provide the requested statistic; the agent searched and abstained without making a factual claim. |
 | d17 | Abstain | Không đủ bằng chứng để trả lời. | none | abstain True | The report does not provide the requested statistic; the agent searched and abstained without making a factual claim. |
 
-Full trace: [hybrid/traces.json](agent_dev/hybrid/traces.json); proposed labels: [hybrid/reviews_proposed.json](agent_dev/hybrid/reviews_proposed.json).
+Full trace: [hybrid/traces.json](agent_dev/hybrid/traces.json); completed labels: [hybrid/reviews.json](agent_dev/hybrid/reviews.json).
 
 ## hybrid_repair
 
@@ -74,4 +74,4 @@ Full trace: [hybrid/traces.json](agent_dev/hybrid/traces.json); proposed labels:
 | d16 | Abstain | Không đủ bằng chứng để trả lời. | none | abstain True | The report does not provide the requested statistic; the agent searched and abstained without making a factual claim. |
 | d17 | Abstain | Không đủ bằng chứng để trả lời. | none | abstain True | The report does not provide the requested statistic; the agent searched and abstained without making a factual claim. |
 
-Full trace: [hybrid_repair/traces.json](agent_dev/hybrid_repair/traces.json); proposed labels: [hybrid_repair/reviews_proposed.json](agent_dev/hybrid_repair/reviews_proposed.json).
+Full trace: [hybrid_repair/traces.json](agent_dev/hybrid_repair/traces.json); completed labels: [hybrid_repair/reviews.json](agent_dev/hybrid_repair/reviews.json).

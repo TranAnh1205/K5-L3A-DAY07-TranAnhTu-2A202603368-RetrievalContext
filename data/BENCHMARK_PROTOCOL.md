@@ -10,6 +10,8 @@ The source is World Bank (2024), *Viet Nam bi-annual poverty & equity update - J
 
 For each answerable question, `gold` lists the source ID, physical page, and a literal evidence span. Each span was checked against the source PDF text and programmatically checked to occur in one exported chunk with the same source and page. The filter, when present, admits that chunk. The current questions need one evidence span each; there are no multi-hop items. A retrieval hit requires an eligible chunk containing the complete gold span, with the matching source and page. Equivalent supporting spans may be accepted only after a documented manual review; add them to `gold` before calculating final metrics. No-evidence questions are excluded from Hit@1 and Evidence Hit@3 denominators.
 
+**Dev audit note, 2026-11-14:** An equivalent span for `d12` on physical page 65 was discovered after the benchmark freeze during dev trace review. It is documented in `report/agent_dev/gold_alternatives_reviewed.json` and accepted only for the separately reviewed context/answer/citation labels. It was not added retroactively to the frozen `gold` array; original-query automatic Hit@ metrics retain the original strict definition and hash. A future benchmark revision would add the span to `gold` and rerun every compared configuration before reporting revised automatic metrics. No test case was used for this audit.
+
 The no-evidence questions were checked against all 67 indexed pages, including the relevant sections:
 
 | ID | Review of the corpus |
