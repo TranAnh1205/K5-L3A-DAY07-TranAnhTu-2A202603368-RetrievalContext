@@ -1,0 +1,889 @@
+[
+  {
+    "query_id": "at01",
+    "category": "table",
+    "pass": true,
+    "agent_status": "answered",
+    "answer": "China is classified as High for power distance.",
+    "citations": [
+      {
+        "page": 71,
+        "locator": "Table 6.1, China row, Power Distance column"
+      }
+    ],
+    "required_evidence": [
+      {
+        "page": 71,
+        "original_book_page": 159,
+        "locator": "Table 6.1; China row; Power Distance column",
+        "region_bbox_pdf": [
+          40,
+          46.9,
+          570,
+          674.9
+        ],
+        "detail": "China = High."
+      }
+    ],
+    "reason": "Correct answer with matching source evidence and locator(s): packet p.71 Table 6.1; China row; Power Distance column: China = High.",
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+  },
+  {
+    "query_id": "at02",
+    "category": "table",
+    "pass": true,
+    "agent_status": "answered",
+    "answer": "Dispersed under low power distance.",
+    "citations": [
+      {
+        "page": 72,
+        "locator": "Table 6.2, Managerial authority, Low Power Distance column"
+      }
+    ],
+    "required_evidence": [
+      {
+        "page": 72,
+        "original_book_page": 160,
+        "locator": "Table 6.2; Managerial authority row; Low Power Distance column",
+        "region_bbox_pdf": [
+          40,
+          86.7,
+          570,
+          714.7
+        ],
+        "detail": "Dispersed authority."
+      }
+    ],
+    "reason": "Correct answer with matching source evidence and locator(s): packet p.72 Table 6.2; Managerial authority row; Low Power Distance column: Dispersed authority.",
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+  },
+  {
+    "query_id": "at03",
+    "category": "table",
+    "pass": true,
+    "agent_status": "answered",
+    "answer": "Hiring and promotions are based on rules.",
+    "citations": [
+      {
+        "page": 74,
+        "locator": "Table 6.3, Human resource management, High Individualism/Low Collectivism column"
+      }
+    ],
+    "required_evidence": [
+      {
+        "page": 74,
+        "original_book_page": 162,
+        "locator": "Table 6.3; Human resource management row; High Individualism/Low Collectivism column",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          635.7
+        ],
+        "detail": "Hiring and promotions based on rules."
+      }
+    ],
+    "reason": "Correct answer with matching source evidence and locator(s): packet p.74 Table 6.3; Human resource management row; High Individualism/Low Collectivism column: Hiring and promotions based on rules.",
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+  },
+  {
+    "query_id": "at04",
+    "category": "table",
+    "pass": true,
+    "agent_status": "answered",
+    "answer": "Under high uncertainty avoidance, innovation is resisted; innovators feel constrained by rules, with rational championing and formalized management structures.",
+    "citations": [
+      {
+        "page": 76,
+        "locator": "Table 6.4, Entrepreneurship and innovation row, High Uncertainty Avoidance column"
+      }
+    ],
+    "required_evidence": [
+      {
+        "page": 76,
+        "original_book_page": 164,
+        "locator": "Table 6.4; Entrepreneurship and innovation row; High Uncertainty Avoidance column",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          500.7
+        ],
+        "detail": "Innovation resisted."
+      }
+    ],
+    "reason": "Correct answer with matching source evidence and locator(s): packet p.76 Table 6.4; Entrepreneurship and innovation row; High Uncertainty Avoidance column: Innovation resisted.",
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+  },
+  {
+    "query_id": "at05",
+    "category": "table",
+    "pass": true,
+    "agent_status": "answered",
+    "answer": "Denmark, Finland, and Sweden.",
+    "citations": [
+      {
+        "page": 79,
+        "locator": "Table 6.6, Nordic Europe column"
+      }
+    ],
+    "required_evidence": [
+      {
+        "page": 79,
+        "original_book_page": 167,
+        "locator": "Table 6.6; Nordic Europe column",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          410.1
+        ],
+        "detail": "Denmark, Finland, Sweden."
+      }
+    ],
+    "reason": "Correct answer with matching source evidence and locator(s): packet p.79 Table 6.6; Nordic Europe column: Denmark, Finland, Sweden.",
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+  },
+  {
+    "query_id": "at06",
+    "category": "table",
+    "pass": true,
+    "agent_status": "answered",
+    "answer": "Table 6.10 counters the myth by stating that exporting requires minimal paperwork, is now very easy to search for buyers using the internet, and that many intermediaries are available to help with exports.",
+    "citations": [
+      {
+        "page": 95,
+        "locator": "Table 6.10, row ‘Exporting is so complicated.’ / Reality column"
+      }
+    ],
+    "required_evidence": [
+      {
+        "page": 95,
+        "original_book_page": 183,
+        "locator": "Table 6.10; Exporting is so complicated row; Reality column",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          400.4
+        ],
+        "detail": "Exporting requires minimal paperwork; internet buyer search and intermediaries help."
+      }
+    ],
+    "reason": "Correct answer with matching source evidence and locator(s): packet p.95 Table 6.10; Exporting is so complicated row; Reality column: Exporting requires minimal paperwork; internet buyer search and intermediaries help.",
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+  },
+  {
+    "query_id": "at07",
+    "category": "image",
+    "pass": true,
+    "agent_status": "answered",
+    "answer": "Economic Forces.",
+    "citations": [
+      {
+        "page": 4,
+        "locator": "Exhibit 4.2, Economic Forces box"
+      }
+    ],
+    "required_evidence": [
+      {
+        "page": 4,
+        "original_book_page": 92,
+        "locator": "Exhibit 4.2; lower-left box",
+        "region_bbox_pdf": [
+          40,
+          59.7,
+          570,
+          687.7
+        ],
+        "detail": "Economic Forces box lists currency exchange rates and employment and wage rates."
+      }
+    ],
+    "reason": "Correct answer with matching source evidence and locator(s): packet p.4 Exhibit 4.2; lower-left box: Economic Forces box lists currency exchange rates and employment and wage rates.",
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+  },
+  {
+    "query_id": "at08",
+    "category": "image",
+    "pass": true,
+    "agent_status": "answered",
+    "answer": "Horizontally to a product or project team boss (project manager).",
+    "citations": [
+      {
+        "page": 15,
+        "locator": "Exhibit 4.11; text below figure: employees report simultaneously to a functional, departmental boss and a product or project team boss"
+      }
+    ],
+    "required_evidence": [
+      {
+        "page": 15,
+        "original_book_page": 103,
+        "locator": "Exhibit 4.11; left project-manager labels and staff matrix",
+        "region_bbox_pdf": [
+          40,
+          46.8,
+          570,
+          674.8
+        ],
+        "detail": "Four Project Manager rows connect horizontally across functional staff columns."
+      }
+    ],
+    "reason": "Correct answer with matching source evidence and locator(s): packet p.15 Exhibit 4.11; left project-manager labels and staff matrix: Four Project Manager rows connect horizontally across functional staff columns.",
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+  },
+  {
+    "query_id": "at09",
+    "category": "image",
+    "pass": true,
+    "agent_status": "answered",
+    "answer": "Throughputs.",
+    "citations": [
+      {
+        "page": 19,
+        "locator": "Exhibit 4.15, middle stage labeled “Throughputs”"
+      },
+      {
+        "page": 19,
+        "locator": "Exhibit 4.15 caption/body text: “The internal organizational systems then process and transform the input material, which is called ‘through-put’ phase”"
+      }
+    ],
+    "required_evidence": [
+      {
+        "page": 19,
+        "original_book_page": 107,
+        "locator": "Exhibit 4.15; middle box",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          645.9
+        ],
+        "detail": "Middle box is Throughputs; organizational subsystems/processes transform inputs."
+      }
+    ],
+    "reason": "Correct answer with matching source evidence and locator(s): packet p.19 Exhibit 4.15; middle box: Middle box is Throughputs; organizational subsystems/processes transform inputs.",
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+  },
+  {
+    "query_id": "at10",
+    "category": "image",
+    "pass": true,
+    "agent_status": "answered",
+    "answer": "Market Culture",
+    "citations": [
+      {
+        "page": 24,
+        "locator": "Exhibit 4.21, external focus + stability and control quadrant"
+      }
+    ],
+    "required_evidence": [
+      {
+        "page": 24,
+        "original_book_page": 112,
+        "locator": "Exhibit 4.21; lower-right quadrant",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          452.5
+        ],
+        "detail": "Market quadrant lies at external focus and stability/control."
+      }
+    ],
+    "reason": "Correct answer with matching source evidence and locator(s): packet p.24 Exhibit 4.21; lower-right quadrant: Market quadrant lies at external focus and stability/control.",
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+  },
+  {
+    "query_id": "at11",
+    "category": "image",
+    "pass": true,
+    "agent_status": "answered",
+    "answer": "Employees",
+    "citations": [
+      {
+        "page": 53,
+        "locator": "Exhibit 5.8 Stakeholder Map, label directly below the Firm box"
+      }
+    ],
+    "required_evidence": [
+      {
+        "page": 53,
+        "original_book_page": 141,
+        "locator": "Exhibit 5.8; bottom-center node",
+        "region_bbox_pdf": [
+          40,
+          114.5,
+          570,
+          742.5
+        ],
+        "detail": "Employees node is directly below the Firm."
+      }
+    ],
+    "reason": "Correct answer with matching source evidence and locator(s): packet p.53 Exhibit 5.8; bottom-center node: Employees node is directly below the Firm.",
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+  },
+  {
+    "query_id": "at12",
+    "category": "chart",
+    "pass": true,
+    "agent_status": "answered",
+    "answer": "USA",
+    "citations": [
+      {
+        "page": 68,
+        "locator": "Exhibit 6.2, tallest FDI inflow bar"
+      }
+    ],
+    "required_evidence": [
+      {
+        "page": 68,
+        "original_book_page": 156,
+        "locator": "Exhibit 6.2; leftmost bar",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          366.2
+        ],
+        "detail": "USA is the tallest bar."
+      }
+    ],
+    "reason": "Correct answer with matching source evidence and locator(s): packet p.68 Exhibit 6.2; leftmost bar: USA is the tallest bar.",
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+  },
+  {
+    "query_id": "at13",
+    "category": "chart",
+    "pass": true,
+    "agent_status": "answered",
+    "answer": "Africa",
+    "citations": [
+      {
+        "page": 69,
+        "locator": "Exhibit 6.4, dark-blue Internet-growth bar by region"
+      }
+    ],
+    "required_evidence": [
+      {
+        "page": 69,
+        "original_book_page": 157,
+        "locator": "Exhibit 6.4; dark-blue bars",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          618.0
+        ],
+        "detail": "Africa dark-blue bar is tallest, around 8,500 on the axis."
+      }
+    ],
+    "reason": "Correct answer with matching source evidence and locator(s): packet p.69 Exhibit 6.4; dark-blue bars: Africa dark-blue bar is tallest, around 8,500 on the axis.",
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+  },
+  {
+    "query_id": "at14",
+    "category": "chart",
+    "pass": true,
+    "agent_status": "answered",
+    "answer": "Lesotho is highest on the GINI index chart in Exhibit 6.5.",
+    "citations": [
+      {
+        "page": 84,
+        "locator": "Exhibit 6.5, GINI Index chart (leftmost highest bar labeled Lesotho)"
+      }
+    ],
+    "required_evidence": [
+      {
+        "page": 84,
+        "original_book_page": 172,
+        "locator": "Exhibit 6.5; leftmost bar",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          568.4
+        ],
+        "detail": "Lesotho is the highest/leftmost GINI bar."
+      }
+    ],
+    "reason": "Correct answer with matching source evidence and locator(s): packet p.84 Exhibit 6.5; leftmost bar: Lesotho is the highest/leftmost GINI bar.",
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+  },
+  {
+    "query_id": "at15",
+    "category": "chart",
+    "pass": true,
+    "agent_status": "answered",
+    "answer": "24.1%",
+    "citations": [
+      {
+        "page": 85,
+        "locator": "Exhibit 6.6, pie chart label \"Islam\""
+      }
+    ],
+    "required_evidence": [
+      {
+        "page": 85,
+        "original_book_page": 173,
+        "locator": "Exhibit 6.6; Islam slice",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          630.3
+        ],
+        "detail": "Islam slice is labeled 24.1%."
+      }
+    ],
+    "reason": "Correct answer with matching source evidence and locator(s): packet p.85 Exhibit 6.6; Islam slice: Islam slice is labeled 24.1%.",
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+  },
+  {
+    "query_id": "at16",
+    "category": "chart",
+    "pass": true,
+    "agent_status": "answered",
+    "answer": "Mandatory partnership in China has the highest plotted value at 4.0.",
+    "citations": [
+      {
+        "page": 97,
+        "locator": "Exhibit 6.8, bar for \"Mandatory partnership in China\""
+      }
+    ],
+    "required_evidence": [
+      {
+        "page": 97,
+        "original_book_page": 185,
+        "locator": "Exhibit 6.8; longest horizontal bar",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          297.9
+        ],
+        "detail": "Mandatory partnership in China reaches 4.0, the largest value."
+      }
+    ],
+    "reason": "Correct answer with matching source evidence and locator(s): packet p.97 Exhibit 6.8; longest horizontal bar: Mandatory partnership in China reaches 4.0, the largest value.",
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+  },
+  {
+    "query_id": "at17",
+    "category": "multi_hop",
+    "pass": true,
+    "agent_status": "answered",
+    "answer": "Organic organizational structures and systems are suited to that high-uncertainty environment.",
+    "citations": [
+      {
+        "page": 8,
+        "locator": "Exhibit 4.4, cell 4 (Complex + Unstable = 4); the text says industries and firms in this cell \"would operate more effectively\" and refers to it as a \"complex-unstable environment\""
+      },
+      {
+        "page": 10,
+        "locator": "Exhibit 4.5, \"Organic organizational structures and systems\"; the text says these forms \"work best in unstable, complex, changing environments\""
+      }
+    ],
+    "required_evidence": [
+      {
+        "page": 8,
+        "original_book_page": 96,
+        "locator": "Exhibit 4.4; cell 4",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          631.1
+        ],
+        "detail": "Complex + Unstable = high uncertainty."
+      },
+      {
+        "page": 10,
+        "original_book_page": 98,
+        "locator": "Exhibit 4.5; Organic column",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          627.1
+        ],
+        "detail": "Organic = unstable, high uncertainty environment."
+      }
+    ],
+    "reason": "Correct answer with matching source evidence and locator(s): packet p.8 Exhibit 4.4; cell 4: Complex + Unstable = high uncertainty.; packet p.10 Exhibit 4.5; Organic column: Organic = unstable, high uncertainty environment.",
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+  },
+  {
+    "query_id": "at18",
+    "category": "multi_hop",
+    "pass": true,
+    "agent_status": "answered",
+    "answer": "Table 6.2 associates low power distance with flat organizational hierarchies and decentralized structures.",
+    "citations": [
+      {
+        "page": 71,
+        "locator": "Table 6.1, row 'Denmark', column 'Power Distance'",
+        "support": "Denmark is classified as low power distance."
+      },
+      {
+        "page": 72,
+        "locator": "Table 6.2, column 'Low Power Distance', row 'Organizational structures'",
+        "support": "Low power distance is associated with flat organizational hierarchies and decentralized structures."
+      }
+    ],
+    "required_evidence": [
+      {
+        "page": 71,
+        "original_book_page": 159,
+        "locator": "Table 6.1; Denmark row; Power Distance column",
+        "region_bbox_pdf": [
+          40,
+          46.9,
+          570,
+          674.9
+        ],
+        "detail": "Denmark = Low."
+      },
+      {
+        "page": 72,
+        "original_book_page": 160,
+        "locator": "Table 6.2; Organizational structures row; Low Power Distance column",
+        "region_bbox_pdf": [
+          40,
+          86.7,
+          570,
+          714.7
+        ],
+        "detail": "Flat and decentralized structures."
+      }
+    ],
+    "reason": "Correct answer with matching source evidence and locator(s): packet p.71 Table 6.1; Denmark row; Power Distance column: Denmark = Low.; packet p.72 Table 6.2; Organizational structures row; Low Power Distance column: Flat and decentralized structures.",
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+  },
+  {
+    "query_id": "at19",
+    "category": "multi_hop",
+    "pass": true,
+    "agent_status": "answered",
+    "answer": "Exhibit 6.2: USA tops FDI inflows. Exhibit 6.4: Africa has the largest dark-blue Internet-growth bar.",
+    "citations": [
+      {
+        "page": 68,
+        "locator": "Exhibit 6.2"
+      },
+      {
+        "page": 69,
+        "locator": "Exhibit 6.4"
+      }
+    ],
+    "required_evidence": [
+      {
+        "page": 68,
+        "original_book_page": 156,
+        "locator": "Exhibit 6.2; tallest bar",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          366.2
+        ],
+        "detail": "USA highest."
+      },
+      {
+        "page": 69,
+        "original_book_page": 157,
+        "locator": "Exhibit 6.4; tallest dark-blue bar",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          618.0
+        ],
+        "detail": "Africa highest."
+      }
+    ],
+    "reason": "Correct answer with matching source evidence and locator(s): packet p.68 Exhibit 6.2; tallest bar: USA highest.; packet p.69 Exhibit 6.4; tallest dark-blue bar: Africa highest.",
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+  },
+  {
+    "query_id": "at20",
+    "category": "multi_hop",
+    "pass": true,
+    "agent_status": "answered",
+    "answer": "Table 6.10 says the myth is that “My product won’t do well in other markets,” and the reality is that if a product does well in the U.S., it will probably do well in other countries, with market-testing services available. Table 6.11 lists two success factors for Polish born globals: product quality and product pricing.",
+    "citations": [
+      {
+        "page": 95,
+        "locator": "Table 6.10, row 'My product won’t do well in other markets.' / Reality column"
+      },
+      {
+        "page": 100,
+        "locator": "Table 6.11, row 'Polish born globals' / Key Success Factors"
+      }
+    ],
+    "required_evidence": [
+      {
+        "page": 95,
+        "original_book_page": 183,
+        "locator": "Table 6.10; My product won’t do well row; Reality column",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          400.4
+        ],
+        "detail": "Successful U.S. product probably does well elsewhere; services test the market."
+      },
+      {
+        "page": 100,
+        "original_book_page": 188,
+        "locator": "Table 6.11; Polish born globals row",
+        "region_bbox_pdf": [
+          40,
+          40,
+          570,
+          499.4
+        ],
+        "detail": "Product quality and product pricing."
+      }
+    ],
+    "reason": "Correct answer with matching source evidence and locator(s): packet p.95 Table 6.10; My product won’t do well row; Reality column: Successful U.S. product probably does well elsewhere; services test the market.; packet p.100 Table 6.11; Polish born globals row: Product quality and product pricing.",
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+  },
+  {
+    "query_id": "at21",
+    "category": "text",
+    "pass": true,
+    "agent_status": "answered",
+    "answer": "Ethical leaders should avoid offering special treatment to others, because it creates winners and losers—in-groups and out-groups.",
+    "citations": [
+      {
+        "page": 45,
+        "locator": "Section 5.4, 'Treat All Stakeholders Fairly'"
+      }
+    ],
+    "required_evidence": [
+      {
+        "page": 45,
+        "original_book_page": 133,
+        "locator": "Treat All Stakeholders Fairly paragraph",
+        "region_bbox_pdf": null,
+        "detail": "Ethical leaders must refrain from offering special treatment ... only exception ... just outcome."
+      }
+    ],
+    "reason": "Correct answer with matching source evidence and locator(s): packet p.45 Treat All Stakeholders Fairly paragraph: Ethical leaders must refrain from offering special treatment ... only exception ... just outcome. The question asks which treatment to avoid; the exception for a just outcome was not requested and the answer makes no absolute claim about exceptions.",
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+  },
+  {
+    "query_id": "at22",
+    "category": "text",
+    "pass": true,
+    "agent_status": "answered",
+    "answer": "It is used as an example because McDonald’s had to adapt its products to Indian local tastes and religious/cultural preferences—especially vegetarian preferences and the sacredness of cows—by offering India-specific menu items instead of beef or pork.",
+    "citations": [
+      {
+        "page": 92,
+        "locator": "Local Strategy section; paragraph beginning \"An example of a local strategy is McDonald’s product offerings in India.\""
+      }
+    ],
+    "required_evidence": [
+      {
+        "page": 92,
+        "original_book_page": 180,
+        "locator": "Local Strategy; McDonald’s India paragraph",
+        "region_bbox_pdf": null,
+        "detail": "McDonald’s offerings in India reflect taste and vegetarian preference and cows being sacred."
+      }
+    ],
+    "reason": "Correct answer with matching source evidence and locator(s): packet p.92 Local Strategy; McDonald’s India paragraph: McDonald’s offerings in India reflect taste and vegetarian preference and cows being sacred. The extra no-beef-or-pork detail is explicit in the cited p.92 paragraph.",
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+  },
+  {
+    "query_id": "at23",
+    "category": "text",
+    "pass": true,
+    "agent_status": "answered",
+    "answer": "68% of worldwide growth in 2013.",
+    "citations": [
+      {
+        "page": 94,
+        "locator": "Section \"Growth Opportunities\""
+      }
+    ],
+    "required_evidence": [
+      {
+        "page": 94,
+        "original_book_page": 182,
+        "locator": "Growth Opportunities paragraph",
+        "region_bbox_pdf": null,
+        "detail": "economic growth in emerging markets accounted for 68% of worldwide growth in 2013."
+      }
+    ],
+    "reason": "Correct answer with matching source evidence and locator(s): packet p.94 Growth Opportunities paragraph: economic growth in emerging markets accounted for 68% of worldwide growth in 2013.",
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+  },
+  {
+    "query_id": "at24",
+    "category": "text",
+    "pass": true,
+    "agent_status": "answered",
+    "answer": "Licensing is defined as a contractual agreement in which, for a royalty or fee, a company gives another company the right to use a trademark, know-how, or other proprietary technology. It is described as an easy way to enter an international market quickly without laying out much capital.",
+    "citations": [
+      {
+        "page": 95,
+        "locator": "Table 6.10, section \"Solving a Disadvantage of Exporting through Licensing and Franchising\""
+      }
+    ],
+    "required_evidence": [
+      {
+        "page": 95,
+        "original_book_page": 183,
+        "locator": "Licensing paragraph",
+        "region_bbox_pdf": null,
+        "detail": "Licensing is a contractual agreement whereby, in exchange for a royalty or fee, a company gives the right to another company to use a trademark, know-how, or other proprietary technology."
+      }
+    ],
+    "reason": "Correct answer with matching source evidence and locator(s): packet p.95 Licensing paragraph: Licensing is a contractual agreement whereby, in exchange for a royalty or fee, a company gives the right to another company to use a trademark, know-how, or other proprietary technology. The extra statement about low capital needs is explicit in the same p.95 paragraph.",
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+  },
+  {
+    "query_id": "at-u1",
+    "category": "unanswerable",
+    "pass": true,
+    "agent_status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "required_evidence": [],
+    "reason": "Correct refusal after search. The 15-country Table 6.1 on page 71 has no Viet Nam row; no separate Viet Nam category is given in the 100-page packet.",
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+  },
+  {
+    "query_id": "at-u2",
+    "category": "unanswerable",
+    "pass": true,
+    "agent_status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "required_evidence": [],
+    "reason": "Correct refusal after search. Exhibit 4.2 on page 4 lists types of natural disasters; it does not give organization-specific counts or 2023 observations.",
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+  },
+  {
+    "query_id": "at-u3",
+    "category": "unanswerable",
+    "pass": false,
+    "agent_status": "answered",
+    "answer": "Unions is shown as one stakeholder node in Exhibit 5.8.",
+    "citations": [
+      {
+        "page": 53,
+        "locator": "Exhibit 5.8 Stakeholder Map"
+      }
+    ],
+    "required_evidence": [],
+    "reason": "The question requests a member count. The answer merely says Unions is a node in Exhibit 5.8 and never states that the count is unavailable. The source diagram has no membership count; this is not a valid refusal or answer.",
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+  },
+  {
+    "query_id": "at-u4",
+    "category": "unanswerable",
+    "pass": false,
+    "agent_status": "answered",
+    "answer": "Islam represented 24.1% of the world’s population in Exhibit 6.6.",
+    "citations": [
+      {
+        "page": 85,
+        "locator": "Exhibit 6.6, pie chart label for Islam"
+      }
+    ],
+    "required_evidence": [],
+    "reason": "The question requests the Islam share in 2024. The answer repeats the undated/historical 24.1% label from Exhibit 6.6 as if it answered the year-specific question. The source gives no 2024 measurement.",
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+  },
+  {
+    "query_id": "at-u5",
+    "category": "unanswerable",
+    "pass": true,
+    "agent_status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "required_evidence": [],
+    "reason": "Correct refusal after search. Table 6.11 on page 100 names Polish born globals and success factors but provides no sample count for that row.",
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+  },
+  {
+    "query_id": "at-u6",
+    "category": "unanswerable",
+    "pass": false,
+    "agent_status": "answered",
+    "answer": "4.0",
+    "citations": [
+      {
+        "page": 97,
+        "locator": "Exhibit 6.8, bar labeled “Mandatory partnership in China”"
+      }
+    ],
+    "required_evidence": [],
+    "reason": "The question requests a 2025 score. The answer returns 4.0 from Exhibit 6.8, whose source is a 2015 PWC study and has no 2025 score.",
+    "reviewer": "Codex assistant",
+    "review_date": "2026-11-14",
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+  }
+]

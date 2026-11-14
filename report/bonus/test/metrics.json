@@ -1,0 +1,57 @@
+{
+  "split": "test",
+  "mode": "vision_anchor_repair",
+  "cases": 30,
+  "strict_pass": {
+    "n": 27,
+    "N": 30,
+    "rate": 0.9
+  },
+  "by_group": {
+    "table": {
+      "pass": 6,
+      "total": 6
+    },
+    "image": {
+      "pass": 5,
+      "total": 5
+    },
+    "chart": {
+      "pass": 5,
+      "total": 5
+    },
+    "multi_hop": {
+      "pass": 4,
+      "total": 4
+    },
+    "text": {
+      "pass": 4,
+      "total": 4
+    },
+    "unanswerable": {
+      "pass": 3,
+      "total": 6
+    }
+  },
+  "answerable_pass": {
+    "n": 24,
+    "N": 24
+  },
+  "correct_abstention": {
+    "n": 3,
+    "N": 6
+  },
+  "errors": 0,
+  "tool_use": {
+    "n": 30,
+    "N": 30
+  },
+  "search_calls": 60,
+  "image_inspections": 41,
+  "model_calls": 61,
+  "total_elapsed_seconds": 87.94795840000916,
+  "mean_elapsed_seconds": 2.9315986133336387,
+  "estimated_api_cost_usd": 0.126198,
+  "reviewer": "Codex assistant",
+  "review_date": "2026-11-14"
+}

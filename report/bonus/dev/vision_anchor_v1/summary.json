@@ -11,5 +11,11 @@
   },
   "total_elapsed_seconds": 56.579055700001845,
   "estimated_api_cost_usd": 0.0535518,
-  "missing_usage_cases": 0
+  "missing_usage_cases": 0,
+  "manual_strict_pass": {
+    "n": 15,
+    "N": 18,
+    "rate": 0.8333333333333334
+  },
+  "manual_review_status": "Codex assistant-reviewed"
 }

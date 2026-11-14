@@ -64,3 +64,17 @@ After `report/agent_dev/selected_config.json` was frozen on dev, the test runner
 ```
 
 `report/agent_test.md` reports the committed test runs and PDF-reviewed labels; `report/individual/202603368_TranAnhTu.md` is the filled personal report. Rerunning the model can produce different answers and API charges.
+
+## Separate 100-page advanced challenge
+
+The source, rights, packet-page mapping, index inventory and fixed 18/30 dev/test benchmark are in [`data/advanced/README.md`](../data/advanced/README.md). The PDF packet and page index are committed. The bonus pipeline uses `pymupdf` to render original pages on demand, TF-IDF to search all 100 pages, caption-anchor routing from the question, and `gpt-5.4-mini` for search planning, vision answering and optional missing-citation repair. `report/bonus/selected_config.json` freezes the dev-selected mode and hashes before test; `report/bonus_report.md` records the full outcome. From the repository root:
+
+```powershell
+.\.venv\Scripts\python.exe -m src.bonus_index
+.\.venv\Scripts\python.exe data\advanced\validate_benchmark.py
+$env:OPENAI_API_KEY = [Environment]::GetEnvironmentVariable('OPENAI_API_KEY', 'User')
+.\.venv\Scripts\python.exe -m src.run_bonus --split dev --mode vision_anchor_repair --output starter\results\bonus_dev_replay
+.\.venv\Scripts\python.exe -m src.run_bonus --split test --mode vision_anchor_repair --output starter\results\bonus_test_replay
+```
+
+The test command verifies frozen benchmark/PDF/index/visual-note/code hashes. A rerun is a fresh paid model run and may differ from the committed result.

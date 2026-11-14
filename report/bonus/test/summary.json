@@ -1,0 +1,15 @@
+{
+  "split": "test",
+  "mode": "vision_anchor_repair",
+  "model": "gpt-5.4-mini",
+  "cases": 30,
+  "traces": 30,
+  "status_counts": {
+    "answered": 27,
+    "abstain": 3,
+    "error": 0
+  },
+  "total_elapsed_seconds": 87.94795840000916,
+  "estimated_api_cost_usd": 0.126198,
+  "missing_usage_cases": 0
+}

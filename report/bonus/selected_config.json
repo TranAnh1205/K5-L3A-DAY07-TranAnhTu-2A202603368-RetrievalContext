@@ -11,11 +11,13 @@
   "verify_answer": false,
   "dev_manual_strict_pass": "18/18",
   "selection_reason": "Highest manually reviewed strict dev pass after source-checked visual transcriptions; text-only, vision-only and global answer verification had more dev errors.",
-  "test_evaluation_started": false,
+  "test_evaluation_started": true,
   "benchmark_sha256": "2e8efa369fb6a79b6d27e049ffc162532adff0fe7db49f763f1ae329118a0853",
   "pdf_sha256": "f44a7503c5c14d54108aef0ed35f1db3c4b57c327b710da5d44d9216ffcead6c",
   "index_sha256": "76dbee4e9b938161a9458f170181f4c5417c595980bda4f9f8ede5eb75d46acc",
   "visual_transcriptions_sha256": "92c3cef3f1a898fd4ef614a2a2c7443888476d133d32193c19b50d6c84096cde",
   "agent_code_sha256": "8082b7824e86877d56d5309e51f7a9dc6687efbbb3d41de112512ffcb9b279fe",
-  "runner_code_sha256": "04bd8e70e40accb3cc7d88019aa2deac1fd0d2723bc01e80bb9bc6b8f059702d"
+  "runner_code_sha256": "04bd8e70e40accb3cc7d88019aa2deac1fd0d2723bc01e80bb9bc6b8f059702d",
+  "test_completed_on": "2026-11-14",
+  "pre_test_commit": "75dca23"
 }
