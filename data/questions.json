@@ -1,0 +1,306 @@
+[
+  {
+    "id": "d01",
+    "split": "dev",
+    "question": "What labor shift helped reduce both poverty and inequality in Viet Nam from 2010 to 2014?",
+    "gold": [
+      {
+        "source_id": "worldbank-vnm-poverty-equity-2024-06",
+        "page": 11,
+        "evidence": "From 2010-14, both poverty and inequality fell due to large shifts in labor from agriculture into manufacturing and services jobs."
+      }
+    ],
+    "expected_answer": "A shift from agriculture into manufacturing and service jobs."
+  },
+  {
+    "id": "d02",
+    "split": "dev",
+    "question": "How did household consumption change in Viet Nam between 2020 and 2022?",
+    "gold": [
+      {
+        "source_id": "worldbank-vnm-poverty-equity-2024-06",
+        "page": 12,
+        "evidence": "Household consumption, the welfare metric used in this report for global poverty measurement and monitoring, contracted from 2020 to 2022 in Viet Nam (Figure O.2)."
+      }
+    ],
+    "expected_answer": "It contracted."
+  },
+  {
+    "id": "d03",
+    "split": "dev",
+    "question": "What two household-level changes accompanied the stall in poverty reduction in 2022?",
+    "gold": [
+      {
+        "source_id": "worldbank-vnm-poverty-equity-2024-06",
+        "page": 20,
+        "evidence": "Lastly, in 2022, after extended adverse impacts related to COVID-19, poverty reduction stalled as household consumption declined, and income growth tapered."
+      }
+    ],
+    "expected_answer": "Household consumption declined and income growth tapered."
+  },
+  {
+    "id": "d04",
+    "split": "dev",
+    "question": "In Part 1 of the report, what share of the urban bottom 40 percent said in April 2022 that their savings would last less than one month if income stopped, compared with the top 60 percent?",
+    "gold": [
+      {
+        "source_id": "worldbank-vnm-poverty-equity-2024-06",
+        "page": 24,
+        "evidence": "47 percent of the bottom-40 in urban areas reported that if their incomes stopped, they would only have sufficient savings to survive for less than one month, compared to 33 percent of the top-60 (Figure 8)."
+      }
+    ],
+    "expected_answer": "47 percent of the bottom 40 percent, compared with 33 percent of the top 60 percent.",
+    "filter": {
+      "section": "part_1_poverty_equity_update"
+    }
+  },
+  {
+    "id": "d05",
+    "split": "dev",
+    "question": "During the health crisis, which coping strategies did the report identify for poor households facing lower incomes?",
+    "gold": [
+      {
+        "source_id": "worldbank-vnm-poverty-equity-2024-06",
+        "page": 26,
+        "evidence": "For poor households, primary strategies to cope with negative shocks and lower incomes during the health crisis included reducing food and non-food consumption or accepting assistance from either non-governmental organizations (NGOs) or the government."
+      }
+    ],
+    "expected_answer": "Reducing food and non-food consumption or accepting help from NGOs or the government."
+  },
+  {
+    "id": "d06",
+    "split": "dev",
+    "question": "Why can household consumption be more regular than income for measuring welfare?",
+    "gold": [
+      {
+        "source_id": "worldbank-vnm-poverty-equity-2024-06",
+        "page": 30,
+        "evidence": "Consumption is often more regular, as savings or borrowing is used to smooth out lumpy incomes."
+      }
+    ],
+    "expected_answer": "Savings or borrowing can smooth irregular income, making consumption more regular."
+  },
+  {
+    "id": "d07",
+    "split": "dev",
+    "question": "What was the primary source of household growth discussed in the income dynamics section?",
+    "gold": [
+      {
+        "source_id": "worldbank-vnm-poverty-equity-2024-06",
+        "page": 32,
+        "evidence": "Rising labor incomes (primarily wages) have been the primary sources of growth for households"
+      }
+    ],
+    "expected_answer": "Rising labor income, primarily wages."
+  },
+  {
+    "id": "d08",
+    "split": "dev",
+    "question": "Approximately what share of household income did the three sources of labor income account for in 2022?",
+    "gold": [
+      {
+        "source_id": "worldbank-vnm-poverty-equity-2024-06",
+        "page": 34,
+        "evidence": "In 2022, three sources of labor income accounted for about 90 percent of household income across the entire distribution of households (see Box 1.B)."
+      }
+    ],
+    "expected_answer": "About 90 percent."
+  },
+  {
+    "id": "d09",
+    "split": "dev",
+    "question": "How did the share of households reporting farming as an income source change nationally from 2010 to 2022?",
+    "gold": [
+      {
+        "source_id": "worldbank-vnm-poverty-equity-2024-06",
+        "page": 36,
+        "evidence": "Nationally, 66 percent of households reported farming as an income source in 2010, declining to 46 percent by 2022."
+      }
+    ],
+    "expected_answer": "It fell from 66 percent in 2010 to 46 percent in 2022."
+  },
+  {
+    "id": "d10",
+    "split": "dev",
+    "question": "For the 2000–09 birth cohort in 2022, how did employment shares compare between the Midlands and Northern Mountains and the Red River Delta?",
+    "gold": [
+      {
+        "source_id": "worldbank-vnm-poverty-equity-2024-06",
+        "page": 39,
+        "evidence": "employment shares in 2022 vary from almost 40 percent in the poorer Midlands and Northern Mountains region, to only 17.4 percent in the Red River Delta where Hanoi is located."
+      }
+    ],
+    "expected_answer": "Almost 40 percent in the Midlands and Northern Mountains versus 17.4 percent in the Red River Delta."
+  },
+  {
+    "id": "d11",
+    "split": "dev",
+    "question": "By 2023, were labor incomes back at the levels expected without COVID-19?",
+    "gold": [
+      {
+        "source_id": "worldbank-vnm-poverty-equity-2024-06",
+        "page": 42,
+        "evidence": "Labor income indicators in 2023 are recovering to pre- COVID levels, but are still lower than expected incomes without COVID."
+      }
+    ],
+    "expected_answer": "No. They were recovering toward pre-COVID levels but remained below the no-COVID expected trajectory."
+  },
+  {
+    "id": "d12",
+    "split": "dev",
+    "question": "In Part 2 of the report, how did Viet Nam's urban population share change from 2010 to 2022?",
+    "gold": [
+      {
+        "source_id": "worldbank-vnm-poverty-equity-2024-06",
+        "page": 56,
+        "evidence": "From 2010 to 2022, the urban share of the population in Viet Nam increased from 30 to almost 40 percent."
+      }
+    ],
+    "expected_answer": "It rose from 30 percent to almost 40 percent.",
+    "filter": {
+      "section": "part_2_urban_inclusion"
+    }
+  },
+  {
+    "id": "d13",
+    "split": "dev",
+    "question": "Why might the official 2022 urban population share understate how many people lived in urbanized settings?",
+    "gold": [
+      {
+        "source_id": "worldbank-vnm-poverty-equity-2024-06",
+        "page": 58,
+        "evidence": "The official proportion of the urban population in Viet Nam in 2022 was about 39 percent, but some research has shown an urbanized population could be much higher when measured using different techniques."
+      }
+    ],
+    "expected_answer": "The official share was about 39 percent, while alternative measurement techniques can classify a much larger population as urbanized."
+  },
+  {
+    "id": "d14",
+    "split": "dev",
+    "question": "In Part 2 of the report, what share of Viet Nam's total population growth during 2014–19 occurred in Ho Chi Minh City?",
+    "gold": [
+      {
+        "source_id": "worldbank-vnm-poverty-equity-2024-06",
+        "page": 60,
+        "evidence": "20 percent of total population growth from 2014- 19 was in HCMC alone."
+      }
+    ],
+    "expected_answer": "20 percent.",
+    "filter": {
+      "section": "part_2_urban_inclusion"
+    }
+  },
+  {
+    "id": "d15",
+    "split": "dev",
+    "question": "According to a 2022 study cited in the report, what proportion of Viet Nam's population lived in flood zones?",
+    "gold": [
+      {
+        "source_id": "worldbank-vnm-poverty-equity-2024-06",
+        "page": 65,
+        "evidence": "A recent study published in 2022 found that 46 percent of Viet Nam’s population resided in flood zones, the third highest in the world after the Netherlands and Bangladesh (Rentschler, Salhab, and Jafino, 2022)."
+      }
+    ],
+    "expected_answer": "46 percent."
+  },
+  {
+    "id": "d16",
+    "split": "dev",
+    "question": "What was the observed average housing area per person in urban Viet Nam in 2025?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Checked all 67 indexed pages for 2025 and housing area. Pages 75, 77 and 81 mention a 2025 housing target, not an observed 2025 outcome; page 37 concerns an agricultural labor target."
+  },
+  {
+    "id": "d17",
+    "split": "dev",
+    "question": "What percentage of Ho Chi Minh City households owned a computer in the report?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Checked all 67 indexed pages for computer ownership. The sole computer mention on page 69 gives only a qualitative comparison and spatial pattern; it provides no citywide percentage."
+  },
+  {
+    "id": "t06",
+    "split": "test",
+    "question": "To what value had Viet Nam’s prosperity gap fallen by 2020?",
+    "expected_answer": "2.6",
+    "gold": [
+      {
+        "source_id": "worldbank-vnm-poverty-equity-2024-06",
+        "page": 28,
+        "evidence": "the gap reduced to 2.6 in 2020."
+      }
+    ]
+  },
+  {
+    "id": "t07",
+    "split": "test",
+    "question": "In Part 2, which third-level administrative areas are classified as urban in Viet Nam?",
+    "expected_answer": "Wards and district towns.",
+    "gold": [
+      {
+        "source_id": "worldbank-vnm-poverty-equity-2024-06",
+        "page": 61,
+        "evidence": "urban areas are either wards or district towns"
+      }
+    ],
+    "filter": {
+      "section": "part_2_urban_inclusion"
+    }
+  },
+  {
+    "id": "t08",
+    "split": "test",
+    "question": "In the Ho Chi Minh City case study, how many districts can small-area estimates reach?",
+    "expected_answer": "24 districts.",
+    "gold": [
+      {
+        "source_id": "worldbank-vnm-poverty-equity-2024-06",
+        "page": 69,
+        "evidence": "Small area estimations can be used to compute estimates down to the district level, of which there are 24 districts in HCMC."
+      }
+    ]
+  },
+  {
+    "id": "t09",
+    "split": "test",
+    "question": "How many schools did the OpenStreetMap extraction identify for the HCMC amenity analysis?",
+    "expected_answer": "10,045 schools.",
+    "gold": [
+      {
+        "source_id": "worldbank-vnm-poverty-equity-2024-06",
+        "page": 76,
+        "evidence": "This resulted in 1,747 polygons corresponding to hospitals, 10,045 schools, 12,376 parks, and 410 bus stops."
+      }
+    ]
+  },
+  {
+    "id": "t10",
+    "split": "test",
+    "question": "About how many HCMC households are surveyed in the annual Viet Nam Household Living Standards Surveys?",
+    "expected_answer": "About 1,400 households.",
+    "gold": [
+      {
+        "source_id": "worldbank-vnm-poverty-equity-2024-06",
+        "page": 85,
+        "evidence": "about 1,400 households are surveyed from HCMC"
+      }
+    ]
+  },
+  {
+    "id": "t11",
+    "split": "test",
+    "question": "How many people died in Ho Chi Minh City floods in 2022 according to the report?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Checked all 67 indexed pages for flood, death and fatality. Flood sections on pages 75–81 discuss exposure, depth and modeled return periods, but give no HCMC flood mortality count for 2022."
+  },
+  {
+    "id": "t12",
+    "split": "test",
+    "question": "What was the median monthly rent paid by migrants in Ho Chi Minh City in 2019, according to the report?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Checked all 67 indexed pages for rent/rental, migrant, median and housing. Pages 77 and 86 mention renting or rent policy, and pages 82–84 discuss migrants, but no median monthly migrant rent for HCMC in 2019 is reported."
+  }
+]
