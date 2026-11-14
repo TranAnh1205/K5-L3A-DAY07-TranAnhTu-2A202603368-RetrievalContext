@@ -24,4 +24,17 @@ $env:PYTHONUTF8 = '1'
 
 The script runs TF-IDF, dense retrieval from Qdrant, and reciprocal-rank-fusion hybrid on the same 484 chunks and 17 dev questions. It applies the question's `section` filter before ranking, passes only question text and filter to retrievers, and excludes the two no-evidence cases from Hit@1, Evidence Hit@3, and Context Evidence Rate denominators. It writes per-query rankings and context plus a summary. The checked-in dev run is in `report/retrieval_dev/` and described in `report/retrieval_dev.md`. No Day 07 test evaluation has been run.
 
+## Real model agent
+
+`real_agent.py` connects the provided `starter/agentic.py` loop to an OpenAI-compatible Chat Completions endpoint. It uses a real model to choose `search` or `answer`; the search tool can use dense, TF-IDF or hybrid retrieval. Set `AGENT_MODEL` to a model available at your endpoint and `OPENAI_API_KEY` in your local environment for a remote API. Set `AGENT_BASE_URL` if your provider does not use the default OpenAI base URL. Do not commit keys or `.env` files.
+
+For one answerable smoke run from the Day 07 repository root:
+
+```powershell
+$env:PYTHONUTF8 = '1'
+.\.venv\Scripts\python.exe -m src.real_agent --question 'What labor shift helped reduce both poverty and inequality in Viet Nam from 2010 to 2014?' --day6-repo 'E:\Hoanthanhbailapngay06\K5-L3A-DAY06-TranAnhTu-202603368-DataIngestion' --method dense --output starter\results\agent-d01.json
+```
+
+The default limits are 2 searches, 3 results per search and 4,000 characters of cumulative context. The model can search again when the first context is insufficient. Output includes every model action, search query and result, packed context, answer, citation IDs, timing, token usage when returned by the provider, and errors. Citation IDs are checked against context by the starter loop; their semantic support still requires human review. API cost is left unknown until a model and pricing are specified. If a model or endpoint fails, the run records `status: error`; it does not substitute a mock result. This single-question command is a smoke run, not the required dev/test agent evaluation.
+
 The Day 06 PDF and `starter/qdrant_storage` are local generated artifacts. To reproduce them on another machine, follow the setup commands in the [Day 06 submission](https://github.com/TranAnh1205/K5-L3A-DAY06-TranAnhTu-202603368-DataIngestion/tree/day06-submission). Do not run two processes against the same Qdrant local store at once.
