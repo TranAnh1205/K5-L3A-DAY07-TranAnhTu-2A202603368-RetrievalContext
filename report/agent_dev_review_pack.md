@@ -75,4 +75,3 @@ Full trace: [hybrid/traces.json](agent_dev/hybrid/traces.json); proposed labels:
 | d17 | Abstain | Không đủ bằng chứng để trả lời. | none | abstain True | The report does not provide the requested statistic; the agent searched and abstained without making a factual claim. |
 
 Full trace: [hybrid_repair/traces.json](agent_dev/hybrid_repair/traces.json); proposed labels: [hybrid_repair/reviews_proposed.json](agent_dev/hybrid_repair/reviews_proposed.json).
-
