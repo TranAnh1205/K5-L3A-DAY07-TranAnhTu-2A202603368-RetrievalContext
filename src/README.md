@@ -32,6 +32,8 @@ For one answerable smoke run from the Day 07 repository root:
 
 ```powershell
 $env:PYTHONUTF8 = '1'
+$env:OPENAI_API_KEY = [Environment]::GetEnvironmentVariable('OPENAI_API_KEY', 'User')
+if (-not $env:OPENAI_API_KEY) { throw 'Set OPENAI_API_KEY in the Windows User environment first.' }
 .\.venv\Scripts\python.exe -m src.real_agent --question 'What labor shift helped reduce both poverty and inequality in Viet Nam from 2010 to 2014?' --day6-repo 'E:\Hoanthanhbailapngay06\K5-L3A-DAY06-TranAnhTu-202603368-DataIngestion' --method dense --output starter\results\agent-d01.json
 ```
 
