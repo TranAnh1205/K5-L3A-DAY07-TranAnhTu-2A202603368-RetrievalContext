@@ -1,0 +1,175 @@
+{
+  "status": "answered",
+  "answer": "The labor shift was from agriculture into manufacturing and services jobs. [dae9b91eb9df9e71d469e44fb5b4dae4]",
+  "citations": [
+    "dae9b91eb9df9e71d469e44fb5b4dae4"
+  ],
+  "events": [
+    {
+      "event": "search",
+      "query": "Viet Nam 2010 2014 poverty inequality labor shift report agriculture wage employment",
+      "filter": null,
+      "results": [
+        {
+          "id": "dae9b91eb9df9e71d469e44fb5b4dae4",
+          "text": "Towards more inclusive cities 1 Part 1. Poverty & Equity Update1 Recent poverty and equity dynamics in Viet Nam can be described across three distinct phases (Figure O.1). First, at the start of the decade, there was rapid poverty reduction accompanied by declining inequality. From 2010-14, both poverty and inequality fell due to large shifts in labor from agriculture into manufacturing and services jobs. Most of these non-farm jobs were still low-skilled, and agricultural laborers could easily",
+          "source_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 11,
+          "metadata": {
+            "section": "overview",
+            "printed_page": 1
+          },
+          "score": 0.8364833810182504
+        },
+        {
+          "id": "691fd577c983f9a576a8c7cf2d3841e9",
+          "text": "y dynamics The movement from farm income to higher wage income is a key driver of Viet Nam’s successful poverty reduction and progressive patterns of upwards economic mobility. While fewer families were earning incomes from family farms, most regions experienced a comparable rise in the share of households that received wage income (mainly in non-farm sectors). The number of households earning a combination of labor incomes from wage and farm incomes grew until 2018 (Figure 23). From 2020, the n",
+          "source_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 36,
+          "metadata": {
+            "section": "part_1_poverty_equity_update",
+            "printed_page": 26
+          },
+          "score": 0.8348252099554923
+        },
+        {
+          "id": "ca0475ed8891883f441d7a1bc70b734e",
+          "text": "net non-farm family business incomes. Only 4.5 percent of households in Viet Nam do not have labor income from any of these categories. All three forms of labor incomes in 2022 experienced some degree of negative impacts in either the intensive 15 T otal household wage income includes earnings from first, second, and third jobs that all working household members were engaged in over the last 12 months. Due to a mix of factors – including a large agricultural workforce, informality, and classifi",
+          "source_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 34,
+          "metadata": {
+            "section": "part_1_poverty_equity_update",
+            "printed_page": 24
+          },
+          "score": 0.8143814270602631
+        }
+      ],
+      "context": "[dae9b91eb9df9e71d469e44fb5b4dae4 | https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf | page 11]\nTowards more inclusive cities 1 Part 1. Poverty & Equity Update1 Recent poverty and equity dynamics in Viet Nam can be described across three distinct phases (Figure O.1). First, at the start of the decade, there was rapid poverty reduction accompanied by declining inequality. From 2010-14, both poverty and inequality fell due to large shifts in labor from agriculture into manufacturing and services jobs. Most of these non-farm jobs were still low-skilled, and agricultural laborers could easily\n\n[691fd577c983f9a576a8c7cf2d3841e9 | https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf | page 36]\ny dynamics The movement from farm income to higher wage income is a key driver of Viet Nam’s successful poverty reduction and progressive patterns of upwards economic mobility. While fewer families were earning incomes from family farms, most regions experienced a comparable rise in the share of households that received wage income (mainly in non-farm sectors). The number of households earning a combination of labor incomes from wage and farm incomes grew until 2018 (Figure 23). From 2020, the n\n\n[ca0475ed8891883f441d7a1bc70b734e | https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf | page 34]\nnet non-farm family business incomes. Only 4.5 percent of households in Viet Nam do not have labor income from any of these categories. All three forms of labor incomes in 2022 experienced some degree of negative impacts in either the intensive 15 T otal household wage income includes earnings from first, second, and third jobs that all working household members were engaged in over the last 12 months. Due to a mix of factors – including a large agricultural workforce, informality, and classifi",
+      "context_ids": [
+        "dae9b91eb9df9e71d469e44fb5b4dae4",
+        "691fd577c983f9a576a8c7cf2d3841e9",
+        "ca0475ed8891883f441d7a1bc70b734e"
+      ]
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "question": "What labor shift helped reduce both poverty and inequality in Viet Nam from 2010 to 2014?",
+  "filter": null,
+  "method": "dense",
+  "model": "gpt-5.4-mini",
+  "model_base_url": "https://api.openai.com/v1",
+  "model_calls": [
+    {
+      "model": "gpt-5.4-mini",
+      "status": "ok",
+      "action": {
+        "action": "search",
+        "query": "Viet Nam 2010 2014 poverty inequality labor shift report agriculture wage employment"
+      },
+      "usage": {
+        "prompt_tokens": 221,
+        "completion_tokens": 34,
+        "total_tokens": 255,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3712.1194999999716,
+      "context_chars_sent": 0
+    },
+    {
+      "model": "gpt-5.4-mini",
+      "status": "ok",
+      "action": {
+        "action": "answer",
+        "answer": "The labor shift was from agriculture into manufacturing and services jobs. [dae9b91eb9df9e71d469e44fb5b4dae4]",
+        "citations": [
+          "dae9b91eb9df9e71d469e44fb5b4dae4"
+        ]
+      },
+      "usage": {
+        "prompt_tokens": 746,
+        "completion_tokens": 76,
+        "total_tokens": 822,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2135.2264000015566,
+      "context_chars_sent": 1964
+    }
+  ],
+  "tool_calls": [
+    {
+      "event": "search",
+      "query": "Viet Nam 2010 2014 poverty inequality labor shift report agriculture wage employment",
+      "filter": null,
+      "method": "dense",
+      "status": "ok",
+      "results": [
+        {
+          "id": "dae9b91eb9df9e71d469e44fb5b4dae4",
+          "text": "Towards more inclusive cities 1 Part 1. Poverty & Equity Update1 Recent poverty and equity dynamics in Viet Nam can be described across three distinct phases (Figure O.1). First, at the start of the decade, there was rapid poverty reduction accompanied by declining inequality. From 2010-14, both poverty and inequality fell due to large shifts in labor from agriculture into manufacturing and services jobs. Most of these non-farm jobs were still low-skilled, and agricultural laborers could easily",
+          "source_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 11,
+          "metadata": {
+            "section": "overview",
+            "printed_page": 1
+          },
+          "score": 0.8364833810182504
+        },
+        {
+          "id": "691fd577c983f9a576a8c7cf2d3841e9",
+          "text": "y dynamics The movement from farm income to higher wage income is a key driver of Viet Nam’s successful poverty reduction and progressive patterns of upwards economic mobility. While fewer families were earning incomes from family farms, most regions experienced a comparable rise in the share of households that received wage income (mainly in non-farm sectors). The number of households earning a combination of labor incomes from wage and farm incomes grew until 2018 (Figure 23). From 2020, the n",
+          "source_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 36,
+          "metadata": {
+            "section": "part_1_poverty_equity_update",
+            "printed_page": 26
+          },
+          "score": 0.8348252099554923
+        },
+        {
+          "id": "ca0475ed8891883f441d7a1bc70b734e",
+          "text": "net non-farm family business incomes. Only 4.5 percent of households in Viet Nam do not have labor income from any of these categories. All three forms of labor incomes in 2022 experienced some degree of negative impacts in either the intensive 15 T otal household wage income includes earnings from first, second, and third jobs that all working household members were engaged in over the last 12 months. Due to a mix of factors – including a large agricultural workforce, informality, and classifi",
+          "source_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 34,
+          "metadata": {
+            "section": "part_1_poverty_equity_update",
+            "printed_page": 24
+          },
+          "score": 0.8143814270602631
+        }
+      ],
+      "elapsed_ms": 38.05840000131866
+    }
+  ],
+  "max_searches": 2,
+  "top_k": 3,
+  "budget_chars": 4000,
+  "elapsed_ms": 5887.237599999935,
+  "api_cost_usd": 0.00122025,
+  "api_pricing_reference": "https://developers.openai.com/api/docs/models/gpt-5.4-mini"
+}

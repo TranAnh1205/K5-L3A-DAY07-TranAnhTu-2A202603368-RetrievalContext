@@ -39,4 +39,6 @@ if (-not $env:OPENAI_API_KEY) { throw 'Set OPENAI_API_KEY in the Windows User en
 
 The default limits are 2 searches, 3 results per search and 4,000 characters of cumulative context. The model can search again when the first context is insufficient. Output includes every model action, search query and result, packed context, answer, citation IDs, timing, token usage when returned by the provider, and errors. Citation IDs are checked against context by the starter loop; their semantic support still requires human review. For the default model, API cost is estimated from returned token usage using the model card prices checked on 2026-11-14; other models or missing usage yield `null`. If a model or endpoint fails, the run records `status: error`; it does not substitute a mock result. This single-question command is a smoke run, not the required dev/test agent evaluation.
 
+Two real-model dev smoke cases, one answerable and one no-evidence, are reviewed in `report/agent_smoke.md` with complete traces in `report/agent_smoke/`.
+
 The Day 06 PDF and `starter/qdrant_storage` are local generated artifacts. To reproduce them on another machine, follow the setup commands in the [Day 06 submission](https://github.com/TranAnh1205/K5-L3A-DAY06-TranAnhTu-202603368-DataIngestion/tree/day06-submission). Do not run two processes against the same Qdrant local store at once.

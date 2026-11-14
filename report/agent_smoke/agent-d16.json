@@ -1,0 +1,293 @@
+{
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+    {
+      "event": "search",
+      "query": "urban Viet Nam 2025 average housing area per person housing area per person observed",
+      "filter": null,
+      "results": [
+        {
+          "id": "846bf1976f7cc4f4cfac57a74bf412a1",
+          "text": "in urban areas has increased in recent years. From 2010 to 2022, the share of the population in Viet Nam located in administrative urban areas increased from 30 percent to almost 40 percent (Figure 53). Urban poverty rates also declined throughout the decade, driven by high population and wage growth. Figure 53. Share of population in urban areas is increasing, as is the urban poorFigure 53 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 2010 2012 2014 2016 2018 2020 2022 Urban share (%) Share of LMIC poo",
+          "source_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 65,
+          "metadata": {
+            "section": "part_2_urban_inclusion",
+            "printed_page": 55
+          },
+          "score": 0.8059885264243397
+        },
+        {
+          "id": "ae8d0b55ba0272c896644ac5e0cca288",
+          "text": "Urbanization at a Crossroads, and W orld Bank 2011 Viet Nam Urbanization Review. Viet Nam is rapidly urbanizing, and using different measurement techniques, the share of the population living in an urban setting is even higher. In 2022, the urban share of the population was about 39 percent, but some research has shown that the urbanized population could be much larger. With the availability of satellite imagery, an urban area can be more consistently classified by its greenery, built-up area, o",
+          "source_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 14,
+          "metadata": {
+            "section": "overview",
+            "printed_page": 4
+          },
+          "score": 0.8016925475236836
+        },
+        {
+          "id": "960c7b2f249729b2a1c88def8e8283ea",
+          "text": "areas can be classified using different techniques to consider population density, green space, and built-up area (see Box 2.B). There are also strong correlations between the degree of urbanization and poverty rates. The official proportion of the urban population in Viet Nam in 2022 was about 39 percent, but some research has shown an urbanized population could be much higher when measured using different techniques. In official household and population surveys, the source of urban population",
+          "source_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 58,
+          "metadata": {
+            "section": "part_2_urban_inclusion",
+            "printed_page": 48
+          },
+          "score": 0.7999625512131329
+        }
+      ],
+      "context": "[846bf1976f7cc4f4cfac57a74bf412a1 | https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf | page 65]\nin urban areas has increased in recent years. From 2010 to 2022, the share of the population in Viet Nam located in administrative urban areas increased from 30 percent to almost 40 percent (Figure 53). Urban poverty rates also declined throughout the decade, driven by high population and wage growth. Figure 53. Share of population in urban areas is increasing, as is the urban poorFigure 53 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 2010 2012 2014 2016 2018 2020 2022 Urban share (%) Share of LMIC poo\n\n[ae8d0b55ba0272c896644ac5e0cca288 | https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf | page 14]\nUrbanization at a Crossroads, and W orld Bank 2011 Viet Nam Urbanization Review. Viet Nam is rapidly urbanizing, and using different measurement techniques, the share of the population living in an urban setting is even higher. In 2022, the urban share of the population was about 39 percent, but some research has shown that the urbanized population could be much larger. With the availability of satellite imagery, an urban area can be more consistently classified by its greenery, built-up area, o\n\n[960c7b2f249729b2a1c88def8e8283ea | https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf | page 58]\nareas can be classified using different techniques to consider population density, green space, and built-up area (see Box 2.B). There are also strong correlations between the degree of urbanization and poverty rates. The official proportion of the urban population in Viet Nam in 2022 was about 39 percent, but some research has shown an urbanized population could be much higher when measured using different techniques. In official household and population surveys, the source of urban population",
+      "context_ids": [
+        "846bf1976f7cc4f4cfac57a74bf412a1",
+        "ae8d0b55ba0272c896644ac5e0cca288",
+        "960c7b2f249729b2a1c88def8e8283ea"
+      ]
+    },
+    {
+      "event": "search",
+      "query": "observed average housing area per person urban Viet Nam 2025 World Bank report housing area per person",
+      "filter": null,
+      "results": [
+        {
+          "id": "846bf1976f7cc4f4cfac57a74bf412a1",
+          "text": "in urban areas has increased in recent years. From 2010 to 2022, the share of the population in Viet Nam located in administrative urban areas increased from 30 percent to almost 40 percent (Figure 53). Urban poverty rates also declined throughout the decade, driven by high population and wage growth. Figure 53. Share of population in urban areas is increasing, as is the urban poorFigure 53 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 2010 2012 2014 2016 2018 2020 2022 Urban share (%) Share of LMIC poo",
+          "source_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 65,
+          "metadata": {
+            "section": "part_2_urban_inclusion",
+            "printed_page": 55
+          },
+          "score": 0.8105706784324634
+        },
+        {
+          "id": "2d87f3c48de78794961138bb71447469",
+          "text": "PART 2. POVERTY AND INCLUSION IN URBAN AREAS AND CITIES 72 Viet Nam bi-annual poverty & equity update - June 2024 Figure 74. Number of deprivations, by district Figure74 100 200 300 400 500 600 700 800 Population (thousands) 0 Quan 1 Quan Phu Nhuan Quan 3 Quan 10 Quan 11 Quan 4 Quan 5 Quan 6 Quan Go Vap Quan Binh Thanh Quan Tan Binh Quan Tan Phu Quan 8 Quan Binh Tan Quan 7 Quan 2 Quan 12 Quan Thu Duc Quan 9 Huyen Cu Chi Huyen Hoc Mon Huyen Binh Chanh Huyen Nha Be Core districts Outer urban distr",
+          "source_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 82,
+          "metadata": {
+            "section": "part_2_urban_inclusion",
+            "printed_page": 72
+          },
+          "score": 0.8100670942176638
+        },
+        {
+          "id": "eba0b10a042e260d0b5f21cfaefde2a5",
+          "text": "O4 Figure O6 Figure O5 -2 -1 0 1 2 3 4 5 6 Annualized growth (%) 2020-22 1-National 2-Urban 3-Rural 0% 5% 10% 15% 20% 25% 30% 35% 40% 45%Urban share (%) Share of LMIC poor Share of UMIC poor Share of total population 2010 2012 2014 2016 2018 2020 2022 0 20 40 60 80 100 Official DB DOU Viet Nam % Population ﻿Urban (official) ﻿Core (DB) ﻿Suburb (DB) ﻿Town (DB) ﻿Urban center (DOU) ﻿Urban cluster (DOU) ﻿Rural (official) 2018 2020 2022 0 5 10 15 20 25 30 Poverty rate (%) Urban (official) Core (DB) Ur",
+          "source_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 15,
+          "metadata": {
+            "section": "overview",
+            "printed_page": 5
+          },
+          "score": 0.8090393345534109
+        }
+      ],
+      "context": "[846bf1976f7cc4f4cfac57a74bf412a1 | https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf | page 65]\nin urban areas has increased in recent years. From 2010 to 2022, the share of the population in Viet Nam located in administrative urban areas increased from 30 percent to almost 40 percent (Figure 53). Urban poverty rates also declined throughout the decade, driven by high population and wage growth. Figure 53. Share of population in urban areas is increasing, as is the urban poorFigure 53 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 2010 2012 2014 2016 2018 2020 2022 Urban share (%) Share of LMIC poo\n\n[ae8d0b55ba0272c896644ac5e0cca288 | https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf | page 14]\nUrbanization at a Crossroads, and W orld Bank 2011 Viet Nam Urbanization Review. Viet Nam is rapidly urbanizing, and using different measurement techniques, the share of the population living in an urban setting is even higher. In 2022, the urban share of the population was about 39 percent, but some research has shown that the urbanized population could be much larger. With the availability of satellite imagery, an urban area can be more consistently classified by its greenery, built-up area, o\n\n[960c7b2f249729b2a1c88def8e8283ea | https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf | page 58]\nareas can be classified using different techniques to consider population density, green space, and built-up area (see Box 2.B). There are also strong correlations between the degree of urbanization and poverty rates. The official proportion of the urban population in Viet Nam in 2022 was about 39 percent, but some research has shown an urbanized population could be much higher when measured using different techniques. In official household and population surveys, the source of urban population\n\n[2d87f3c48de78794961138bb71447469 | https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf | page 82]\nPART 2. POVERTY AND INCLUSION IN URBAN AREAS AND CITIES 72 Viet Nam bi-annual poverty & equity update - June 2024 Figure 74. Number of deprivations, by district Figure74 100 200 300 400 500 600 700 800 Population (thousands) 0 Quan 1 Quan Phu Nhuan Quan 3 Quan 10 Quan 11 Quan 4 Quan 5 Quan 6 Quan Go Vap Quan Binh Thanh Quan Tan Binh Quan Tan Phu Quan 8 Quan Binh Tan Quan 7 Quan 2 Quan 12 Quan Thu Duc Quan 9 Huyen Cu Chi Huyen Hoc Mon Huyen Binh Chanh Huyen Nha Be Core districts Outer urban distr\n\n[eba0b10a042e260d0b5f21cfaefde2a5 | https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf | page 15]\nO4 Figure O6 Figure O5 -2 -1 0 1 2 3 4 5 6 Annualized growth (%) 2020-22 1-National 2-Urban 3-Rural 0% 5% 10% 15% 20% 25% 30% 35% 40% 45%Urban share (%) Share of LMIC poor Share of UMIC poor Share of total population 2010 2012 2014 2016 2018 2020 2022 0 20 40 60 80 100 Official DB DOU Viet Nam % Population ﻿Urban (official) ﻿Core (DB) ﻿Suburb (DB) ﻿Town (DB) ﻿Urban center (DOU) ﻿Urban cluster (DOU) ﻿Rural (official) 2018 2020 2022 0 5 10 15 20 25 30 Poverty rate (%) Urban (official) Core (DB) Ur",
+      "context_ids": [
+        "846bf1976f7cc4f4cfac57a74bf412a1",
+        "ae8d0b55ba0272c896644ac5e0cca288",
+        "960c7b2f249729b2a1c88def8e8283ea",
+        "2d87f3c48de78794961138bb71447469",
+        "eba0b10a042e260d0b5f21cfaefde2a5"
+      ]
+    },
+    {
+      "event": "invalid_or_missing_citations"
+    }
+  ],
+  "question": "What was the observed average housing area per person in urban Viet Nam in 2025?",
+  "filter": null,
+  "method": "dense",
+  "model": "gpt-5.4-mini",
+  "model_base_url": "https://api.openai.com/v1",
+  "model_calls": [
+    {
+      "model": "gpt-5.4-mini",
+      "status": "ok",
+      "action": {
+        "action": "search",
+        "query": "urban Viet Nam 2025 average housing area per person housing area per person observed"
+      },
+      "usage": {
+        "prompt_tokens": 218,
+        "completion_tokens": 33,
+        "total_tokens": 251,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2060.667800004012,
+      "context_chars_sent": 0
+    },
+    {
+      "model": "gpt-5.4-mini",
+      "status": "ok",
+      "action": {
+        "action": "search",
+        "query": "observed average housing area per person urban Viet Nam 2025 World Bank report housing area per person"
+      },
+      "usage": {
+        "prompt_tokens": 783,
+        "completion_tokens": 37,
+        "total_tokens": 820,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1012.763000006089,
+      "context_chars_sent": 1965
+    },
+    {
+      "model": "gpt-5.4-mini",
+      "status": "ok",
+      "action": {
+        "action": "answer",
+        "answer": "Không đủ bằng chứng để trả lời.",
+        "citations": []
+      },
+      "usage": {
+        "prompt_tokens": 1316,
+        "completion_tokens": 28,
+        "total_tokens": 1344,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 929.4282000046223,
+      "context_chars_sent": 3277
+    }
+  ],
+  "tool_calls": [
+    {
+      "event": "search",
+      "query": "urban Viet Nam 2025 average housing area per person housing area per person observed",
+      "filter": null,
+      "method": "dense",
+      "status": "ok",
+      "results": [
+        {
+          "id": "846bf1976f7cc4f4cfac57a74bf412a1",
+          "text": "in urban areas has increased in recent years. From 2010 to 2022, the share of the population in Viet Nam located in administrative urban areas increased from 30 percent to almost 40 percent (Figure 53). Urban poverty rates also declined throughout the decade, driven by high population and wage growth. Figure 53. Share of population in urban areas is increasing, as is the urban poorFigure 53 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 2010 2012 2014 2016 2018 2020 2022 Urban share (%) Share of LMIC poo",
+          "source_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 65,
+          "metadata": {
+            "section": "part_2_urban_inclusion",
+            "printed_page": 55
+          },
+          "score": 0.8059885264243397
+        },
+        {
+          "id": "ae8d0b55ba0272c896644ac5e0cca288",
+          "text": "Urbanization at a Crossroads, and W orld Bank 2011 Viet Nam Urbanization Review. Viet Nam is rapidly urbanizing, and using different measurement techniques, the share of the population living in an urban setting is even higher. In 2022, the urban share of the population was about 39 percent, but some research has shown that the urbanized population could be much larger. With the availability of satellite imagery, an urban area can be more consistently classified by its greenery, built-up area, o",
+          "source_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 14,
+          "metadata": {
+            "section": "overview",
+            "printed_page": 4
+          },
+          "score": 0.8016925475236836
+        },
+        {
+          "id": "960c7b2f249729b2a1c88def8e8283ea",
+          "text": "areas can be classified using different techniques to consider population density, green space, and built-up area (see Box 2.B). There are also strong correlations between the degree of urbanization and poverty rates. The official proportion of the urban population in Viet Nam in 2022 was about 39 percent, but some research has shown an urbanized population could be much higher when measured using different techniques. In official household and population surveys, the source of urban population",
+          "source_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 58,
+          "metadata": {
+            "section": "part_2_urban_inclusion",
+            "printed_page": 48
+          },
+          "score": 0.7999625512131329
+        }
+      ],
+      "elapsed_ms": 11.222600005567074
+    },
+    {
+      "event": "search",
+      "query": "observed average housing area per person urban Viet Nam 2025 World Bank report housing area per person",
+      "filter": null,
+      "method": "dense",
+      "status": "ok",
+      "results": [
+        {
+          "id": "846bf1976f7cc4f4cfac57a74bf412a1",
+          "text": "in urban areas has increased in recent years. From 2010 to 2022, the share of the population in Viet Nam located in administrative urban areas increased from 30 percent to almost 40 percent (Figure 53). Urban poverty rates also declined throughout the decade, driven by high population and wage growth. Figure 53. Share of population in urban areas is increasing, as is the urban poorFigure 53 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 2010 2012 2014 2016 2018 2020 2022 Urban share (%) Share of LMIC poo",
+          "source_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 65,
+          "metadata": {
+            "section": "part_2_urban_inclusion",
+            "printed_page": 55
+          },
+          "score": 0.8105706784324634
+        },
+        {
+          "id": "2d87f3c48de78794961138bb71447469",
+          "text": "PART 2. POVERTY AND INCLUSION IN URBAN AREAS AND CITIES 72 Viet Nam bi-annual poverty & equity update - June 2024 Figure 74. Number of deprivations, by district Figure74 100 200 300 400 500 600 700 800 Population (thousands) 0 Quan 1 Quan Phu Nhuan Quan 3 Quan 10 Quan 11 Quan 4 Quan 5 Quan 6 Quan Go Vap Quan Binh Thanh Quan Tan Binh Quan Tan Phu Quan 8 Quan Binh Tan Quan 7 Quan 2 Quan 12 Quan Thu Duc Quan 9 Huyen Cu Chi Huyen Hoc Mon Huyen Binh Chanh Huyen Nha Be Core districts Outer urban distr",
+          "source_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 82,
+          "metadata": {
+            "section": "part_2_urban_inclusion",
+            "printed_page": 72
+          },
+          "score": 0.8100670942176638
+        },
+        {
+          "id": "eba0b10a042e260d0b5f21cfaefde2a5",
+          "text": "O4 Figure O6 Figure O5 -2 -1 0 1 2 3 4 5 6 Annualized growth (%) 2020-22 1-National 2-Urban 3-Rural 0% 5% 10% 15% 20% 25% 30% 35% 40% 45%Urban share (%) Share of LMIC poor Share of UMIC poor Share of total population 2010 2012 2014 2016 2018 2020 2022 0 20 40 60 80 100 Official DB DOU Viet Nam % Population ﻿Urban (official) ﻿Core (DB) ﻿Suburb (DB) ﻿Town (DB) ﻿Urban center (DOU) ﻿Urban cluster (DOU) ﻿Rural (official) 2018 2020 2022 0 5 10 15 20 25 30 Poverty rate (%) Urban (official) Core (DB) Ur",
+          "source_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 15,
+          "metadata": {
+            "section": "overview",
+            "printed_page": 5
+          },
+          "score": 0.8090393345534109
+        }
+      ],
+      "elapsed_ms": 12.58110000344459
+    }
+  ],
+  "max_searches": 2,
+  "top_k": 3,
+  "budget_chars": 4000,
+  "elapsed_ms": 4028.1685999943875,
+  "api_cost_usd": 0.00217875,
+  "api_pricing_reference": "https://developers.openai.com/api/docs/models/gpt-5.4-mini"
+}
