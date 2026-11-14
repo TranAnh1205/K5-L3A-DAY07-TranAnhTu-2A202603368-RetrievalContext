@@ -4,6 +4,8 @@
 
 Dùng embedding và vector store từ Day 6 để xây một agent biết tìm bằng chứng, trả lời có nguồn và nhận biết khi không đủ thông tin. Bạn tự chọn kiến trúc, số tool và cách tổ chức retrieval.
 
+**Bài làm của Trần Anh Tú (202603368, L3A):** bước kết nối Day 6 dùng [dense retriever và chuỗi export/convert của starter](src/README.md) với FastEmbed `BAAI/bge-small-en-v1.5` và Qdrant collection `day06_fixed_a`. Nguồn và cách tạo lại index ở [repo Day 6 đã chốt](https://github.com/TranAnh1205/K5-L3A-DAY06-TranAnhTu-202603368-DataIngestion/tree/day06-submission). Phép chạy TF-IDF trên dev hiện chỉ kiểm tra dữ liệu; agent và benchmark Day 7 chưa hoàn thành.
+
 > **Tùy chọn:** [Gợi ý dùng AI để lập trình](AGENT_SETUP.md) giúp bạn làm lab; phần này không bắt buộc và không tính điểm.
 
 ## Bài cần làm
