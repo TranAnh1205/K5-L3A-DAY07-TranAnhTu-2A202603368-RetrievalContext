@@ -25,6 +25,32 @@ If the context remains insufficient, return
 {"action":"answer","answer":"Không đủ bằng chứng để trả lời.","citations":[]}.
 Do not cite a chunk for a fact it does not support. Do not add markdown around the JSON."""
 
+DEFAULT_MODEL = "gpt-5.4-mini"
+# USD per million tokens, checked against the official model card on 2026-11-14.
+MODEL_PRICES = {
+    "gpt-5.4-mini": (0.75, 0.075, 4.50),
+    "gpt-5.4-mini-2026-03-17": (0.75, 0.075, 4.50),
+}
+
+
+def estimate_api_cost(model: str, calls: list[dict]) -> float | None:
+    if model not in MODEL_PRICES or not calls or any(not call.get("usage") for call in calls):
+        return None
+    input_rate, cached_rate, output_rate = MODEL_PRICES[model]
+    total = 0.0
+    for call in calls:
+        usage = call["usage"]
+        prompt = usage.get("prompt_tokens")
+        completion = usage.get("completion_tokens")
+        if not isinstance(prompt, int) or not isinstance(completion, int):
+            return None
+        cached = (usage.get("prompt_tokens_details") or {}).get("cached_tokens") or 0
+        if not isinstance(cached, int) or cached > prompt:
+            return None
+        total += ((prompt - cached) * input_rate + cached * cached_rate
+                  + completion * output_rate) / 1_000_000
+    return total
+
 
 class ChatController:
     def __init__(self, *, base_url: str, model: str, api_key: str | None,
@@ -140,7 +166,7 @@ def main() -> None:
     parser.add_argument("--day6-repo", required=True, type=Path)
     parser.add_argument("--chunks", type=Path, default=Path("starter/data/converted/chunks.json"))
     parser.add_argument("--method", choices=("dense", "tfidf", "hybrid_rrf"), default="dense")
-    parser.add_argument("--model", default=os.environ.get("AGENT_MODEL") or os.environ.get("OPENAI_MODEL"))
+    parser.add_argument("--model", default=os.environ.get("AGENT_MODEL") or os.environ.get("OPENAI_MODEL") or DEFAULT_MODEL)
     parser.add_argument("--base-url", default=os.environ.get("AGENT_BASE_URL") or os.environ.get("OPENAI_BASE_URL") or "https://api.openai.com/v1")
     parser.add_argument("--max-searches", type=int, default=2)
     parser.add_argument("--top-k", type=int, default=3)
@@ -148,8 +174,6 @@ def main() -> None:
     parser.add_argument("--timeout-seconds", type=int, default=120)
     parser.add_argument("--output", required=True, type=Path)
     args = parser.parse_args()
-    if not args.model:
-        parser.error("Set --model or AGENT_MODEL")
     if args.max_searches < 1 or args.top_k < 1 or args.budget_chars < 1 or args.timeout_seconds < 1:
         parser.error("Search, context and timeout limits must be positive")
     controller = ChatController(
@@ -178,7 +202,9 @@ def main() -> None:
         "max_searches": args.max_searches, "top_k": args.top_k,
         "budget_chars": args.budget_chars,
         "elapsed_ms": (time.perf_counter() - started) * 1000,
-        "api_cost_usd": None,
+        "api_cost_usd": estimate_api_cost(args.model, controller.calls),
+        "api_pricing_reference": "https://developers.openai.com/api/docs/models/gpt-5.4-mini"
+                                 if args.model in MODEL_PRICES else None,
     })
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

@@ -5,7 +5,7 @@ import json
 import unittest
 from unittest.mock import patch
 
-from src.real_agent import ChatController
+from src.real_agent import ChatController, estimate_api_cost
 
 
 class ChatControllerTests(unittest.TestCase):
@@ -42,6 +42,13 @@ class ChatControllerTests(unittest.TestCase):
             with self.assertRaises(json.JSONDecodeError):
                 controller.decide("Question?", [])
         self.assertEqual(controller.calls[0]["status"], "error")
+
+    def test_cost_uses_uncached_cached_and_output_tokens(self):
+        calls = [{"usage": {"prompt_tokens": 1000, "completion_tokens": 100,
+                            "prompt_tokens_details": {"cached_tokens": 200}}}]
+        expected = (800 * 0.75 + 200 * 0.075 + 100 * 4.50) / 1_000_000
+        self.assertAlmostEqual(estimate_api_cost("gpt-5.4-mini", calls), expected)
+        self.assertIsNone(estimate_api_cost("unpriced-model", calls))
 
 
 if __name__ == "__main__":
