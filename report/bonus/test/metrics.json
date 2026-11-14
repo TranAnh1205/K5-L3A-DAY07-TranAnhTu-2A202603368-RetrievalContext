@@ -52,6 +52,6 @@
   "total_elapsed_seconds": 87.94795840000916,
   "mean_elapsed_seconds": 2.9315986133336387,
   "estimated_api_cost_usd": 0.126198,
-  "reviewer": "Codex assistant",
-  "review_date": "2026-11-14"
+  "review_date": "2026-11-14",
+  "review_status": "source_reviewed_pending_independent_confirmation"
 }

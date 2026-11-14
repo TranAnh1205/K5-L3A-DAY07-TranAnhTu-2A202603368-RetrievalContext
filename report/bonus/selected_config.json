@@ -15,9 +15,11 @@
   "benchmark_sha256": "2e8efa369fb6a79b6d27e049ffc162532adff0fe7db49f763f1ae329118a0853",
   "pdf_sha256": "f44a7503c5c14d54108aef0ed35f1db3c4b57c327b710da5d44d9216ffcead6c",
   "index_sha256": "76dbee4e9b938161a9458f170181f4c5417c595980bda4f9f8ede5eb75d46acc",
-  "visual_transcriptions_sha256": "92c3cef3f1a898fd4ef614a2a2c7443888476d133d32193c19b50d6c84096cde",
+  "visual_transcriptions_sha256": "7ab7fb09eb8a90aecdef3627bda51bab419497e7954f25d7235d5c099616364f",
   "agent_code_sha256": "8082b7824e86877d56d5309e51f7a9dc6687efbbb3d41de112512ffcb9b279fe",
   "runner_code_sha256": "04bd8e70e40accb3cc7d88019aa2deac1fd0d2723bc01e80bb9bc6b8f059702d",
   "test_completed_on": "2026-11-14",
-  "pre_test_commit": "75dca23"
+  "pre_test_commit": "75dca23",
+  "pretest_visual_transcriptions_sha256": "92c3cef3f1a898fd4ef614a2a2c7443888476d133d32193c19b50d6c84096cde",
+  "post_test_metadata_update": "Removed reviewer metadata only; chart descriptions, source pages and labels are unchanged."
 }

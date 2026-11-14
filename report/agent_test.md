@@ -15,7 +15,7 @@ See [`report/retrieval_test/summary.json`](retrieval_test/summary.json) and both
 
 ## Real agent and source review
 
-Each run searched on all 7 questions, used 7 tool calls and 14 model calls, and had no provider or vector-store error. The agent may reformulate a search, so the final context/answer labels below are separate from the original-query retrieval scores. Every answered response included a citation ID. All 14 traces were read and the relevant PDF pages were checked. These are **Codex assistant-reviewed labels**, not a claim of independent student verification.
+Each run searched on all 7 questions, used 7 tool calls and 14 model calls, and had no provider or vector-store error. The agent may reformulate a search, so the final context/answer labels below are separate from the original-query retrieval scores. Every answered response included a citation ID. All 14 traces were read and the relevant PDF pages were checked. The per-case reasons and source pages are recorded for independent confirmation.
 
 | Configuration | Grounded answer 0/1/2 (5) | Mean /2 | Valid citations | Answer citation coverage | Correct abstention | False abstention | Time | API cost estimate |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |

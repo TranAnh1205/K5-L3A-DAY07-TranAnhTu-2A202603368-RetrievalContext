@@ -3,7 +3,6 @@
     "query_id": "t06",
     "citation_support": [],
     "reason": "False abstention: selected pages 18/30/21 do not give the 2020 value; source PDF page 28 says 2.6.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
     "review_basis": "Read all test tool results, packed contexts, answer and citation; checked relevant physical pages of source PDF and absence audit of indexed corpus.",
     "answer_grade": 0,
@@ -15,7 +14,6 @@
       false
     ],
     "reason": "Answer names wards and towns, but cited truncated page-62 chunk only covers wards; no cited or packed span supports district towns. PDF page 61 has both.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
     "review_basis": "Read all test tool results, packed contexts, answer and citation; checked relevant physical pages of source PDF and absence audit of indexed corpus.",
     "answer_grade": 1,
@@ -27,7 +25,6 @@
       true
     ],
     "reason": "Answer says only district level, omitting the requested number 24. Cited page-69 chunk supports district-level comparison but is truncated before the small-area/24 sentence.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
     "review_basis": "Read all test tool results, packed contexts, answer and citation; checked relevant physical pages of source PDF and absence audit of indexed corpus.",
     "answer_grade": 1,
@@ -39,7 +36,6 @@
       true
     ],
     "reason": "Answer and cited page-76 chunk give 10,045 schools, matching source PDF.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
     "review_basis": "Read all test tool results, packed contexts, answer and citation; checked relevant physical pages of source PDF and absence audit of indexed corpus.",
     "answer_grade": 2,
@@ -51,7 +47,6 @@
       true
     ],
     "reason": "Answer and cited page-68 chunk explicitly give 1,400 HCMC households; this is a source-verified alternative to frozen gold page 85.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
     "review_basis": "Read all test tool results, packed contexts, answer and citation; checked relevant physical pages of source PDF and absence audit of indexed corpus.",
     "answer_grade": 2,
@@ -61,7 +56,6 @@
     "query_id": "t11",
     "citation_support": [],
     "reason": "Correct abstention: searched; indexed flood passages discuss exposure/depth, not 2022 HCMC deaths.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
     "review_basis": "Read all test tool results, packed contexts, answer and citation; checked relevant physical pages of source PDF and absence audit of indexed corpus.",
     "abstention_correct": true
@@ -70,7 +64,6 @@
     "query_id": "t12",
     "citation_support": [],
     "reason": "Correct abstention: searched; indexed migrant/rent passages do not report a 2019 HCMC median monthly rent.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
     "review_basis": "Read all test tool results, packed contexts, answer and citation; checked relevant physical pages of source PDF and absence audit of indexed corpus.",
     "abstention_correct": true

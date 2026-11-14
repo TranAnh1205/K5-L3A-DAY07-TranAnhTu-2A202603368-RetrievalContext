@@ -1,6 +1,6 @@
 # Dev agent review pack
 
-These are the **assistant-reviewed** labels for the 17 dev cases in each of three real-model runs. Answers and cited excerpts were compared with the source PDF on 2026-11-14. This is not represented as an independent student review. No Day 7 test case has been run.
+These are the source-reviewed labels for the 17 dev cases in each of three real-model runs. Answers and cited excerpts were compared with the source PDF on 2026-11-14. Independent confirmation remains pending. These dev labels were fixed before Day 7 test evaluation.
 
 Answer grade: 0 = wrong, unsupported, or false abstention; 1 = partly correct; 2 = correct and fully grounded. Context grade: 0 = no relevant evidence, 1 = partial evidence, 2 = enough evidence and source. Citation labels correspond to the cited IDs in order. The source PDF page numbers are physical PDF pages.
 

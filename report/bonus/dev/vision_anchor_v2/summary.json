@@ -17,5 +17,5 @@
     "N": 18,
     "rate": 0.8888888888888888
   },
-  "manual_review_status": "Codex assistant-reviewed"
+  "manual_review_status": "source_reviewed_pending_independent_confirmation"
 }

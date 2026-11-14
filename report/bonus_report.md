@@ -1,6 +1,6 @@
 # Thử thách nâng cao Day 7 — tài liệu 100 trang
 
-**Học viên:** Trần Anh Tú · **MSSV:** 202603368 · **Lớp:** K5-L3A
+**Học viên:** Trần Anh Tú · **MSSV:** 202603368 (mã đầy đủ: `2A202603368`) · **Lớp:** K5-L3A
 
 ## Tài liệu, quyền và phạm vi index
 
@@ -11,7 +11,7 @@
 ## Benchmark tách riêng và chọn cấu hình
 
 - [`benchmark.json`](../data/advanced/benchmark.json) đã khóa trước thử nghiệm, SHA-256 `2e8efa369fb6a79b6d27e049ffc162532adff0fe7db49f763f1ae329118a0853`. Dev có **15 câu có đáp án + 3 câu thiếu bằng chứng**; test có **24 câu có đáp án + 6 câu thiếu bằng chứng**. Test có 6 bảng, 5 ảnh/sơ đồ, 5 biểu đồ, 4 multi-hop và 4 text. Mỗi câu ở đúng một nhóm chính; gold ghi trang, vùng/ô/hàng/cột hoặc hai nguồn bắt buộc cho multi-hop; các câu thiếu bằng chứng ghi lý do kiểm trên corpus. [`validate_benchmark.py`](../data/advanced/validate_benchmark.py) kiểm số lượng, ID, hash và locator.
-- Agent chỉ nhận **câu hỏi**, không nhận `expected_answer`, nhãn `answerable`, gold hoặc vùng evidence chuẩn. Model thật `gpt-5.4-mini` viết truy vấn tìm kiếm; tool TF-IDF tìm toàn bộ 100 trang, định tuyến theo nhãn Exhibit/Table *có trong câu hỏi* rồi mở ảnh gốc của trang được chọn. Tối đa 3 trang; nếu câu có 2 nhãn thì chỉ dùng 2 trang đó. Bộ kiểm tra tên hàng và sửa citation thiếu nguồn dùng index/ảnh trang, không đọc gold. Chạy 18 dev để chọn, sau đó khóa [`selected_config.json`](bonus/selected_config.json) ở commit `75dca23` **trước** khi chạy test. File này giữ hash benchmark, PDF, index, bản trích hình, mã agent và runner; runner test xác nhận lại các hash. Không chỉnh cấu hình sau khi xem test.
+- Agent chỉ nhận **câu hỏi**, không nhận `expected_answer`, nhãn `answerable`, gold hoặc vùng evidence chuẩn. Model thật `gpt-5.4-mini` viết truy vấn tìm kiếm; tool TF-IDF tìm toàn bộ 100 trang, định tuyến theo nhãn Exhibit/Table *có trong câu hỏi* rồi mở ảnh gốc của trang được chọn. Tối đa 3 trang; nếu câu có 2 nhãn thì chỉ dùng 2 trang đó. Bộ kiểm tra tên hàng và sửa citation thiếu nguồn dùng index/ảnh trang, không đọc gold. Chạy 18 dev để chọn, sau đó khóa cấu hình ở commit `75dca23` **trước** khi chạy test. [`selected_config.json`](bonus/selected_config.json) giữ hash benchmark, PDF, index, mã agent và runner. Sau test chỉ dọn metadata người rà soát của bản trích hình, giữ nguyên mô tả, trang và nhãn; file cấu hình lưu cả hash trước test và hash hiện tại. Không chỉnh cách truy xuất hoặc trả lời theo test.
 
 | Cấu hình thử trên dev | Thay đổi | Strict pass đã đọc /18 | Lỗi tiêu biểu |
 | --- | --- | ---: | --- |
@@ -23,7 +23,7 @@
 | Anchor + sửa citation, trước ghi chú chart | Chỉ sửa khi thiếu nhãn; kiểm hàng bảng | 17/18 | `ad09` đọc nhầm thanh Cost reduction 3,9 thành 4,0. |
 | **Đã chọn** | Anchor + sửa citation có điều kiện + 5 ghi chú chart đối chiếu nguồn | **18/18** | Không lỗi trong một lượt dev này. |
 
-Các con số dev là **nhãn Codex hỗ trợ đối chiếu nguồn**, xem từng [`reviews.json`](bonus/dev/selected/reviews.json) và traces dưới `report/bonus/dev/`. Cấu hình sau cùng giữ đúng 100 trang index, thêm ghi chú biểu đồ được đọc từ hình gốc, không chọn cấu hình bằng test. Một lượt dev đạt 18/18 không chứng minh tính ổn định trên câu hỏi khác.
+Các con số dev là **nhãn đối chiếu nguồn**, xem từng [`reviews.json`](bonus/dev/selected/reviews.json) và traces dưới `report/bonus/dev/`. Cấu hình sau cùng giữ đúng 100 trang index, thêm ghi chú biểu đồ được đọc từ hình gốc, không chọn cấu hình bằng test. Một lượt dev đạt 18/18 không chứng minh tính ổn định trên câu hỏi khác.
 
 ## Kết quả test khóa
 
@@ -41,7 +41,7 @@ Chạy đúng **30/30** câu test một lượt với cấu hình đã khóa. L�
 
 **Ba lỗi được giữ nguyên:** `at-u3` trả lời một sự thật liên quan (Unions là một node) nhưng không từ chối câu hỏi *bao nhiêu thành viên*; `at-u4` đưa 24,1% từ hình tôn giáo cũ cho câu hỏi **năm 2024**, dù hình không có số 2024; `at-u6` đưa 4,0 từ Exhibit 6.8 cho câu hỏi **năm 2025**, dù hình không báo số 2025. Cả ba đều không đạt. Ví dụ trả lời có nguồn: `at20` dùng Table 6.10 p.95 và Table 6.11 p.100 để nối hai ý; ví dụ từ chối: `at-u1` kiểm Table 6.1 p.71 không có hàng Viet Nam rồi nói không đủ bằng chứng.
 
-**Điều kiện ngưỡng:** 27/30 = 90% đúng bằng mức tối thiểu trong [`ADVANCED.md`](https://github.com/VinUni-AI20k/K5-L3-Day07-Retrieval-Context-Engineering/blob/main/ADVANCED.md); không loại 3 lỗi khỏi mẫu số, không làm tròn. Đây là kết quả từ **Codex assistant-reviewed labels**; giảng viên có thể kiểm lại và điểm bonus chính thức phụ thuộc đánh giá của họ. Tập test do cùng quy trình hỗ trợ tạo/đối chiếu nên không phải đánh giá độc lập bên ngoài.
+**Điều kiện ngưỡng:** 27/30 = 90% đúng bằng mức tối thiểu trong [`ADVANCED.md`](https://github.com/VinUni-AI20k/K5-L3-Day07-Retrieval-Context-Engineering/blob/main/ADVANCED.md); không loại 3 lỗi khỏi mẫu số, không làm tròn. Nhãn và citation cần được kiểm tra độc lập trước khi nộp; điểm bonus chính thức phụ thuộc đánh giá của giảng viên. Tập test do cùng quy trình hỗ trợ tạo/đối chiếu nên không phải đánh giá độc lập bên ngoài.
 
 ## Nhãn từng câu và tái lập
 

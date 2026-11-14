@@ -4,7 +4,6 @@
     "category": "table",
     "pass": false,
     "reason": "Answered cluster rather than Germany individualism.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
     "review_basis": "Compared answer and citation to original 100-page packet; for multi-hop required both evidence groups. Explicit no-evidence statements count as refusal even if status is answered."
   },
@@ -12,8 +11,7 @@
     "query_id": "ad02",
     "category": "table",
     "pass": true,
-    "reason": "Answer/refusal and supporting source locator accepted in assistant PDF/trace review.",
-    "reviewer": "Codex assistant",
+    "reason": "Answer/refusal and supporting source locator accepted in PDF and trace review.",
     "review_date": "2026-11-14",
     "review_basis": "Compared answer and citation to original 100-page packet; for multi-hop required both evidence groups. Explicit no-evidence statements count as refusal even if status is answered."
   },
@@ -21,8 +19,7 @@
     "query_id": "ad03",
     "category": "table",
     "pass": true,
-    "reason": "Answer/refusal and supporting source locator accepted in assistant PDF/trace review.",
-    "reviewer": "Codex assistant",
+    "reason": "Answer/refusal and supporting source locator accepted in PDF and trace review.",
     "review_date": "2026-11-14",
     "review_basis": "Compared answer and citation to original 100-page packet; for multi-hop required both evidence groups. Explicit no-evidence statements count as refusal even if status is answered."
   },
@@ -30,8 +27,7 @@
     "query_id": "ad04",
     "category": "image",
     "pass": true,
-    "reason": "Answer/refusal and supporting source locator accepted in assistant PDF/trace review.",
-    "reviewer": "Codex assistant",
+    "reason": "Answer/refusal and supporting source locator accepted in PDF and trace review.",
     "review_date": "2026-11-14",
     "review_basis": "Compared answer and citation to original 100-page packet; for multi-hop required both evidence groups. Explicit no-evidence statements count as refusal even if status is answered."
   },
@@ -39,8 +35,7 @@
     "query_id": "ad05",
     "category": "image",
     "pass": true,
-    "reason": "Answer/refusal and supporting source locator accepted in assistant PDF/trace review.",
-    "reviewer": "Codex assistant",
+    "reason": "Answer/refusal and supporting source locator accepted in PDF and trace review.",
     "review_date": "2026-11-14",
     "review_basis": "Compared answer and citation to original 100-page packet; for multi-hop required both evidence groups. Explicit no-evidence statements count as refusal even if status is answered."
   },
@@ -48,8 +43,7 @@
     "query_id": "ad06",
     "category": "image",
     "pass": true,
-    "reason": "Answer/refusal and supporting source locator accepted in assistant PDF/trace review.",
-    "reviewer": "Codex assistant",
+    "reason": "Answer/refusal and supporting source locator accepted in PDF and trace review.",
     "review_date": "2026-11-14",
     "review_basis": "Compared answer and citation to original 100-page packet; for multi-hop required both evidence groups. Explicit no-evidence statements count as refusal even if status is answered."
   },
@@ -57,8 +51,7 @@
     "query_id": "ad07",
     "category": "chart",
     "pass": true,
-    "reason": "Answer/refusal and supporting source locator accepted in assistant PDF/trace review.",
-    "reviewer": "Codex assistant",
+    "reason": "Answer/refusal and supporting source locator accepted in PDF and trace review.",
     "review_date": "2026-11-14",
     "review_basis": "Compared answer and citation to original 100-page packet; for multi-hop required both evidence groups. Explicit no-evidence statements count as refusal even if status is answered."
   },
@@ -66,8 +59,7 @@
     "query_id": "ad08",
     "category": "chart",
     "pass": true,
-    "reason": "Answer/refusal and supporting source locator accepted in assistant PDF/trace review.",
-    "reviewer": "Codex assistant",
+    "reason": "Answer/refusal and supporting source locator accepted in PDF and trace review.",
     "review_date": "2026-11-14",
     "review_basis": "Compared answer and citation to original 100-page packet; for multi-hop required both evidence groups. Explicit no-evidence statements count as refusal even if status is answered."
   },
@@ -76,7 +68,6 @@
     "category": "chart",
     "pass": false,
     "reason": "False abstention although chart has 3.9.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
     "review_basis": "Compared answer and citation to original 100-page packet; for multi-hop required both evidence groups. Explicit no-evidence statements count as refusal even if status is answered."
   },
@@ -85,7 +76,6 @@
     "category": "multi_hop",
     "pass": false,
     "reason": "Missing Mexico/Table 6.1 citation.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
     "review_basis": "Compared answer and citation to original 100-page packet; for multi-hop required both evidence groups. Explicit no-evidence statements count as refusal even if status is answered."
   },
@@ -94,7 +84,6 @@
     "category": "multi_hop",
     "pass": false,
     "reason": "Answered functional rather than mechanistic.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
     "review_basis": "Compared answer and citation to original 100-page packet; for multi-hop required both evidence groups. Explicit no-evidence statements count as refusal even if status is answered."
   },
@@ -103,7 +92,6 @@
     "category": "multi_hop",
     "pass": false,
     "reason": "Missing U.S.A./Table 6.1 citation.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
     "review_basis": "Compared answer and citation to original 100-page packet; for multi-hop required both evidence groups. Explicit no-evidence statements count as refusal even if status is answered."
   },
@@ -111,8 +99,7 @@
     "query_id": "ad13",
     "category": "text",
     "pass": true,
-    "reason": "Answer/refusal and supporting source locator accepted in assistant PDF/trace review.",
-    "reviewer": "Codex assistant",
+    "reason": "Answer/refusal and supporting source locator accepted in PDF and trace review.",
     "review_date": "2026-11-14",
     "review_basis": "Compared answer and citation to original 100-page packet; for multi-hop required both evidence groups. Explicit no-evidence statements count as refusal even if status is answered."
   },
@@ -120,8 +107,7 @@
     "query_id": "ad14",
     "category": "text",
     "pass": true,
-    "reason": "Answer/refusal and supporting source locator accepted in assistant PDF/trace review.",
-    "reviewer": "Codex assistant",
+    "reason": "Answer/refusal and supporting source locator accepted in PDF and trace review.",
     "review_date": "2026-11-14",
     "review_basis": "Compared answer and citation to original 100-page packet; for multi-hop required both evidence groups. Explicit no-evidence statements count as refusal even if status is answered."
   },
@@ -129,8 +115,7 @@
     "query_id": "ad15",
     "category": "text",
     "pass": true,
-    "reason": "Answer/refusal and supporting source locator accepted in assistant PDF/trace review.",
-    "reviewer": "Codex assistant",
+    "reason": "Answer/refusal and supporting source locator accepted in PDF and trace review.",
     "review_date": "2026-11-14",
     "review_basis": "Compared answer and citation to original 100-page packet; for multi-hop required both evidence groups. Explicit no-evidence statements count as refusal even if status is answered."
   },
@@ -139,7 +124,6 @@
     "category": "unanswerable",
     "pass": false,
     "reason": "Fabricated South Korea category.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
     "review_basis": "Compared answer and citation to original 100-page packet; for multi-hop required both evidence groups. Explicit no-evidence statements count as refusal even if status is answered."
   },
@@ -147,8 +131,7 @@
     "query_id": "ad-u2",
     "category": "unanswerable",
     "pass": true,
-    "reason": "Answer/refusal and supporting source locator accepted in assistant PDF/trace review.",
-    "reviewer": "Codex assistant",
+    "reason": "Answer/refusal and supporting source locator accepted in PDF and trace review.",
     "review_date": "2026-11-14",
     "review_basis": "Compared answer and citation to original 100-page packet; for multi-hop required both evidence groups. Explicit no-evidence statements count as refusal even if status is answered."
   },
@@ -156,8 +139,7 @@
     "query_id": "ad-u3",
     "category": "unanswerable",
     "pass": true,
-    "reason": "Answer/refusal and supporting source locator accepted in assistant PDF/trace review.",
-    "reviewer": "Codex assistant",
+    "reason": "Answer/refusal and supporting source locator accepted in PDF and trace review.",
     "review_date": "2026-11-14",
     "review_basis": "Compared answer and citation to original 100-page packet; for multi-hop required both evidence groups. Explicit no-evidence statements count as refusal even if status is answered."
   }

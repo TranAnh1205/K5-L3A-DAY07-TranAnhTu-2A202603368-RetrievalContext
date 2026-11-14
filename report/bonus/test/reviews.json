@@ -26,9 +26,8 @@
       }
     ],
     "reason": "Correct answer with matching source evidence and locator(s): packet p.71 Table 6.1; China row; Power Distance column: China = High.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
-    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Independent confirmation remains pending."
   },
   {
     "query_id": "at02",
@@ -57,9 +56,8 @@
       }
     ],
     "reason": "Correct answer with matching source evidence and locator(s): packet p.72 Table 6.2; Managerial authority row; Low Power Distance column: Dispersed authority.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
-    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Independent confirmation remains pending."
   },
   {
     "query_id": "at03",
@@ -88,9 +86,8 @@
       }
     ],
     "reason": "Correct answer with matching source evidence and locator(s): packet p.74 Table 6.3; Human resource management row; High Individualism/Low Collectivism column: Hiring and promotions based on rules.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
-    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Independent confirmation remains pending."
   },
   {
     "query_id": "at04",
@@ -119,9 +116,8 @@
       }
     ],
     "reason": "Correct answer with matching source evidence and locator(s): packet p.76 Table 6.4; Entrepreneurship and innovation row; High Uncertainty Avoidance column: Innovation resisted.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
-    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Independent confirmation remains pending."
   },
   {
     "query_id": "at05",
@@ -150,9 +146,8 @@
       }
     ],
     "reason": "Correct answer with matching source evidence and locator(s): packet p.79 Table 6.6; Nordic Europe column: Denmark, Finland, Sweden.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
-    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Independent confirmation remains pending."
   },
   {
     "query_id": "at06",
@@ -181,9 +176,8 @@
       }
     ],
     "reason": "Correct answer with matching source evidence and locator(s): packet p.95 Table 6.10; Exporting is so complicated row; Reality column: Exporting requires minimal paperwork; internet buyer search and intermediaries help.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
-    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Independent confirmation remains pending."
   },
   {
     "query_id": "at07",
@@ -212,9 +206,8 @@
       }
     ],
     "reason": "Correct answer with matching source evidence and locator(s): packet p.4 Exhibit 4.2; lower-left box: Economic Forces box lists currency exchange rates and employment and wage rates.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
-    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Independent confirmation remains pending."
   },
   {
     "query_id": "at08",
@@ -243,9 +236,8 @@
       }
     ],
     "reason": "Correct answer with matching source evidence and locator(s): packet p.15 Exhibit 4.11; left project-manager labels and staff matrix: Four Project Manager rows connect horizontally across functional staff columns.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
-    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Independent confirmation remains pending."
   },
   {
     "query_id": "at09",
@@ -278,9 +270,8 @@
       }
     ],
     "reason": "Correct answer with matching source evidence and locator(s): packet p.19 Exhibit 4.15; middle box: Middle box is Throughputs; organizational subsystems/processes transform inputs.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
-    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Independent confirmation remains pending."
   },
   {
     "query_id": "at10",
@@ -309,9 +300,8 @@
       }
     ],
     "reason": "Correct answer with matching source evidence and locator(s): packet p.24 Exhibit 4.21; lower-right quadrant: Market quadrant lies at external focus and stability/control.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
-    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Independent confirmation remains pending."
   },
   {
     "query_id": "at11",
@@ -340,9 +330,8 @@
       }
     ],
     "reason": "Correct answer with matching source evidence and locator(s): packet p.53 Exhibit 5.8; bottom-center node: Employees node is directly below the Firm.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
-    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Independent confirmation remains pending."
   },
   {
     "query_id": "at12",
@@ -371,9 +360,8 @@
       }
     ],
     "reason": "Correct answer with matching source evidence and locator(s): packet p.68 Exhibit 6.2; leftmost bar: USA is the tallest bar.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
-    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Independent confirmation remains pending."
   },
   {
     "query_id": "at13",
@@ -402,9 +390,8 @@
       }
     ],
     "reason": "Correct answer with matching source evidence and locator(s): packet p.69 Exhibit 6.4; dark-blue bars: Africa dark-blue bar is tallest, around 8,500 on the axis.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
-    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Independent confirmation remains pending."
   },
   {
     "query_id": "at14",
@@ -433,9 +420,8 @@
       }
     ],
     "reason": "Correct answer with matching source evidence and locator(s): packet p.84 Exhibit 6.5; leftmost bar: Lesotho is the highest/leftmost GINI bar.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
-    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Independent confirmation remains pending."
   },
   {
     "query_id": "at15",
@@ -464,9 +450,8 @@
       }
     ],
     "reason": "Correct answer with matching source evidence and locator(s): packet p.85 Exhibit 6.6; Islam slice: Islam slice is labeled 24.1%.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
-    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Independent confirmation remains pending."
   },
   {
     "query_id": "at16",
@@ -495,9 +480,8 @@
       }
     ],
     "reason": "Correct answer with matching source evidence and locator(s): packet p.97 Exhibit 6.8; longest horizontal bar: Mandatory partnership in China reaches 4.0, the largest value.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
-    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Independent confirmation remains pending."
   },
   {
     "query_id": "at17",
@@ -542,9 +526,8 @@
       }
     ],
     "reason": "Correct answer with matching source evidence and locator(s): packet p.8 Exhibit 4.4; cell 4: Complex + Unstable = high uncertainty.; packet p.10 Exhibit 4.5; Organic column: Organic = unstable, high uncertainty environment.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
-    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Independent confirmation remains pending."
   },
   {
     "query_id": "at18",
@@ -591,9 +574,8 @@
       }
     ],
     "reason": "Correct answer with matching source evidence and locator(s): packet p.71 Table 6.1; Denmark row; Power Distance column: Denmark = Low.; packet p.72 Table 6.2; Organizational structures row; Low Power Distance column: Flat and decentralized structures.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
-    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Independent confirmation remains pending."
   },
   {
     "query_id": "at19",
@@ -638,9 +620,8 @@
       }
     ],
     "reason": "Correct answer with matching source evidence and locator(s): packet p.68 Exhibit 6.2; tallest bar: USA highest.; packet p.69 Exhibit 6.4; tallest dark-blue bar: Africa highest.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
-    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Independent confirmation remains pending."
   },
   {
     "query_id": "at20",
@@ -685,9 +666,8 @@
       }
     ],
     "reason": "Correct answer with matching source evidence and locator(s): packet p.95 Table 6.10; My product won’t do well row; Reality column: Successful U.S. product probably does well elsewhere; services test the market.; packet p.100 Table 6.11; Polish born globals row: Product quality and product pricing.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
-    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Independent confirmation remains pending."
   },
   {
     "query_id": "at21",
@@ -711,9 +691,8 @@
       }
     ],
     "reason": "Correct answer with matching source evidence and locator(s): packet p.45 Treat All Stakeholders Fairly paragraph: Ethical leaders must refrain from offering special treatment ... only exception ... just outcome. The question asks which treatment to avoid; the exception for a just outcome was not requested and the answer makes no absolute claim about exceptions.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
-    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Independent confirmation remains pending."
   },
   {
     "query_id": "at22",
@@ -737,9 +716,8 @@
       }
     ],
     "reason": "Correct answer with matching source evidence and locator(s): packet p.92 Local Strategy; McDonald’s India paragraph: McDonald’s offerings in India reflect taste and vegetarian preference and cows being sacred. The extra no-beef-or-pork detail is explicit in the cited p.92 paragraph.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
-    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Independent confirmation remains pending."
   },
   {
     "query_id": "at23",
@@ -763,9 +741,8 @@
       }
     ],
     "reason": "Correct answer with matching source evidence and locator(s): packet p.94 Growth Opportunities paragraph: economic growth in emerging markets accounted for 68% of worldwide growth in 2013.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
-    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Independent confirmation remains pending."
   },
   {
     "query_id": "at24",
@@ -789,9 +766,8 @@
       }
     ],
     "reason": "Correct answer with matching source evidence and locator(s): packet p.95 Licensing paragraph: Licensing is a contractual agreement whereby, in exchange for a royalty or fee, a company gives the right to another company to use a trademark, know-how, or other proprietary technology. The extra statement about low capital needs is explicit in the same p.95 paragraph.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
-    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Independent confirmation remains pending."
   },
   {
     "query_id": "at-u1",
@@ -802,9 +778,8 @@
     "citations": [],
     "required_evidence": [],
     "reason": "Correct refusal after search. The 15-country Table 6.1 on page 71 has no Viet Nam row; no separate Viet Nam category is given in the 100-page packet.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
-    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Independent confirmation remains pending."
   },
   {
     "query_id": "at-u2",
@@ -815,9 +790,8 @@
     "citations": [],
     "required_evidence": [],
     "reason": "Correct refusal after search. Exhibit 4.2 on page 4 lists types of natural disasters; it does not give organization-specific counts or 2023 observations.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
-    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Independent confirmation remains pending."
   },
   {
     "query_id": "at-u3",
@@ -833,9 +807,8 @@
     ],
     "required_evidence": [],
     "reason": "The question requests a member count. The answer merely says Unions is a node in Exhibit 5.8 and never states that the count is unavailable. The source diagram has no membership count; this is not a valid refusal or answer.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
-    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Independent confirmation remains pending."
   },
   {
     "query_id": "at-u4",
@@ -851,9 +824,8 @@
     ],
     "required_evidence": [],
     "reason": "The question requests the Islam share in 2024. The answer repeats the undated/historical 24.1% label from Exhibit 6.6 as if it answered the year-specific question. The source gives no 2024 measurement.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
-    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Independent confirmation remains pending."
   },
   {
     "query_id": "at-u5",
@@ -864,9 +836,8 @@
     "citations": [],
     "required_evidence": [],
     "reason": "Correct refusal after search. Table 6.11 on page 100 names Polish born globals and success factors but provides no sample count for that row.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
-    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Independent confirmation remains pending."
   },
   {
     "query_id": "at-u6",
@@ -882,8 +853,7 @@
     ],
     "required_evidence": [],
     "reason": "The question requests a 2025 score. The answer returns 4.0 from Exhibit 6.8, whose source is a 2015 PWC study and has no 2025 score.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
-    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Not independently student-reviewed."
+    "review_basis": "Compared full trace/context/answer/citation with the original packet PDF page image or text and checked absence in the 100-page corpus. Independent confirmation remains pending."
   }
 ]

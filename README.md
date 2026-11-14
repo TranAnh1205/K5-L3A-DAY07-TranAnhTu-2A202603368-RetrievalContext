@@ -4,7 +4,7 @@
 
 Dùng embedding và vector store từ Day 6 để xây một agent biết tìm bằng chứng, trả lời có nguồn và nhận biết khi không đủ thông tin. Bạn tự chọn kiến trúc, số tool và cách tổ chức retrieval.
 
-**Bài làm của Trần Anh Tú (202603368, L3A):** bước kết nối Day 6 dùng [dense retriever và chuỗi export/convert của starter](src/README.md) với FastEmbed `BAAI/bge-small-en-v1.5` và Qdrant collection `day06_fixed_a`. Nguồn và cách tạo lại index ở [repo Day 6 đã chốt](https://github.com/TranAnh1205/K5-L3A-DAY06-TranAnhTu-202603368-DataIngestion/tree/day06-submission). Benchmark 24 câu đã chốt; agent thật đã chạy ba cấu hình trên dev, khóa Hybrid RRF rồi so với dense baseline trên toàn bộ 7 câu test. [Báo cáo cá nhân](report/individual/202603368_TranAnhTu.md), [kết quả dev](report/agent_dev.md), [kết quả test](report/agent_test.md) và [đối chiếu fork/bonus](report/fork_comparison.md) ghi trace và nhãn. Phần bonus dùng tài liệu OpenStax 100 trang riêng và đạt 27/30 test theo nhãn đối chiếu nguồn của trợ lý; xem [báo cáo bonus](report/bonus_report.md).
+**Bài làm của Trần Anh Tú (202603368 / 2A202603368, L3A):** bước kết nối Day 6 dùng [dense retriever và chuỗi export/convert của starter](src/README.md) với FastEmbed `BAAI/bge-small-en-v1.5` và Qdrant collection `day06_fixed_a`. Nguồn và cách tạo lại index ở [repo Day 6 đã chốt](https://github.com/TranAnh1205/K5-L3A-DAY06-TranAnhTu-202603368-DataIngestion/tree/day06-submission). Benchmark 24 câu đã chốt; agent thật đã chạy ba cấu hình trên dev, khóa Hybrid RRF rồi so với dense baseline trên toàn bộ 7 câu test. [Báo cáo cá nhân](report/individual/202603368_TranAnhTu.md), [kết quả dev](report/agent_dev.md), [kết quả test](report/agent_test.md) và [đối chiếu fork/bonus](report/fork_comparison.md) ghi trace và nhãn. Phần bonus dùng tài liệu OpenStax 100 trang riêng và đạt 27/30 test theo nhãn đối chiếu PDF; xem [báo cáo bonus](report/bonus_report.md).
 
 > **Tùy chọn:** [Gợi ý dùng AI để lập trình](AGENT_SETUP.md) giúp bạn làm lab; phần này không bắt buộc và không tính điểm.
 
@@ -32,4 +32,4 @@ Index một tài liệu thực tế từ **100 trang** có bảng, ảnh và bi�
 
 ![Các bước thử nghiệm trên dev và đánh giá trên test](assets/experiment-loop.svg)
 
-Nộp code, cách chạy, cấu hình, benchmark, trace và [báo cáo](report/individual/MSSV_HoTen.md). Thời gian ở [checkpoints](CHECKPOINTS.md) là gợi ý, có thể điều chỉnh theo lớp và phạm vi thử nghiệm.
+Nộp code, cách chạy, cấu hình, benchmark, trace và [báo cáo cá nhân đã điền](report/individual/202603368_TranAnhTu.md). Thời gian ở [checkpoints](CHECKPOINTS.md) là gợi ý, có thể điều chỉnh theo lớp và phạm vi thử nghiệm.

@@ -7,7 +7,6 @@
     "answer_grade": 2,
     "context_grade": 2,
     "reason": "The answer matches the expected fact and the cited excerpt supports it.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
     "review_basis": "Compared answer and cited chunk with the PDF page and fixed dev gold; checked no-evidence cases against the indexed corpus."
   },
@@ -17,7 +16,6 @@
     "answer_grade": 0,
     "context_grade": 0,
     "reason": "The agent abstained although the report contains the answer that consumption contracted.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
     "review_basis": "Compared answer and cited chunk with the PDF page and fixed dev gold; checked no-evidence cases against the indexed corpus."
   },
@@ -30,7 +28,6 @@
     "answer_grade": 2,
     "context_grade": 2,
     "reason": "The answer matches the expected fact and the cited excerpt supports it.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
     "review_basis": "Compared answer and cited chunk with the PDF page and fixed dev gold; checked no-evidence cases against the indexed corpus."
   },
@@ -42,7 +39,6 @@
     "answer_grade": 2,
     "context_grade": 2,
     "reason": "The answer matches the expected fact and the cited excerpt supports it.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
     "review_basis": "Compared answer and cited chunk with the PDF page and fixed dev gold; checked no-evidence cases against the indexed corpus."
   },
@@ -54,7 +50,6 @@
     "answer_grade": 2,
     "context_grade": 2,
     "reason": "The answer matches the expected fact and the cited excerpt supports it.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
     "review_basis": "Compared answer and cited chunk with the PDF page and fixed dev gold; checked no-evidence cases against the indexed corpus."
   },
@@ -67,7 +62,6 @@
     "answer_grade": 0,
     "context_grade": 0,
     "reason": "The answer omits savings or borrowing smoothing irregular income; its cited excerpts discuss consumption trends, not that mechanism.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
     "review_basis": "Compared answer and cited chunk with the PDF page and fixed dev gold; checked no-evidence cases against the indexed corpus."
   },
@@ -79,7 +73,6 @@
     "answer_grade": 2,
     "context_grade": 2,
     "reason": "The answer matches the expected fact and the cited excerpt supports it.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
     "review_basis": "Compared answer and cited chunk with the PDF page and fixed dev gold; checked no-evidence cases against the indexed corpus."
   },
@@ -91,7 +84,6 @@
     "answer_grade": 2,
     "context_grade": 2,
     "reason": "The answer matches the expected fact and the cited excerpt supports it.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
     "review_basis": "Compared answer and cited chunk with the PDF page and fixed dev gold; checked no-evidence cases against the indexed corpus."
   },
@@ -103,7 +95,6 @@
     "answer_grade": 0,
     "context_grade": 0,
     "reason": "The cited 16.2% to 10.6% is the only-farming-income share, not the any-farming-income share (66% to 46%).",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
     "review_basis": "Compared answer and cited chunk with the PDF page and fixed dev gold; checked no-evidence cases against the indexed corpus."
   },
@@ -115,7 +106,6 @@
     "answer_grade": 2,
     "context_grade": 2,
     "reason": "The answer matches the expected fact and the cited excerpt supports it.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
     "review_basis": "Compared answer and cited chunk with the PDF page and fixed dev gold; checked no-evidence cases against the indexed corpus."
   },
@@ -127,7 +117,6 @@
     "answer_grade": 2,
     "context_grade": 2,
     "reason": "The answer matches the expected fact and the cited excerpt supports it.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
     "review_basis": "Compared answer and cited chunk with the PDF page and fixed dev gold; checked no-evidence cases against the indexed corpus."
   },
@@ -139,7 +128,6 @@
     "answer_grade": 2,
     "context_grade": 2,
     "reason": "The answer is fully supported by the cited Part 2 excerpt on PDF page 65 (30% to almost 40%). This is a valid alternative to the frozen gold excerpt on page 56; strict automatic gold matching remains unchanged.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
     "review_basis": "Compared answer and cited chunk with the PDF page and fixed dev gold; checked no-evidence cases against the indexed corpus."
   },
@@ -152,7 +140,6 @@
     "answer_grade": 0,
     "context_grade": 1,
     "reason": "The answer is a plausible inference from chart categories, but the cited chart labels and official-classification note do not establish the alternative urbanized estimate.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
     "review_basis": "Compared answer and cited chunk with the PDF page and fixed dev gold; checked no-evidence cases against the indexed corpus."
   },
@@ -164,7 +151,6 @@
     "answer_grade": 2,
     "context_grade": 2,
     "reason": "The answer matches the expected fact and the cited excerpt supports it.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
     "review_basis": "Compared answer and cited chunk with the PDF page and fixed dev gold; checked no-evidence cases against the indexed corpus."
   },
@@ -176,7 +162,6 @@
     "answer_grade": 2,
     "context_grade": 2,
     "reason": "The answer matches the expected fact and the cited excerpt supports it.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
     "review_basis": "Compared answer and cited chunk with the PDF page and fixed dev gold; checked no-evidence cases against the indexed corpus."
   },
@@ -185,7 +170,6 @@
     "citation_support": [],
     "abstention_correct": true,
     "reason": "The report does not provide the requested statistic; the agent searched and abstained without making a factual claim.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
     "review_basis": "Compared answer and cited chunk with the PDF page and fixed dev gold; checked no-evidence cases against the indexed corpus."
   },
@@ -194,7 +178,6 @@
     "citation_support": [],
     "abstention_correct": true,
     "reason": "The report does not provide the requested statistic; the agent searched and abstained without making a factual claim.",
-    "reviewer": "Codex assistant",
     "review_date": "2026-11-14",
     "review_basis": "Compared answer and cited chunk with the PDF page and fixed dev gold; checked no-evidence cases against the indexed corpus."
   }
