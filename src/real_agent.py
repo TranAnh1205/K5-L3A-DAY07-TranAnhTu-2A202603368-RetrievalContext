@@ -75,6 +75,8 @@ class ChatController:
             "prior_search_queries": prior_queries,
             "retrieved_context": context,
         }
+        if history and "citation_error" in history[0]:
+            task["citation_error"] = history[0]["citation_error"]
         payload = {
             "model": self.model,
             "messages": [
@@ -169,12 +171,13 @@ def main() -> None:
     parser.add_argument("--model", default=os.environ.get("AGENT_MODEL") or os.environ.get("OPENAI_MODEL") or DEFAULT_MODEL)
     parser.add_argument("--base-url", default=os.environ.get("AGENT_BASE_URL") or os.environ.get("OPENAI_BASE_URL") or "https://api.openai.com/v1")
     parser.add_argument("--max-searches", type=int, default=2)
+    parser.add_argument("--citation-retries", type=int, default=0)
     parser.add_argument("--top-k", type=int, default=3)
     parser.add_argument("--budget-chars", type=int, default=4000)
     parser.add_argument("--timeout-seconds", type=int, default=120)
     parser.add_argument("--output", required=True, type=Path)
     args = parser.parse_args()
-    if args.max_searches < 1 or args.top_k < 1 or args.budget_chars < 1 or args.timeout_seconds < 1:
+    if args.max_searches < 1 or args.citation_retries < 0 or args.top_k < 1 or args.budget_chars < 1 or args.timeout_seconds < 1:
         parser.error("Search, context and timeout limits must be positive")
     controller = ChatController(
         base_url=args.base_url, model=args.model,
@@ -188,6 +191,7 @@ def main() -> None:
             result = run_agent(
                 args.question, controller, retriever, filters=filters,
                 max_searches=args.max_searches, top_k=args.top_k, budget=args.budget_chars,
+                max_citation_repairs=args.citation_retries,
             )
         except Exception as error:
             result = {"status": "error", "answer": "", "citations": [], "events": retriever.calls,
@@ -200,6 +204,7 @@ def main() -> None:
         "model_calls": controller.calls,
         "tool_calls": retriever.calls,
         "max_searches": args.max_searches, "top_k": args.top_k,
+        "citation_retries": args.citation_retries,
         "budget_chars": args.budget_chars,
         "elapsed_ms": (time.perf_counter() - started) * 1000,
         "api_cost_usd": estimate_api_cost(args.model, controller.calls),

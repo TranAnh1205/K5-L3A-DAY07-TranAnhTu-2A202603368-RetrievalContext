@@ -71,4 +71,28 @@ class AgentTests(unittest.TestCase):
         with self.assertRaises(ConnectionError):
             run_agent('q', Controller([{'action':'search','query':'q'}]), Broken())
 
+    def test_one_invalid_citation_can_be_repaired_with_exact_context_id(self):
+        class RepairController:
+            def __init__(self): self.calls = 0
+            def decide(self, question, history):
+                self.calls += 1
+                if self.calls == 1:
+                    return {'action': 'search', 'query': 'q'}
+                if self.calls == 2:
+                    return {'action': 'answer', 'answer': '7 days [typo]', 'citations': ['typo']}
+                self.assertion = history[0]['citation_error']['valid_ids']
+                return {'action': 'answer', 'answer': '7 days [c1]', 'citations': ['c1']}
+        controller = RepairController()
+        result = run_agent('q', controller, Retriever([CHUNK]), max_citation_repairs=1)
+        self.assertEqual(result['status'], 'answered')
+        self.assertEqual(controller.assertion, ['c1'])
+        self.assertEqual([event['event'] for event in result['events']],
+                         ['search', 'invalid_or_missing_citations', 'answer'])
+
+    def test_no_evidence_abstention_does_not_trigger_citation_repair(self):
+        controller = Controller([{'action':'search','query':'q'},
+                                 {'action':'answer','answer':'No evidence','citations':[]}])
+        result = run_agent('q', controller, Retriever([CHUNK]), max_citation_repairs=1)
+        self.assertEqual(result['status'], 'abstain')
+
 if __name__ == '__main__': unittest.main()

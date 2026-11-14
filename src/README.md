@@ -41,4 +41,14 @@ The default limits are 2 searches, 3 results per search and 4,000 characters of 
 
 Two real-model dev smoke cases, one answerable and one no-evidence, are reviewed in `report/agent_smoke.md` with complete traces in `report/agent_smoke/`.
 
+To reproduce the three **dev-only** agent runs, first load `OPENAI_API_KEY` from the Windows User environment as above, then run:
+
+```powershell
+.\.venv\Scripts\python.exe -m src.run_agent_dev --day6-repo 'E:\Hoanthanhbailapngay06\K5-L3A-DAY06-TranAnhTu-202603368-DataIngestion' --method dense --output starter\results\agent_dev_dense
+.\.venv\Scripts\python.exe -m src.run_agent_dev --day6-repo 'E:\Hoanthanhbailapngay06\K5-L3A-DAY06-TranAnhTu-202603368-DataIngestion' --method hybrid_rrf --output starter\results\agent_dev_hybrid
+.\.venv\Scripts\python.exe -m src.run_agent_dev --day6-repo 'E:\Hoanthanhbailapngay06\K5-L3A-DAY06-TranAnhTu-202603368-DataIngestion' --method hybrid_rrf --citation-retries 1 --output starter\results\agent_dev_hybrid_repair
+```
+
+These runs use top-3, two search turns and a 4,000-character context budget unless overridden. `src.run_agent_dev` accepts only the fixed dev split and writes traces incrementally. The checked-in results and proposed manual labels are in `report/agent_dev/`; the comparison and error analysis are in `report/agent_dev.md`. Inspect and confirm the proposed labels before final scoring or test evaluation.
+
 The Day 06 PDF and `starter/qdrant_storage` are local generated artifacts. To reproduce them on another machine, follow the setup commands in the [Day 06 submission](https://github.com/TranAnh1205/K5-L3A-DAY06-TranAnhTu-202603368-DataIngestion/tree/day06-submission). Do not run two processes against the same Qdrant local store at once.

@@ -30,20 +30,22 @@ class Retriever(Protocol):
 
 def run_agent(question: str, controller: Controller, retriever: Retriever, *,
               filters: dict[str, Any] | None = None, max_searches: int = 4,
-              top_k: int = 3, budget: int = 800) -> dict[str, Any]:
+              top_k: int = 3, budget: int = 800,
+              max_citation_repairs: int = 0) -> dict[str, Any]:
     """Return answer, citation IDs and trace; no benchmark gold enters this loop.
 
     A final answer without valid citations, an empty context, and a search limit
     lead to abstention. This only checks citation IDs, not semantic grounding.
     Provider/retriever errors propagate; no silent mock fallback.
     """
-    if not question.strip() or max_searches < 1 or top_k < 1 or budget < 1:
+    if not question.strip() or max_searches < 1 or top_k < 1 or budget < 1 or max_citation_repairs < 0:
         raise ValueError('question, max_searches, top_k hoặc budget không hợp lệ')
     history: list[dict[str, Any]] = []
     chunks: dict[str, dict[str, Any]] = {}
     candidates: list[dict[str, Any]] = []
     events: list[dict[str, Any]] = []
-    for _ in range(max_searches + 1):
+    repairs = 0
+    for _ in range(max_searches + max_citation_repairs + 1):
         action = controller.decide(question, history)
         if action.get('action') == 'search':
             if sum(e['event'] == 'search' for e in events) >= max_searches:
@@ -69,6 +71,15 @@ def run_agent(question: str, controller: Controller, retriever: Retriever, *,
             valid = bool(answer.strip() and citations and all(i in chunks and f'[{i}]' in answer for i in citations))
             if valid:
                 return {'status': 'answered', 'answer': answer, 'citations': citations, 'events': events + [{'event': 'answer'}]}
+            if citations and chunks and repairs < max_citation_repairs:
+                repairs += 1
+                events.append({'event': 'invalid_or_missing_citations', 'attempt': repairs,
+                               'provided_citations': citations, 'valid_ids': list(chunks)})
+                history = [{**history[0], 'citation_error': {
+                    'message': 'Use exact chunk IDs from the context, or abstain if unsupported.',
+                    'valid_ids': list(chunks),
+                }}]
+                continue
             return {'status': 'abstain', 'answer': 'Không đủ bằng chứng để trả lời.', 'citations': [], 'events': events + [{'event': 'invalid_or_missing_citations'}]}
         else:
             raise ValueError('action phải là search hoặc answer')

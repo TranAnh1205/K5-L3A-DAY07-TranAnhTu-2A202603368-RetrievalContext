@@ -1,0 +1,18 @@
+{
+  "split": "dev",
+  "method": "dense",
+  "model": "gpt-5.4-mini",
+  "top_k": 3,
+  "max_searches": 2,
+  "budget_chars": 4000,
+  "cases": 17,
+  "status_counts": {
+    "answered": 15,
+    "abstain": 2,
+    "error": 0
+  },
+  "total_searches": 17,
+  "total_model_calls": 34,
+  "total_elapsed_seconds": 42.55910660000518,
+  "api_cost_usd": 0.022488
+}

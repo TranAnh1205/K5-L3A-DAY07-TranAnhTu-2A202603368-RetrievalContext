@@ -1,0 +1,19 @@
+{
+  "split": "dev",
+  "method": "hybrid_rrf",
+  "model": "gpt-5.4-mini",
+  "top_k": 3,
+  "max_searches": 2,
+  "citation_retries": 1,
+  "budget_chars": 4000,
+  "cases": 17,
+  "status_counts": {
+    "answered": 14,
+    "abstain": 3,
+    "error": 0
+  },
+  "total_searches": 19,
+  "total_model_calls": 38,
+  "total_elapsed_seconds": 42.793382799995015,
+  "api_cost_usd": 0.025743
+}

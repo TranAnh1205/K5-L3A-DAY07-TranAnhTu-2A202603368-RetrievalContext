@@ -1,0 +1,150 @@
+[
+  {
+    "query_id": "d01",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "The answer matches the expected fact and the cited excerpt supports it."
+  },
+  {
+    "query_id": "d02",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "The answer matches the expected fact and the cited excerpt supports it."
+  },
+  {
+    "query_id": "d03",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 1,
+    "context_grade": 1,
+    "reason": "Consumption growth declined, but the answer substitutes farming income for the required overall tapering of income growth."
+  },
+  {
+    "query_id": "d04",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "The answer matches the expected fact and the cited excerpt supports it."
+  },
+  {
+    "query_id": "d05",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "The answer matches the expected fact and the cited excerpt supports it."
+  },
+  {
+    "query_id": "d06",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "The answer matches the expected fact and the cited excerpt supports it."
+  },
+  {
+    "query_id": "d07",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "The answer matches the expected fact and the cited excerpt supports it."
+  },
+  {
+    "query_id": "d08",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "The answer matches the expected fact and the cited excerpt supports it."
+  },
+  {
+    "query_id": "d09",
+    "citation_support": [
+      false
+    ],
+    "answer_grade": 0,
+    "context_grade": 0,
+    "reason": "The cited 16.2% to 10.6% refers to households with only farming income; the question asks for any farming income (66% to 46%)."
+  },
+  {
+    "query_id": "d10",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "The answer matches the expected fact and the cited excerpt supports it."
+  },
+  {
+    "query_id": "d11",
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "The answer matches the expected fact and the cited excerpt supports it."
+  },
+  {
+    "query_id": "d12",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "The answer is fully supported by the cited Part 2 excerpt on PDF page 65 (30% to almost 40%). This is a valid alternative to the frozen gold excerpt on page 56; strict automatic gold matching remains unchanged."
+  },
+  {
+    "query_id": "d13",
+    "citation_support": [
+      false
+    ],
+    "answer_grade": 0,
+    "context_grade": 1,
+    "reason": "The citation only says the chart uses official urban/rural classifications; it does not establish the alternative urbanized-population estimate or the reason for undercount."
+  },
+  {
+    "query_id": "d14",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "The answer matches the expected fact and the cited excerpt supports it."
+  },
+  {
+    "query_id": "d15",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "The answer matches the expected fact and the cited excerpt supports it."
+  },
+  {
+    "query_id": "d16",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "The report does not provide the requested statistic; the agent searched and abstained without making a factual claim."
+  },
+  {
+    "query_id": "d17",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "The report does not provide the requested statistic; the agent searched and abstained without making a factual claim."
+  }
+]
