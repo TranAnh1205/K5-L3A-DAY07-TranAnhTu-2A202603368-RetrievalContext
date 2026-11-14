@@ -1,6 +1,7 @@
 """Compare dense, TF-IDF and RRF hybrid retrieval on the fixed Day 7 benchmark."""
 
 import argparse
+import hashlib
 import json
 import math
 import statistics
@@ -137,11 +138,22 @@ def main() -> None:
     parser.add_argument("--chunks", type=Path, default=Path("starter/data/converted/chunks.json"))
     parser.add_argument("--questions", type=Path, default=Path("data/questions.json"))
     parser.add_argument("--split", choices=("dev", "test"), default="dev")
+    parser.add_argument("--methods", nargs="+", choices=("tfidf", "dense", "hybrid_rrf"),
+                        default=("tfidf", "dense", "hybrid_rrf"))
+    parser.add_argument("--lock", type=Path, default=Path("report/agent_dev/selected_config.json"))
     parser.add_argument("--budget-chars", type=int, default=2400)
     parser.add_argument("--output", type=Path, default=Path("starter/results/day7-retrieval-dev"))
     args = parser.parse_args()
     if args.budget_chars < 1:
         parser.error("--budget-chars must be positive")
+    if args.split == "test":
+        lock = json.loads(args.lock.read_text(encoding="utf-8"))
+        if (set(args.methods) != {"dense", "hybrid_rrf"}
+                or len(args.methods) != 2 or args.budget_chars != 2400):
+            parser.error("Test retrieval must compare only frozen dense and hybrid at the dev 2400-character budget")
+        if (hashlib.sha256(args.questions.read_bytes()).hexdigest() != lock["benchmark_sha256"]
+                or hashlib.sha256(args.chunks.read_bytes()).hexdigest() != lock["exported_chunks_sha256"]):
+            parser.error("Test benchmark/corpus does not match the frozen dev selection")
     chunks = json.loads(args.chunks.read_text(encoding="utf-8"))
     all_questions = json.loads(args.questions.read_text(encoding="utf-8"))
     questions = [question for question in all_questions if question["split"] == args.split]
@@ -153,7 +165,7 @@ def main() -> None:
     dense = Day6Retriever(args.day6_repo)
     try:
         rows = []
-        for method in ("tfidf", "dense", "hybrid_rrf"):
+        for method in args.methods:
             summary, traces = evaluate(method, questions, dense, lexical, args.budget_chars)
             summary["lexical_build_seconds"] = lexical_build_seconds if method != "dense" else 0
             rows.append(summary)
